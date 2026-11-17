@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Road Trip">
+<meta name="theme-color" content="#0d1321">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<title>Vocab Road Trip – Orange Line 4 · Jahrgang 8</title>
+<style>
+:root{
+  --bg:#fff7ec; --ink:#1f2340; --muted:#646a8a; --card:#ffffff; --line:#eadfce;
+  --pri:#ff6b3d; --pri-d:#d9501f; --teal:#1f9d8f; --yel:#ffd166;
+  --basis:#2a9d55; --one:#3a86ff; --two:#8e5bd8;
+  --noun:#2f6fe0; --verb:#d93a45; --adj:#2a9d55; --adv:#e08a00; --other:#7a7f99;
+  --r:18px; --shadow:0 4px 0 rgba(31,35,64,.12), 0 8px 24px rgba(31,35,64,.06);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:"Trebuchet MS","Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:18px;line-height:1.4;
+  background-image:radial-gradient(circle at 10% 10%,#ffe8d6 0 120px,transparent 121px),radial-gradient(circle at 95% 30%,#dff4ef 0 160px,transparent 161px);background-attachment:fixed}
+button{font:inherit;cursor:pointer}
+header{display:flex;align-items:center;gap:14px;padding:14px 22px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:26px;letter-spacing:.5px}
+.logo .mark{width:46px;height:46px;border-radius:14px;background:var(--pri);color:#fff;display:grid;place-items:center;font-size:26px;box-shadow:var(--shadow);transform:rotate(-6deg)}
+.logo small{display:block;font-size:13px;font-weight:600;color:var(--muted);letter-spacing:0}
+.spacer{flex:1}
+.namebox{display:flex;align-items:center;gap:8px;background:#fff;border:2px solid var(--line);border-radius:999px;padding:4px 6px 4px 14px}
+.namebox input{border:0;outline:0;font:inherit;width:170px;background:transparent}
+.linkbtn{background:none;border:0;color:var(--muted);text-decoration:underline;font-size:14px}
+main{max-width:1000px;margin:0 auto;padding:6px 18px 60px}
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);padding:22px;border:2px solid var(--line)}
+h1{font-size:30px;margin:6px 0 14px}
+h2{font-size:22px;margin:0 0 12px}
+.muted{color:var(--muted)}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.step{display:flex;align-items:center;gap:10px;font-weight:800;margin:18px 0 10px;font-size:19px}
+.step b{width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:16px}
+select{font:inherit;padding:10px 14px;border-radius:12px;border:2px solid var(--line);background:#fff;min-width:280px}
+.chip{border:2px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-weight:700;color:var(--ink);transition:.15s}
+.chip.on{background:var(--teal);border-color:var(--teal);color:#fff}
+.lvl{border:3px solid var(--line);background:#fff;border-radius:var(--r);padding:16px;text-align:left;transition:.15s;box-shadow:var(--shadow)}
+.lvl .tag{display:inline-block;font-weight:900;font-size:22px;border-radius:10px;padding:2px 12px;color:#fff;margin-bottom:6px}
+.lvl p{margin:4px 0 0;font-size:15px;color:var(--muted)}
+.lvl.on{transform:translateY(-3px)}
+.lvl[data-l="b"] .tag{background:var(--basis)} .lvl[data-l="b"].on{border-color:var(--basis);background:#eefaf2}
+.lvl[data-l="1"] .tag{background:var(--one)}   .lvl[data-l="1"].on{border-color:var(--one);background:#eef4ff}
+.lvl[data-l="2"] .tag{background:var(--two)}   .lvl[data-l="2"].on{border-color:var(--two);background:#f5effd}
+.btn{border:0;border-radius:14px;padding:12px 22px;font-weight:800;background:var(--pri);color:#fff;box-shadow:0 4px 0 var(--pri-d);transition:.1s}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--pri-d)}
+.btn.sec{background:#fff;color:var(--ink);border:2px solid var(--line);box-shadow:0 4px 0 var(--line)}
+.btn.teal{background:var(--teal);box-shadow:0 4px 0 #157468}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.big{font-size:21px;padding:16px 30px}
+.ex{display:flex;flex-direction:column;gap:8px;text-align:left;border:3px solid var(--line);border-radius:var(--r);background:#fff;padding:20px;box-shadow:var(--shadow);transition:.15s}
+.ex:hover{transform:translateY(-3px);border-color:var(--pri)}
+.ex .ico{font-size:42px}
+.ex .t{font-weight:800;font-size:21px}
+.ex .d{font-size:15px;color:var(--muted)}
+.stars{font-size:22px;letter-spacing:2px;color:#d9d2c4}
+.stars .on{color:#f4b400}
+.crumbs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.pill{background:#fff;border:2px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:700}
+.pill.l-b{border-color:var(--basis);color:var(--basis)} .pill.l-1{border-color:var(--one);color:var(--one)} .pill.l-2{border-color:var(--two);color:var(--two)}
+.topbar{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.progress{flex:1;min-width:160px;height:16px;background:#efe6d8;border-radius:999px;overflow:hidden}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--teal),#5cd3b4);width:0;transition:width .3s}
+.score{font-weight:800;background:var(--yel);border-radius:999px;padding:4px 14px}
+.instr{background:#fff3c4;border-radius:14px;padding:10px 14px;margin-bottom:16px;font-weight:600}
+.instr small{display:block;font-weight:400;color:var(--muted)}
+.say{border:0;background:#e6f4f2;border-radius:50%;width:44px;height:44px;font-size:22px;vertical-align:middle}
+.say:hover{background:#cfeeea}
+/* type colors */
+.t-n{color:var(--noun)} .t-v{color:var(--verb)} .t-adj{color:var(--adj)} .t-adv{color:var(--adv)} .t-o{color:var(--other)}
+.badge{display:inline-block;border-radius:8px;padding:2px 8px;font-size:13px;font-weight:800;color:#fff}
+.b-n{background:var(--noun)} .b-v{background:var(--verb)} .b-adj{background:var(--adj)} .b-adv{background:var(--adv)} .b-o{background:var(--other)}
+.tipline{font-size:15px;background:#fff3c4;border-radius:10px;padding:4px 10px;max-width:440px}
+/* flashcard */
+.fc-wrap{perspective:1200px;max-width:560px;margin:0 auto}
+.fc{position:relative;height:330px;transition:transform .5s;transform-style:preserve-3d;cursor:pointer}
+.fc.flip{transform:rotateY(180deg)}
+.fc .face{position:absolute;inset:0;backface-visibility:hidden;border-radius:24px;background:#fff;border:3px solid var(--line);box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center;gap:8px}
+.fc .back{transform:rotateY(180deg);background:#fffdf7}
+.fc .w{font-size:42px;font-weight:800}
+.fc .emo{font-size:58px}
+.fc .exs{font-size:17px;color:var(--muted);font-style:italic;max-width:440px}
+.fc .exs mark{background:var(--yel);font-style:normal;padding:0 4px;border-radius:4px;color:var(--ink)}
+.rate{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+.rate button{border:3px solid var(--line);background:#fff;border-radius:16px;padding:10px 18px;font-weight:800;font-size:17px}
+.rate .r3:hover{border-color:var(--basis)} .rate .r2:hover{border-color:#f4b400} .rate .r1:hover{border-color:var(--verb)}
+/* memory */
+.mem{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.mc{min-height:110px;border-radius:16px;border:0;background:linear-gradient(135deg,var(--pri),#ff9f43);color:#fff;font-size:30px;font-weight:800;box-shadow:var(--shadow);transition:.2s;padding:6px}
+.mc.open{background:#fff;color:var(--ink);border:3px solid var(--line);font-size:16px}
+.mc.open.en{border-color:var(--teal)}
+.mc.done{background:#e6f6ec;border:3px solid var(--basis);color:var(--ink);font-size:16px;opacity:.75}
+.mc .e{display:block;font-size:30px}
+/* sort */
+.pool{display:flex;flex-wrap:wrap;gap:10px;min-height:60px;padding:12px;border:3px dashed var(--line);border-radius:16px;margin-bottom:16px;background:#fffdf8}
+.wchip{border:3px solid var(--line);background:#fff;border-radius:14px;padding:8px 14px;font-weight:800;font-size:19px;box-shadow:0 3px 0 var(--line);user-select:none}
+.wchip small{display:block;font-weight:400;font-size:13px;color:var(--muted)}
+.wchip.sel{border-color:var(--pri);transform:translateY(-3px);box-shadow:0 6px 0 var(--pri)}
+.wchip.placed{box-shadow:none;cursor:default;font-size:16px;padding:5px 10px}
+.wchip.oops{border-color:var(--verb)}
+.boxes{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.box{border:3px solid var(--line);border-radius:18px;background:#fff;min-height:170px;padding:12px;transition:.15s}
+.box h3{margin:0 0 10px;font-size:19px;display:flex;align-items:center;gap:8px}
+.box .in{display:flex;flex-wrap:wrap;gap:8px}
+.box.hot{border-color:var(--teal);background:#f0fbf9}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:700px;margin:0 auto}
+.mcol{display:flex;flex-direction:column;gap:10px}
+.mcol .wchip{width:100%;text-align:center}
+.ksym{display:inline-block;background:var(--ink);color:#fff;border-radius:8px;padding:0 7px;font-size:15px}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);max-width:560px;width:calc(100% - 30px);background:var(--ink);color:#fff;border-radius:16px;padding:14px 18px;z-index:30;font-size:16px;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+.toast button{margin-top:8px}
+.say.talk{background:var(--yel);animation:pp .5s infinite}
+.odd{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;max-width:560px;margin:0 auto}
+.odd button{border:3px solid var(--line);background:#fff;border-radius:18px;padding:22px;font-size:24px;font-weight:800;box-shadow:var(--shadow)}
+/* tasks */
+.task{max-width:640px;margin:0 auto;text-align:center}
+.prompt{font-size:32px;font-weight:800;margin:10px 0}
+.prompt .emo{font-size:52px;display:block}
+.sent{font-size:24px;margin:14px 0;line-height:1.7}
+.gap{display:inline-block;min-width:110px;border-bottom:4px solid var(--pri);padding:0 6px;color:var(--pri);font-weight:800}
+.opts{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin-top:14px}
+.opt{border:3px solid var(--line);background:#fff;border-radius:16px;padding:14px;font-size:21px;font-weight:800;box-shadow:var(--shadow)}
+.opt.ok,.wchip.ok{border-color:var(--basis);background:#e6f6ec}
+.opt.no{border-color:var(--verb);background:#fdeaea}
+.typein{font:inherit;font-size:26px;padding:12px 16px;border-radius:14px;border:3px solid var(--line);width:100%;max-width:420px;text-align:center;outline:0}
+.typein:focus{border-color:var(--teal)}
+.hint{font-family:monospace;font-size:26px;letter-spacing:6px;color:var(--muted)}
+.tiles{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+.tile{width:50px;height:54px;border-radius:12px;border:3px solid var(--line);background:#fff;font-size:24px;font-weight:800;box-shadow:0 3px 0 var(--line)}
+.tile.used{visibility:hidden}
+.built{min-height:62px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;border-bottom:4px solid var(--pri);padding:6px;font-size:30px;font-weight:800;letter-spacing:2px}
+.fb{min-height:34px;font-weight:800;font-size:20px;margin:14px 0}
+.fb.good{color:var(--basis)} .fb.bad{color:var(--verb)} .fb.meh{color:#c98a00}
+.shake{animation:sh .35s}
+@keyframes sh{20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+.pop{animation:pp .35s}
+@keyframes pp{50%{transform:scale(1.08)}}
+/* result */
+.result{text-align:center;padding:30px}
+.result .big-emo{font-size:80px}
+.result .pct{font-size:56px;font-weight:900;color:var(--teal)}
+/* certificate */
+.cert{position:relative;width:100%;max-width:820px;aspect-ratio:1.414/1;margin:0 auto;background:#fffdf6;border-radius:8px;padding:5%;
+  border:10px solid var(--teal);outline:3px solid var(--yel);outline-offset:-22px;box-shadow:var(--shadow);text-align:center;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+.cert .corner{position:absolute;font-size:40px}
+.cert h1{font-size:44px;margin:0;color:var(--pri);letter-spacing:2px}
+.cert .sub{font-size:16px;color:var(--muted);margin-top:2px}
+.cert .nm{font-size:36px;font-weight:900;border-bottom:3px dotted var(--ink);display:inline-block;padding:0 30px;margin:6px 0}
+.cert table{margin:6px auto;border-collapse:collapse;font-size:15px}
+.cert td{padding:3px 12px;text-align:left}
+.cert td.r{text-align:right;font-weight:800}
+.cert .medal{font-size:20px;font-weight:900;color:var(--two)}
+.cert .sig{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);gap:30px;margin:0 9%}
+.cert .sig div{flex:1;border-top:2px solid var(--ink);padding-top:4px}
+/* modal */
+.modal{position:fixed;inset:0;background:rgba(31,35,64,.45);display:none;align-items:center;justify-content:center;padding:16px;z-index:10}
+.modal.show{display:flex}
+.modal .card{max-width:640px;width:100%;max-height:90vh;overflow:auto}
+code{background:#f3eee5;padding:1px 6px;border-radius:6px;font-size:15px}
+.note{background:#e8f1ff;border-radius:14px;padding:10px 14px;font-size:15px}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:20}
+.hidden{display:none!important}
+@media (max-width:600px){ .fc{height:290px} .fc .w{font-size:32px} .prompt{font-size:26px} select{min-width:0;width:100%} }
+@media print{
+  @page{size:A4 portrait;margin:10mm}
+  body{background:#fff}
+  body *{visibility:hidden}
+  #printArea,#printArea *{visibility:visible}
+  #printArea{position:absolute;left:0;top:0;width:190mm}
+  .cert{width:190mm;max-width:none;height:134mm;padding:7mm 10mm;aspect-ratio:auto;box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cert h1{font-size:30pt} .cert .nm{font-size:24pt;margin:2mm 0 3mm} .cert .medal{font-size:13pt} .cert table{font-size:9pt} .cert td{padding:0.6mm 3mm} .cert .sub{font-size:10pt} .cert .corner{font-size:24pt}
+  .cutline{display:block!important;visibility:visible;border-top:1px dashed #999;margin-top:6mm;font-size:9pt;color:#999;padding-top:1mm}
+}
+.cutline{display:none}
+
+
+/* ===== Grundwortschatz # & Wortlisten ===== */
+.corechip{font-weight:800} .corechip.on{background:#f59e0b;border-color:#f59e0b;color:#1a1300}
+.pill.corepill{border-color:#f59e0b;color:#b45309} .corebadge{background:#f59e0b;color:#1a1300}
+#listView{position:fixed;inset:0;z-index:40;overflow:auto;background:#d9dde5;color:#111;font-family:"Segoe UI",Arial,sans-serif}
+.lv-bar{position:sticky;top:0;background:#fff;border-bottom:1px solid #ccd;padding:12px 18px;z-index:2;color:#111}
+.lv-bar select{min-width:220px;background:#fff;color:#111;border-color:#ccd}
+.lv-opt{display:inline-flex;align-items:center;gap:6px;font-size:15px;background:#f3f4f6;border-radius:8px;padding:5px 10px;color:#111}
+.lv-opt input{width:18px;height:18px}
+.lv-hint{font-size:13px;color:#555;margin:8px 0 0}
+.lv-bar .btn.sec{background:#fff;color:#111;border:1px solid #ccd;box-shadow:0 3px 0 #ccd}
+.lv-page{background:#fff;color:#111;max-width:210mm;margin:22px auto 40px;padding:14mm;box-shadow:0 10px 30px rgba(0,0,0,.2);font-size:10.5pt;line-height:1.35}
+#listView .lv-head{display:flex;justify-content:space-between;border:0;border-bottom:2px solid #111;padding:0 0 4px;margin-bottom:6px;font-size:10pt;position:static;background:none;-webkit-backdrop-filter:none;backdrop-filter:none;color:#111;gap:10px}
+.lv-page h2{font-size:15pt;margin:10px 0 4px;color:#111}
+.lv-page h3{font-size:11.5pt;margin:12px 0 4px;color:#333}
+.lv-n{font-weight:400;color:#777;font-size:9pt}
+.lv-page table{width:100%;border-collapse:collapse}
+.lv-page th{text-align:left;font-size:9pt;color:#555;border-bottom:1px solid #999;padding:3px 6px}
+.lv-page td{border-bottom:1px solid #ddd;padding:4px 6px;vertical-align:top}
+.lv-page tr{break-inside:avoid;page-break-inside:avoid}
+.lv-en{font-weight:700;white-space:nowrap} .lv-ex{color:#444;font-style:italic} .lv-ex b{font-style:normal;color:#111}
+.lv-c{width:14px;text-align:center;font-weight:800;color:#b45309}
+.lv-foot{font-size:8.5pt;color:#777;margin-top:14px}
+@media print{
+  body.pl > *:not(#listView){display:none!important}
+  body.pl #listView, body.pl #listView *{visibility:visible}
+  body.pl #listView{position:static;overflow:visible;background:#fff}
+  body.pl .noprint{display:none!important}
+  body.pl .lv-page{box-shadow:none;margin:0;padding:0;max-width:none}
+  body.pl .lv-break{break-before:page;page-break-before:always}
+  body.pl{padding:0}
+}
+/* ===== iPad / Safari ===== */
+html{-webkit-text-size-adjust:100%}
+body{padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+button,.wchip,.tile,.opt,.mc,.chip,.lvl,.ex,.fc{touch-action:manipulation;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none}
+input,select{font-size:max(16px,1em)}
+.fc .face{-webkit-backface-visibility:hidden}
+.fc{-webkit-transform-style:preserve-3d}
+header{-webkit-backdrop-filter:blur(6px)}
+@media (hover:none){ .ex:hover{transform:none} }
+@media (pointer:coarse){ .say{width:50px;height:50px} .tile{width:56px;height:60px} .wchip{padding:10px 16px} }
+
+/* ===== Jahrgang-8-Design: „Vocab Road Trip“ (dunkles Design, Neon-Akzente) ===== */
+:root{
+  --bg:#0d1321; --ink:#eef2fb; --muted:#97a4c3; --card:#161f33; --line:#27334f;
+  --pri:#ff6b3d; --pri-d:#b9461f; --teal:#2dd4bf; --yel:#fbbf24;
+  --basis:#34d399; --one:#60a5fa; --two:#c084fc;
+  --noun:#60a5fa; --verb:#f87171; --adj:#34d399; --adv:#fbbf24; --other:#94a3b8;
+  --r:14px; --shadow:0 2px 0 rgba(0,0,0,.35), 0 12px 28px rgba(0,0,0,.28);
+}
+body{font-family:"Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+  background:radial-gradient(900px 500px at -5% -10%, #1f2d55 0, transparent 60%), radial-gradient(800px 500px at 110% 0%, #3a1a33 0, transparent 55%),
+  repeating-linear-gradient(90deg, transparent 0 46px, rgba(255,255,255,.018) 46px 47px), #0d1321; background-attachment:fixed}
+header{border-bottom:1px solid var(--line);background:rgba(13,19,33,.75);backdrop-filter:blur(6px);position:sticky;top:0;z-index:5}
+.logo{font-size:23px;letter-spacing:.2px}
+.logo .mark{width:auto;padding:0 10px;height:40px;border-radius:9px;font-size:17px;font-weight:900;transform:none;
+  background:linear-gradient(135deg,var(--pri),#f43f5e);box-shadow:0 0 0 2px rgba(255,255,255,.08),0 6px 18px rgba(255,107,61,.35);letter-spacing:1px}
+.xp{font-weight:800;font-size:14px;border:1px solid #3b3214;background:#221c0a;color:var(--yel);border-radius:999px;padding:5px 12px}
+h1{letter-spacing:-.4px}
+.namebox{background:var(--card);border-color:var(--line)} .namebox input{color:var(--ink)}
+.linkbtn{color:var(--muted)}
+select{background:var(--card);color:var(--ink);border-color:var(--line)}
+.card,.modal .card{background:var(--card);border-color:var(--line)}
+.step b{background:var(--pri)}
+.chip{background:var(--card);color:var(--ink);border-color:var(--line)} .chip.on{background:var(--teal);border-color:var(--teal);color:#05201c}
+.lvl{background:var(--card);color:var(--ink);border-color:var(--line);box-shadow:none}
+.lvl[data-l="b"].on{background:#0f2e25} .lvl[data-l="1"].on{background:#10233f} .lvl[data-l="2"].on{background:#25163a}
+.lvl .tag{color:#0d1321}
+.btn{box-shadow:0 4px 0 var(--pri-d)}
+.btn.sec{background:var(--card);color:var(--ink);border:1px solid var(--line);box-shadow:0 3px 0 #070b14}
+.btn.teal{color:#05201c;box-shadow:0 4px 0 #13867a}
+.ex{background:var(--card);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.ex:hover{border-color:var(--teal)}
+.ex::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(var(--pri),var(--teal))}
+.ex .ico{font-size:30px;width:52px;height:52px;display:grid;place-items:center;border-radius:12px;background:#1f2a44}
+.ex .kc{font-size:12px;color:var(--teal);text-transform:uppercase;letter-spacing:.6px}
+.stars{color:#3a4566}
+.pill{background:var(--card);color:var(--ink);border-color:var(--line)}
+.progress{background:#1f2a44}
+.score{color:#1a1300}
+.instr{background:#18223a;border:1px solid var(--line);color:var(--ink)}
+.note{background:#132447;color:var(--ink)}
+.tipline{background:#2b2410;color:#fde68a}
+.tipbtn{border:1px solid #4a3f17;background:#221c0a;color:var(--yel);border-radius:999px;padding:6px 14px;font-weight:700;margin-top:6px}
+.say{background:#173a40;color:var(--ink)} .say:hover{background:#1d4a52}
+.fc .face{background:var(--card);border-color:var(--line)} .fc .back{background:#1b2742}
+.fc .exs mark{color:#1a1300}
+.rate button{background:var(--card);color:var(--ink);border-color:var(--line)}
+.mc{background:linear-gradient(135deg,#2563eb,#7c3aed)}
+.mc.open{background:var(--card);color:var(--ink);border-color:var(--line)}
+.mc.done{background:#0f3a2e;color:var(--ink)}
+.pool{background:#10192b;border-color:var(--line)}
+.wchip{background:var(--card);color:var(--ink);border-color:var(--line);box-shadow:0 3px 0 #070b14}
+.wchip.placed{color:#0d1321}
+.box{background:var(--card);border-color:var(--line)} .box.hot{background:#10343a}
+.odd button,.opt,.tile{background:var(--card);color:var(--ink);border-color:var(--line)}
+.opt.ok,.wchip.ok{background:#0f3a2e} .opt.no{background:#3b1520}
+.typein{background:#0f1729;color:var(--ink);border-color:var(--line)}
+.built{color:var(--ink)}
+.ksym{background:var(--teal);color:#05201c}
+code{background:#0f1729}
+.toast{background:#f1f5f9;color:#0d1321;border:1px solid #cbd5e1} .toast .btn.sec{background:#fff;color:#0d1321;border-color:#cbd5e1;box-shadow:0 3px 0 #cbd5e1}
+/* Urkunde bleibt hell (Druck) */
+.cert{background:#fbfaf6;color:#14213d;border-color:#14213d;outline-color:var(--pri);box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.cert h1{color:#14213d;letter-spacing:6px} .cert .sub,.cert .sig{color:#4b5675}
+.cert .nm{border-color:#14213d;color:#14213d} .cert .medal{color:#c2410c}
+.cert .sig div{border-color:#14213d} .cert .stars{color:#d6d0c2} .cert .stars .on{color:#f59e0b}
+@media print{ body{background:#fff} header{position:static}
+  .cert{box-shadow:none;height:138mm;padding:5mm 9mm} .cert h1{font-size:22pt;letter-spacing:5px} .cert .sub{font-size:8.5pt}
+  .cert .nm{font-size:20pt;margin:1mm 0 1.5mm} .cert .medal{font-size:11pt} .cert table{font-size:8.5pt;margin:1mm auto} .cert td{padding:0.2mm 3mm}
+  .cert .corner{font-size:18pt} .cert .sig{font-size:8pt} }
+#listView .lv-head{position:static!important;background:none!important}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><div class="mark">OL4</div><div>Vocab Road Trip<small>Orange Line 4 · Jahrgang 8 · Coast to Coast</small></div></div>
+  <span class="xp" id="xp" title="Deine Punkte aus allen Übungen">⚡ 0 XP</span>
+  <div class="spacer"></div>
+  <label class="namebox">👤 <input id="nameIn" placeholder="Dein Vorname" maxlength="30" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"></label>
+  <button class="linkbtn" onclick="soundTest()">🔊 Ton-Test</button>
+  <button class="linkbtn" id="teacherBtn">Lehrkraft</button>
+</header>
+<main id="app"></main>
+
+<div class="modal" id="teacher"><div class="card">
+  <h2>Lehrkraft-Bereich</h2>
+  <p class="muted">Neue Units als JSON-Datei nachladen. Gleiche Unit-ID ersetzt die vorhandene Unit. Importierte Units bleiben in diesem Browser gespeichert.</p>
+  <div class="row" style="margin:12px 0">
+    <label class="btn teal">📂 JSON importieren<input type="file" id="importIn" accept=".json,application/json" hidden></label>
+    <button class="btn sec" id="tplBtn">⬇️ Vorlage herunterladen</button>
+    <button class="btn sec" id="exportBtn">⬇️ Alle Vokabeln exportieren</button>
+  </div>
+  <div class="row" style="margin:6px 0 4px"><button class="btn" id="listBtn">📄 Wortlisten drucken / als PDF</button>
+    <span class="muted" style="font-size:14px">Grundwortschatz # oder ganzer Wortschatz, nach Unit und Station</span></div>
+  <div id="importMsg" class="note hidden"></div>
+  <h2 style="margin-top:18px">Format (Kurzfassung)</h2>
+  <p style="font-size:15px">Jedes Wort: <code>en</code>, <code>de</code>, <code>type</code> (<code>n</code> Nomen · <code>v</code> Verb · <code>adj</code> Adjektiv · <code>o</code> sonstiges), <code>field</code> (Wortfeld, z.&nbsp;B. „Schule“), optional <code>emoji</code> und <code>ex</code> (Beispielsatz, Lückenwort mit *Sternchen*). Mehrere richtige Antworten mit <code>/</code> trennen.</p>
+  <div class="row" style="margin-top:14px">
+    <button class="btn sec" id="clearImport">Importierte Units entfernen</button>
+    <button class="btn sec" id="clearResults">Ergebnisse auf diesem Gerät löschen</button>
+    <div class="spacer"></div>
+    <button class="btn" id="closeTeacher">Schließen</button>
+  </div>
+</div></div>
+<div class="modal" id="soundModal"><div class="card">
+  <h2>🔊 Ton-Test</h2>
+  <ul id="soundInfo" style="font-size:15px"></ul>
+  <p id="soundResult" class="note"></p>
+  <div class="row"><button class="btn sec" onclick="soundTest()">Nochmal testen</button><div class="spacer"></div><button class="btn" onclick="$('#soundModal').classList.remove('show')">Schließen</button></div>
+</div></div>
+<div id="listView" class="hidden">
+  <div class="lv-bar noprint">
+    <div class="row">
+      <label>Unit <select id="lvUnit"></select></label>
+      <label class="lv-opt"><input type="checkbox" id="lvCore" checked> Nur Grundwortschatz #</label>
+      <label class="lv-opt"><input type="checkbox" id="lvEx" checked> Beispielsätze</label>
+      <div class="spacer"></div>
+      <button class="btn" id="lvPrint">🖨️ Drucken / als PDF speichern</button>
+      <button class="btn sec" id="lvClose">Schließen</button>
+    </div>
+    <div class="row" id="lvStations" style="margin-top:8px"></div>
+    <p class="lv-hint">Tipp: Im Druckfenster als Ziel „Als PDF speichern“ wählen (iPad: Teilen → Drucken → PDF teilen).</p>
+  </div>
+  <div class="lv-page" id="lvPage"></div>
+</div>
+<canvas id="confetti"></canvas>
+
+<script>
+/* =========================================================
+   VOKABELDATEN – Orange Line 4 (Klett), Vocabulary S. 204–229
+   Zeilenformat:  englisch | deutsch | Wortart | Wortfeld | Emoji | Beispielsatz | Hinweis | #
+   # in der letzten Spalte = Grundwortschatz (häufigstes Drittel pro Station, ermittelt mit wordfreq)
+   „# id | Name“ beginnt eine Unit, „## Name“ einen Abschnitt (Station).
+   type: n = Nomen, v = Verb, adj = Adjektiv, o = sonstiges
+   field: Wortfeld (für Wortnetze / Sortieren)
+   ex: Beispielsatz, das Lückenwort steht zwischen *Sternchen*
+   ========================================================= */
+const VOCAB_TEXT = `
+# zoom | Zoom in – Welcome to the USA
+## Welcome to the USA
+baseball | der Baseball | n | Sport | ⚾ | My cousin plays *baseball* every weekend. |
+favorite (AE) | Lieblings- | adj | Amerikanisches Englisch |  | What's your *favorite* sport? | AE: favorite – BE: favourite | #
+track and field | die Leichtathletik | n | Sport | | I really like *track and field* activities. |
+recipe | das Rezept | n | Essen | | This is my grandma's *recipe* for apple pie. | Achtung Aussprache!
+sustainable | zukunftsfähig; nachhaltig | adj | | ♻️ | You have to use *sustainable* materials today. |
+fashion | die Mode | n |  |  | Leo loves *fashion*. |  | #
+hot dog | der Hotdog (Würstchen im Brötchen) | n | Essen | 🌭 | I'd like a *hot dog* with ketchup, please. |
+currency | die Währung | n | Geld | | The *currency* in Germany is the euro. |
+US | US-amerikanisch | adj | Geld |  | The currency in the USA is the *US* dollar. |  | #
+state | der Bundesstaat; der Staat; das Land; der Zustand | n |  |  | There are 50 *states* in the USA. |  | #
+
+# u1 | Unit 1 – Arriving in the Northeast
+## Check in
+inch | der Zoll (2,54 cm) | n | Maße | | My phone is six *inches* long. | 1 inch = 2,54 cm
+foot | der Fuß (Längenmaß: 30,48 cm) | n | Maße |  | The building is 400 *feet* high. | Plural: feet · 1 foot = 12 inches | #
+mile | die Meile (1,61 km) | n | Maße | | My school is two *miles* from my house. | 1 mile = 1,61 km
+spectacular | spektakulär | adj | | 🤩 | The view from the bridge is *spectacular*. | Achtung Aussprache!
+Native American | zur amerikanischen Urbevölkerung gehörig; der amerikanische Ureinwohner / die amerikanische Ureinwohnerin | n | Menschen | | *Native Americans* live in the USA. |
+tribe | der Stamm; der Volksstamm | n | Menschen | | We're from a Native American *tribe*. |
+European | europäisch; aus Europa; der Europäer / die Europäerin | adj | Menschen |  | Many *European* tourists visit New York. | European → Europe | #
+settler | der Siedler / die Siedlerin | n | Menschen | | Many *settlers* came from England. |
+immigration | die Einwanderung; die Immigration; die Zuwanderung; die Einreise | n | Migration | | *Immigration* has changed the USA. | Achtung Aussprache!
+center (AE) | das Zentrum; die Mitte; das Center | n | Amerikanisches Englisch |  | Let's meet in the city *center*. | AE: center – BE: centre | #
+immigrant | der Immigrant / die Immigrantin; der Einwanderer / die Einwanderin | n | Migration | | My great-grandfather was an *immigrant* from Italy. | immigrant → immigration
+whale watching | das Walbeobachten; das Whalewatching | n | Freizeit | 🐋 | Let's go *whale watching* in the Northeast. |
+up and down | entlang | o | | | You can see whales *up and down* the coast. |
+percent (%) | das Prozent (%) | n | Zahlen |  | Only two *percent* of the students said no. |  | #
+economy | die Wirtschaft | n | Wirtschaft | 📈 | 23% of the USA's *economy* is in the Northeast. |  | #
+financial | Finanz-; finanziell | adj | Wirtschaft |  | Where is the *financial* centre of the world? |  | #
+runner | der Läufer / die Läuferin | n | Sport | 🏃 | She is a very fast *runner*. | runner → to run
+marathon | der Marathon | n | Sport | | He ran the New York *marathon*. | Achtung Aussprache!
+to raise money | Geld sammeln; Geld aufbringen | v | | | We *raised money* for a charity. |
+historical | historisch; geschichtlich | adj | | 🏛️ | Boston has many *historical* buildings. | historical → history
+government | die Regierung | n | Politik |  | The *government* is in Washington, D.C. | Achtung Schreibweise: government | #
+## Station 1
+attraction | die Attraktion; die Sehenswürdigkeit | n | Stadt | | The Statue of Liberty is a famous *attraction*. | Achtung Schreibweise: attraction
+viewing | Aussichts- | adj | Stadt | | We went up to the *viewing* platform. | viewing → view
+side | die Seite | n |  |  | The platform is on the *side* of the building. |  | #
+story (AE) | die Etage; das Stockwerk | n | Gebäude |  | The building has 102 *stories*. | AE: story – BE: storey | #
+steel | der Stahl | n | Gebäude |  | The North Tower is a glass and *steel* building. |  | #
+skyscraper | der Wolkenkratzer | n | Gebäude | 🏙️ | New York has many *skyscrapers*. |
+above | über; oberhalb; oben | o |  |  | I can't read the sign *above* the shop. |  | #
+best of all | am besten; das Beste | o | | | *Best of all*, the tickets were free. | best of all = better than other things
+outdoor | Außen-; im Freien | adj | | | Those are the world's highest *outdoor* stairs. |
+elevator (AE) | der Aufzug; der Lift | n | Amerikanisches Englisch | | Take the *elevator* to the top. | AE: elevator – BE: lift
+former | ehemalige / ehemaliger / ehemaliges; frühere / früherer / früheres | adj |  |  | He's a *former* student of my school. |  | #
+railroad (AE) | die Eisenbahn | n | Amerikanisches Englisch | 🚂 | The *railroad* goes all the way to Chicago. | AE: railroad – BE: railway
+track | die Strecke; das Gleis | n | | | The High Line was an old railroad *track*. |
+half | halb (bei Uhrzeitangaben) | o |  |  | It's *half* past three. | Das l wird nicht gesprochen. | #
+subway (AE) | die U-Bahn | n | Amerikanisches Englisch | 🚇 | We took the *subway* to Times Square. | AE: subway – BE: underground
+aircraft carrier | der Flugzeugträger | n | | | Planes can land on an *aircraft carrier*. |
+submarine | das U-Boot | n | | | There is an old *submarine* in the museum. |
+space shuttle | die Raumfähre | n | | 🚀 | We saw a *space shuttle* at the museum. |
+brand | die Marke | n | Mode |  | I don't like that fashion *brand*. |  | #
+designer | der Designer / die Designerin; der Gestalter / die Gestalterin; der Entwickler / die Entwicklerin | n | Mode | | She wants to be a fashion *designer*. | Das g wird nicht gesprochen.
+store (AE) | der Laden; das Geschäft | n | Amerikanisches Englisch |  | The *store* opens at nine. | AE: store – BE: shop | #
+to design | entwerfen; gestalten; entwickeln | v | Mode |  | She *designs* her own clothes. | to design → designer | #
+not ... anything | nichts | o |  |  | Leo didn't buy anything. |  | #
+oh well | was soll's | o |  |  | She thinks shopping is boring – *oh well*. |  | #
+basement (AE) | der Keller; das Untergeschoss; das Kellergeschoss | n | Gebäude | | The laundry room is in the *basement*. | AE: basement – BE: cellar
+balcony | der Balkon | n | Gebäude | | Our flat has a *balcony*. |
+solar panel | der Sonnenkollektor; das Solarpaneel | n | Gebäude | | There are *solar panels* on the roof. |
+ground level | das Erdgeschoss | n | Gebäude | | The entrance is at *ground level*. |
+staircase | die Treppe; das Treppenhaus | n | Gebäude | | The *staircase* is very narrow. | staircase = stairs
+parking lot (AE) | der Parkplatz | n | Amerikanisches Englisch | | The *parking lot* is full. | AE: parking lot – BE: car park
+lobby | die Eingangshalle; die Empfangshalle; das Foyer | n | Gebäude | | There is a *lobby* in most skyscrapers. |
+terrace | die Terrasse | n | Gebäude | | The view from the roof *terrace* is awesome. |
+loft | der Dachboden | n | Gebäude | | We keep our old toys in the *loft*. | loft = attic
+fire escape | der Notausgang | n | Gebäude | | You should know where the *fire escape* is. |
+apartment | die Wohnung; das Apartment | n | Amerikanisches Englisch |  | We live in a small *apartment* in Brooklyn. | AE: apartment – BE: flat | #
+taxi | das Taxi | n | | 🚕 | We took a *taxi* to the hotel. |
+## Viewing
+barbecue | das Grillfest; der Grill | n | Feiern | | We had a *barbecue* in the garden. |
+ceremony | die Zeremonie; die Feier | n | Feiern | | The *ceremony* started at ten. | Achtung Schreibweise: ceremony
+independence | die Unabhängigkeit | n | Geschichte |  | They celebrated 100 years of *independence*. |  | #
+parade | die Parade; der Umzug | n | Feiern | | I watched the *parade* on Independence Day. |
+freedom | die Freiheit; die Unabhängigkeit | n | Geschichte | 🗽 | Many people came to America for *freedom*. | „freedom“ hat keine Mehrzahl. | #
+citizen | der Staatsbürger / die Staatsbürgerin; der/die Staatsangehörige | n | Geschichte | | They're now *citizens* of the USA. |
+attack | der Anschlag; die Attacke; der Angriff; der Überfall | n | 9/11 |  | There were *attacks* on September 11, 2001. |  | #
+memorial | das Denkmal; die Gedenkstätte | n | 9/11 | | There is a *memorial* for 9/11 in New York. |
+waterfall | der Wasserfall | n | | | The *waterfall* is 50 metres high. |
+to collapse | einstürzen; zusammenbrechen; kollabieren | v | 9/11 | | The two towers in New York *collapsed*. |
+terrorist | der Terrorist / die Terroristin; Terror- | n | 9/11 | | The *terrorists* were never caught. | Die Betonung liegt hier: TERrorist.
+to hijack | entführen; kapern | v | 9/11 | | Terrorists *hijacked* four planes. |
+to fly | fliegen | v |  | ✈️ | We *flew* on holiday from Stuttgart Airport. | Simple past: flew · Past participle: flown | #
+emergency worker | die Rettungskraft | n | 9/11 | 🚑 | I help in an emergency. I'm an *emergency worker*. |
+to crash | abstürzen (Flugzeug); krachen; zusammenstoßen | v | 9/11 |  | Their plane *crashed* into the mountain. |  | #
+## Station 2
+post | der Post (online gestellte Nachricht); der Beitrag; der Eintrag | n | Online |  | There are some interesting *posts* on this website. |  | #
+teenager | der Teenager; der/die Jugendliche | n | | | She's 15 years old. She's a *teenager*. |
+suburb | der Vorort | n | Stadt | | Charlestown is a *suburb* of Boston. |
+harbor (AE) | der Hafen | n | Amerikanisches Englisch | ⚓ | The boats are in the *harbor*. | AE: harbor – BE: harbour
+to dream | träumen | v |  | 💭 | Last night I *dreamt* about the ocean. | Simple past: dreamt · to dream → dream | #
+foreign | fremd; ausländisch | adj |  |  | *Foreign* things are from another country. |  | #
+to offer | anbieten; bieten | v |  |  | My school *offers* some great clubs. |  | #
+practice | die Probe; die Übung; das Training | n |  |  | We have band *practice* on Mondays. | band practice = band training | #
+cozy (AE) | gemütlich | adj | Amerikanisches Englisch | | My room is small but *cozy*. | AE: cozy – BE: cosy
+grounds | die Anlage; das Gelände | n | | | The sports *grounds* are amazing. | ! The sports grounds are amazing. = Die Sportanlage ist unglaublich.
+lacrosse | das Lacrosse (Ballsportart) | n | Sport | | *Lacrosse* is a new sport for me. |
+ice hockey | das Eishockey | n | Sport | 🏒 | We watched an *ice hockey* game. |
+fall (AE) | der Herbst | n | Amerikanisches Englisch | 🍂 | The leaves turn red in the *fall*. | AE: fall – BE: autumn
+mall (AE) | das Einkaufszentrum | n | Amerikanisches Englisch | 🛍️ | I love shopping in a big *mall*. |
+seafood | die Meeresfrüchte | n | Essen | 🦐 | The *seafood* is fresh. | ! The seafood is fresh. = Die Meeresfrüchte sind frisch.
+to organize (AE) | organisieren; ordnen | v | | | Let's *organize* a big party. | AE: to organize – BE: to organise
+northeastern | nordöstlich | adj | | | I live in the *northeastern* part of the USA. |
+apartment | die Wohnung; das Apartment | n | Amerikanisches Englisch |  | People in the USA say *apartment* and not flat. |  | #
+private | Privat-; privat | adj |  |  | There's not much *private* space in my room. |  | #
+nosy | neugierig | adj | | | My sister is very *nosy*. |
+that's why | deswegen | o |  |  | *That's why* I want to talk to you. |  | #
+possible | möglich | adj |  |  | I'm outside as much as *possible*. |  | #
+left | übrig | adj |  |  | Sorry, I haven't got any money *left*. |  | #
+strange | merkwürdig; seltsam | adj | Gefühle & Eindrücke | | My parents are really *strange* sometimes. |
+miserable | elend; armselig; jämmerlich | adj | Gefühle & Eindrücke | 😩 | I felt *miserable* in the rain. | miserable ↔ happy
+fascinating | faszinierend | adj | Gefühle & Eindrücke | | My dad told me a *fascinating* story. |
+odd | seltsam; merkwürdig; komisch | adj | Gefühle & Eindrücke | | That's an *odd* question. | odd = strange
+unpleasant | unangenehm; unerfreulich | adj | Gefühle & Eindrücke | | The smell was very *unpleasant*. | unpleasant = not very nice
+impressive | beeindruckend | adj | Gefühle & Eindrücke | | The view from the top was *impressive*. |
+heartbroken | untröstlich | adj | Gefühle & Eindrücke | 💔 | He was *heartbroken* when she left. |
+Amish | amisch | adj | | | Bridget is from an *Amish* family. |
+on one's own | allein; für sich; ohne Hilfe | o | | | I can be *on my own* in my room. |
+machine | die Maschine; das Gerät | n |  |  | Careful! This *machine* can get very hot! |  | #
+the Amish | die Amischen | n | | | *The Amish* don't have tablets. |
+## Listening
+belief | der Glaube; die Überzeugung | n | Migration | | Her *belief* is very important to her. | belief → to believe
+opportunity | die Möglichkeit; die Gelegenheit; die Chance | n | Migration |  | The USA is full of *opportunities*. |  | #
+to achieve | erreichen; schaffen; leisten | v | Erfolg | 🏆 | I *achieved* the best level in the game. |
+success | der Erfolg | n | Erfolg |  | The party was a big *success*. | success → successful | #
+to matter | von Bedeutung sein; etw. ausmachen | v |  |  | It doesn't *matter* where you're from. |  | #
+to immigrate | einwandern; immigrieren | v | Migration | | My grandparents *immigrated* to the USA. | to immigrate → immigrant, immigration
+chance | die Chance; die Möglichkeit; die Gelegenheit | n | Migration |  | This is your *chance*! | chance = opportunity | #
+## Reading
+overwhelmed | überwältigt; überfordert | adj | Gefühle & Eindrücke | | I was *overwhelmed* by America. |
+to seem | scheinen | v |  |  | Paul *seems* to like his new school. |  | #
+except | außer | o |  |  | We work every day *except* Sundays. |  | #
+to stand in line | anstehen | v | Ankunft | | We had to *stand in line* and wait. |
+Poland | Polen | n | | | *Poland* is a European country. |
+to succeed (in) | Erfolg haben (mit/bei); nachfolgen | v | Erfolg | | She *succeeded* in her new job. | to succeed → success, successful
+extremely | äußerst; sehr | adv |  |  | Climbing is *extremely* popular. |  | #
+exhausted | erschöpft | adj | Gefühle & Eindrücke | 😫 | After the marathon I was *exhausted*. |
+official | der Beamte / die Beamtin; der Funktionär / die Funktionärin | n | Ankunft |  | The immigration *official* wasn't very nice. |  | #
+to be terrified | schreckliche Angst haben | v | Gefühle & Eindrücke | 😱 | The child *was terrified* of the dog. |
+head chef | der Chefkoch / die Chefköchin | n | Auf dem Schiff | 👨‍🍳 | The *head chef* is the boss in the kitchen. |
+fair | gerecht; fair | adj |  | ⚖️ | Most parents are *fair* to their children. |  | #
+ocean | der Ozean; das Meer | n | Auf dem Schiff | 🌊 | There is an *ocean* between Europe and the USA. |  | #
+on board | an Bord | o | Auf dem Schiff | | We were *on board* for ten days. | Achtung Schreibweise: on board
+seasick | seekrank | adj | Auf dem Schiff | 🤢 | We were all *seasick* on the ship. |
+the rest | der Rest | n |  |  | I spent *the rest* of the day in bed. |  | #
+deck | das Schiffsdeck | n | Auf dem Schiff | | The *deck* of the ship was dirty. |
+cabin | die Kabine | n | Auf dem Schiff | | The *cabins* on the ship were very small. |
+natural | natürlich; Natur- | adj |  |  | It's *natural* to be nervous. | natural → nature | #
+friendship | die Freundschaft | n | | 🤝 | Our *friendship* is very important to me. | friendship → friend
+department store | das Kaufhaus | n | | | You can buy everything in a *department store*. |
+to make sb feel better | jmdm. helfen, sich besser zu fühlen | v | | | Her nice words made me feel better. |
+blouse | die Bluse | n | Kleidung | 👚 | She wore a white *blouse*. |
+a pair of | ein Paar | o | Kleidung | | I need *a pair of* black socks. |
+sock | die Socke | n | Kleidung | 🧦 | I can only find one *sock*. |
+underwear | die Unterwäsche | n | Kleidung | | You wear *underwear* under your clothes. |
+perfume | das Parfüm | n | | | *Perfume* makes you smell nice. |
+papers | die Papiere; die Dokumente; die Unterlagen | n | Ankunft | 📄 | Don't forget your *papers* and your ticket. |  | #
+dried fruit | die Trockenfrüchte; das Trockenobst | n | Essen | | You can use *dried fruit* in cakes. |
+list | die Liste | n |  | 📝 | Let's write a *list* of ideas. |  | #
+diary | das Tagebuch | n | | 📔 | No one is allowed to read my *diary*. |
+wife | die Ehefrau | n |  |  | He has one *wife* and three children. | Plural: wives | #
+
+# u2 | Unit 2 – Off to the Midwest
+## Check in
+off to | ab in; auf zu / nach | o |  |  | *Off to* the airport and our holiday! |  | #
+time zone | die Zeitzone | n | | 🕒 | There are nine *time zones* in the USA. |
+agriculture | die Landwirtschaft; der Ackerbau | n | Landwirtschaft | 🌾 | The Midwest is important for *agriculture*. |
+manufacturing | die Produktion; die Herstellung; die Fertigung | n | Industrie | 🏭 | *Manufacturing* is making things in factories. |  | #
+endless | endlos | adj | | | There are *endless* fields in the Midwest. |
+wheat | der Weizen | n | Landwirtschaft | 🌾 | Bread is made from *wheat*. |
+corn | der Mais; das Korn; das Getreide | n | Landwirtschaft | 🌽 | *Corn* is yellow and great in salads. |
+soy | die Soja | n | Landwirtschaft | | The Midwest is famous for *soy*. |
+dairy farming | der Milchbetrieb; die Milchproduktion | n | Landwirtschaft | 🐄 | You need lots of cows for *dairy farming*. |
+bison | der Bison | n | Natur | 🦬 | We saw a *bison* in the national park. | ! One bison, three bison. = Ein Bison, drei Bisons.
+to learn about sth | etwas erfahren über etw. | v |  |  | I'd like to learn about the city. |  | #
+living history village | das Freilichtmuseum | n | Geschichte | | We learned a lot at the *living history village*. |
+to settle (in) | sich niederlassen (in); besiedeln | v | Geschichte | | Many Germans *settled* in the Midwest. | to settle (in) → settler
+farmer | der Landwirt / die Landwirtin; der Bauer / die Bäuerin | n | Landwirtschaft | 👩‍🌾 | The *farmer* has 200 cows. |
+craftspeople | die Handwerker / die Handwerkerinnen | n | Geschichte | | *Craftspeople* make things with their hands. |
+American football | der American Football | n | Sport | 🏈 | *American football* is very popular in the USA. |
+won | gewann; gewonnen (simple past und past participle von to win) | v | Simple past | 🏆 | Our team *won* the game. | I won = ich gewann / ich habe gewonnen | #
+shore | das Ufer; die Küste | n | Natur | | Chicago is on the *shores* of Lake Michigan. |
+movie (AE) | der Film | n | Amerikanisches Englisch | 🎬 | Let's watch a *movie* tonight. | AE: movie – BE: film | #
+formation | die Formation; die Entstehung | n | Natur |  | The rock *formation* is very old. | Die Betonung liegt hier: forMAtion. | #
+fossil | das Fossil; die Versteinerung | n | Natur | | We found *fossils* on the beach. |
+plain | die Ebene | n | Natur |  | The *plains* in the Midwest are huge. |  | #
+president | der Präsident / die Präsidentin | n | Politik |  | The *president* lives in the White House. | Die Betonung liegt hier: PREsident. | #
+crop | die Feldfrucht; die Ernte | n | Landwirtschaft | | *Crops* are grown in the fields. |
+tornado | der Tornado; der Wirbelsturm | n | Natur | 🌪️ | We could see the *tornado* a mile away. |
+## Station 1
+exchange | der Austausch | n | Schule in den USA |  | I'm an *exchange* student from Germany. |  | #
+beginning | der Anfang; der Beginn | n |  |  | The *beginning* of the film was boring. | beginning → to begin | #
+to get ready | sich fertig machen; sich vorbereiten | v | | | We have to *get ready* for school. |
+dress code | die Kleiderordnung | n | Schule in den USA | | There isn't a *dress code* at my school. |
+cap | die Kappe; die Mütze | n | Kleidung | 🧢 | It's good to wear a *cap* in the sun. |
+crop top | das bauchfreie Oberteil | n | Kleidung | | We can't wear *crop tops* to school. |
+portal | das Portal; der Zugang | n | Online | | Log in to the school *portal*. | Die Betonung liegt hier: PORtal.
+host | der Gastgeber / die Gastgeberin; der Moderator / die Moderatorin | n |  |  | My parents were the *hosts* of the party. |  | #
+metal detector | der Metalldetektor; das Metallsuchgerät | n | Schule in den USA | | We looked for metal on the beach with a *metal detector*. |
+hallway | der Flur | n | Schule in den USA | | Don't run in the *hallway*! | AE: hallway – BE: corridor
+detention | das Nachsitzen | n | Schule in den USA | | Sam was late again and got *detention*. |
+homeroom (AE) | Treffpunkt vor der ersten Stunde (u. a. zur Überprüfung der Anwesenheit) | n | Schule in den USA | | We are in the same *homeroom* group. |
+Pledge of Allegiance | der Treueeid | n | Schule in den USA | | Students in America take the *Pledge of Allegiance* every day. |
+schedule (AE) | der Stundenplan; der Fahrplan | n | Schule in den USA | 📅 | What's on your *schedule* today? | AE: schedule – BE: timetable | #
+math (AE) | Mathematik; Mathe | n | Schule in den USA | ➗ | *Math* is my favorite subject. | AE: math – BE: maths
+elective | das Wahlfach | n | Schule in den USA | | You can choose your *electives*. |
+production | die Produktion; die Herstellung | n |  |  | The *production* of the play took weeks. | Die Betonung liegt hier: proDUCtion. | #
+writing | das Schreiben; Schreib- | n |  | ✍️ | Creative *writing* is fun. | writing → to write | #
+totally | total; völlig | adv |  |  | I feel *totally* happy with my host family. |  | #
+yearbook | das Jahrbuch | n | Schule in den USA | 📖 | Most schools in the USA have a *yearbook*. |
+volleyball | der Volleyball | n | Sport | 🏐 | I play *volleyball* with my friends on Fridays. |
+student council | der Schülerrat | n | Schule in den USA | | The *student council* meets every Monday before school. |
+prom | Ball am Ende des Jahres an einer amerikanischen High School | n | Schule in den USA | | I still have to buy my dress for the *prom*. |
+to live stream | live streamen; live übertragen | v | Online | | I *live streamed* the match yesterday. |
+comment | der Kommentar | n | Online | 💬 | I never post any *comments*. |  | #
+orchestra | das Orchester | n | | 🎻 | She plays the violin in the school *orchestra*. | Achtung Schreibweise: orchestra
+to practice (AE) | üben; trainieren | v | Amerikanisches Englisch |  | I *practice* the piano every day. | AE: to practice – BE: to practise | #
+peer | der/die Gleichaltrige | n | | | My classmates are my *peers*. |
+tutoring | die Nachhilfe | n | Schule in den USA | | I go to peer *tutoring* for maths. |
+debate | Debattier-; die Debatte; die Diskussion | n |  |  | We had a *debate* about school uniforms. | Achtung Schreibweise: debate | #
+cheerleading | das Cheerleading | n | Sport | 📣 | *Cheerleading* is a sport in the USA. | cheerleading → cheerleader
+## Listening
+cherry | die Kirsche | n | Landwirtschaft | 🍒 | My dad makes a great *cherry* cake. |
+grass | das Gras; der Rasen | n | Landwirtschaft | 🌱 | Cows eat *grass*. |  | #
+cost | die Kosten; der Preis | n |  |  | The *costs* of the project are high. |  | #
+to increase | wachsen; zunehmen; vergrößern; ansteigen | v |  | 📈 | The prices are *increasing* every day. |  | #
+acre | der Acre (Flächenmaß: 4.050 m²) | n | Landwirtschaft | | The farm is 20 *acres*. |
+to produce | herstellen; produzieren; erzeugen; anbauen | v | Landwirtschaft |  | The farm *produces* milk and cheese. | to produce → production | #
+## Station 2
+Thanksgiving | das Erntedankfest | n | Thanksgiving | 🦃 | *Thanksgiving* is on the fourth Thursday in November. |
+turkey | der Truthahn; die Pute | n | Thanksgiving | 🦃 | We eat *turkey* at Thanksgiving. |  | #
+oven | der Backofen | n | Küche | | There is a big *oven* in our kitchen. |
+pumpkin | der Kürbis | n | Thanksgiving | 🎃 | Mum always makes the *pumpkin* pie. |
+to snow | schneien | v | Wetter | ❄️ | It *snowed* all night. | to snow → snow | #
+Good job! | Gut gemacht! | o |  | 👍 | *Good job!* You did it! | Diese Wörter am besten als Einheit lernen. | #
+homemade | selbst gemacht | adj | Küche | | I love *homemade* cakes and bread. |
+cornbread | das Maisbrot | n | Thanksgiving | | You need corn to make *cornbread*. |
+pecan | die Pekannuss | n | Thanksgiving | | *Pecan* pie is my favourite pie. |
+punch | der Punsch; die Bowle | n | Thanksgiving | 🍹 | You can use lots of fruit and juice in *punch*. |
+secret | das Geheimnis | n |  | 🤫 | I can't tell you, it's a *secret*. |  | #
+Safe flight! | Guten Flug! | o | | ✈️ | Bye, Grandma! *Safe flight!* | Diese Wörter am besten als Einheit lernen.
+suitcase | der Koffer | n | | 🧳 | My *suitcase* is too heavy. |
+cinnamon | der Zimt | n | Küche | | We have *cinnamon* cookies at Thanksgiving. |
+to finish doing sth | etw. fertig gemacht haben | v | | | I have to wait for the pie to finish baking. |
+to light | anzünden; erhellen; beleuchten | v | | 🕯️ | We *lit* the candles. | Simple past: lit · to light → light
+to put up | aufhängen; aufstellen; hochhalten; errichten | v |  |  | I can help you *put up* the lights. |  | #
+decoration | die Dekoration; der Schmuck | n | | | The *decorations* look great. | decoration → to decorate
+to donate | spenden; stiften | v | | | We *donated* money to the charity. |
+resolution | der Vorsatz; der Entschluss | n |  |  | I always make a New Year's *resolution*. |  | #
+display | die Vorführung; die Ausstellung; der Schaukasten; die Anzeige | n |  | 🎆 | The fireworks *display* was awesome. |  | #
+no longer | nicht mehr; nicht länger | o | | | The park is closed. It's *no longer* open. |
+alive | am Leben | adj |  |  | The fish is still *alive*. | alive ↔ dead | #
+travel agency | das Reisebüro | n | | | We booked our holiday at a *travel agency*. |
+carnival | der Karneval; der Fasching | n | | 🎭 | We went to the *carnival* in Cologne. | Achtung Schreibweise: carnival
+## Viewing
+storm | der Sturm; das Unwetter | n | Wetter | ⛈️ | The *storm* destroyed many houses. | Achtung Schreibweise: storm | #
+chaser | der Jäger / die Jägerin; der Verfolger / die Verfolgerin | n | Wetter | | Warren is a storm *chaser*. |
+to chase | jagen; verfolgen | v | Wetter | | The dog *chased* the cat. | to chase → chaser
+shot | die Aufnahme; die Einstellung; der Schuss | n | | 📷 | That is a great *shot* of the mountain. |
+television | der Fernseher; das Fernsehen | n |  | 📺 | We watched the storm on *television*. |  | #
+hailstone | das Hagelkorn | n | Wetter | | The *hailstones* in the storm were huge. |
+to shut | zumachen; schließen | v |  | 🚪 | Please *shut* the door. | Simple past: shut · to shut = to close | #
+atmosphere | die Atmosphäre; die Stimmung | n | | | There was a strange *atmosphere* at the party. |
+feeling | das Gefühl | n |  |  | I have a bad *feeling* about this. | feeling → to feel | #
+to get hurt | sich verletzen; verletzt werden | v | Wetter | 🤕 | We *got hurt* in the storm. |
+## Reading
+fancy dancer | Person, die einen traditionellen Tanz der amerikanischen Ureinwohner vorführt | n | Native Americans | | A *fancy dancer* dances a traditional Native American dance. |
+Cree | Cree-; der Cree / die Cree; das Cree | n | Native Americans | | Rory's mum is a *Cree* Native American. |
+light | leicht; hell | adj |  |  | The dancer was *light* on her feet. |  | #
+well | na ja | o |  |  | I was really happy, *well*, I was quite happy. |  | #
+stepdad | der Stiefvater | n | Familie | | I live with my mum and my *stepdad*. |
+step- | Stief- | o | Familie |  |  | step- + dad = stepdad | #
+ever | niemals (hier) | o |  |  | He never phoned me. *Ever*. |  | #
+probably | wahrscheinlich | adv |  |  | They *probably* thought I was strange. |  | #
+to forbid | verbieten | v | | 🚫 | My dad *forbade* me to go to the party. | Simple past: forbade · Past participle: forbidden
+thirsty | durstig | adj | | 🥤 | I'm so *thirsty*! I need a drink now. |
+beat | der Takt; der Rhythmus; der Schlag | n | Native Americans | 🥁 | The *beat* of the music was new to me. |
+powerful | stark; mächtig; bedeutend; beeindruckend | adj | | | The music was very *powerful*. |
+drum | die Trommel | n | Native Americans | 🥁 | He plays the *drum* at the powwow. |
+feather | die Feder | n | Native Americans | 🪶 | Birds have *feathers*. |
+to be ashamed of | sich schämen für / wegen | v | | | I *was ashamed* of my clothes. |
+proud (of) | stolz (auf) | adj | | | I'm *proud* of my family. | proud (of) ↔ ashamed (of)
+both | beide | o |  |  | My mum and dad *both* work in the library. |  | #
+librarian | der Bibliothekar / die Bibliothekarin | n | | 📚 | The *librarian* helped me find a book. | librarian → library
+sibling | das Geschwister | n | Familie | | I have three *siblings*. | siblings = brothers and sisters
+heart | das Herz | n |  | ❤️ | My *heart* was beating fast. |  | #
+powwow | die Versammlung (der indigenen Völker Nordamerikas) | n | Native Americans | | A *powwow* is what Native Americans call a meeting. |
+salt | das Salz | n | | 🧂 | I like *salt* on my chips. |
+seat | der Sitz; der Sitzplatz | n | | 💺 | Don't put your feet on the bus *seats*! |
+brain | das Gehirn | n |  | 🧠 | Your *brain* is in your head. |  | #
+hope | die Hoffnung | n |  |  | There is still *hope*. | hope → to hope | #
+fancy dancing | traditioneller Tanzstil amerikanischer Ureinwohner/innen | n | Native Americans | | *Fancy dancing* is very colourful. | fancy dancing → fancy dancer
+strength | die Stärke; die Kraft | n | | 💪 | You need *strength* for this sport. | strength → strong
+to turn to sb | sich jmdm. zuwenden | v |  |  | He *turned* to me and laughed. |  | #
+to define | definieren | v | | | Don't let what people say *define* you. |
+
+# u3 | Unit 3 – Going to the West
+## Check in
+degree Fahrenheit (°F) | das Grad Fahrenheit | n | Wetter & Klima | 🌡️ | It's 90 *degrees Fahrenheit* today. | 134 °F = 57 °C
+degree Celsius (°C) | das Grad Celsius | n | Wetter & Klima | 🌡️ | It's 28 *degrees Celsius* outside. |
+volcano | der Vulkan | n | Landschaft | 🌋 | Hawaii has many *volcanoes*. | Plural: volcanoes
+Hawaiian | hawaiianisch; das Hawaiianisch; aus Hawaii; der Hawaiianer / die Hawaiianerin | adj | | 🌺 | There are volcanoes on the *Hawaiian* islands. |
+desert | die Wüste | n | Landschaft | 🏜️ | It hardly ever rains in the *desert*. |  | #
+canyon | die Schlucht; der Canyon | n | Landschaft | | You can see *canyons* in Arizona. |
+multicultural | multikulturell | adj | Menschen | | The south is a *multicultural* area. |
+Hispanic | lateinamerikanisch; hispanisch; aus Lateinamerika; der Lateinamerikaner / die Lateinamerikanerin | adj | Menschen | | Almost 40% of the population of California is *Hispanic*. |
+Asian | asiatisch; aus Asien; der Asiate / die Asiatin | adj | Menschen |  | There are many *Asian* restaurants in San Francisco. | Asian → Asia | #
+start-up | das Start-up | n | Wirtschaft | 🚀 | A new company is a *start-up*. |  | #
+leading | führend | adj | Wirtschaft |  | Lots of *leading* brands come from Germany. |  | #
+producer | der Erzeuger / die Erzeugerin; der Hersteller / die Herstellerin; der Produzent / die Produzentin | n | Wirtschaft |  | California is a big *producer* of wine. | producer → to produce, product | #
+pear | die Birne | n | Obst | 🍐 | *Pears* can be green or yellow. |
+grape | die Traube | n | Obst | 🍇 | Wine is made from *grapes*. |
+seasonal | Saison-; saisonal | adj | Obst | | We buy *seasonal* fruit at the market. | seasonal → season
+reservoir | der Stausee | n | Landschaft | | There should be water in a *reservoir*. |
+wildfire | das Lauffeuer; der Flächenbrand | n | Wetter & Klima | 🔥 | When it is dry, there are more *wildfires*. |
+sunrise | der Sonnenaufgang | n | Tageszeiten | 🌅 | You can see the *sunrise* in the morning. |
+sunset | der Sonnenuntergang | n | Tageszeiten | 🌇 | We watched the *sunset* at the beach. | sunset ↔ sunrise | #
+daylight | das Tageslicht | n | Tageszeiten | | There is *daylight* during the day. |
+peninsula | die Halbinsel | n | Landschaft |  | There is sea on three sides of a *peninsula*. |  | #
+fog | der Nebel | n | Wetter & Klima | 🌫️ | San Francisco is famous for its *fog*. |
+## Station 1
+average | durchschnittlich | adj |  |  | I'm an *average* American teenager. |  | #
+to take | brauchen; benötigen (hier) | v | Produktion |  | It *takes* a lot of energy to make a phone. | Simple past: took · Past participle: taken | #
+raw material | der Rohstoff; das Rohmaterial | n | Produktion | | You need *raw materials* to produce things. |
+rare | selten; rar | adj |  |  | This book is *rare*, there aren't many of it. |  | #
+to replace | ersetzen | v | | | We *replaced* our old dishwasher. |
+every | alle | o |  |  | My mum phones me *every* ten minutes. |  | #
+life cycle | der Lebenszyklus; die Lebensdauer; die Laufzeit | n | Produktion | | Some products have a long *life cycle*. |
+packaging | die Verpackung; das Verpackungsmaterial | n | Produktion | 📦 | There is too much *packaging* on this phone. |
+transportation (AE) | das Verkehrsmittel; der Transport; die Beförderung | n | Produktion | 🚚 | Public *transportation* is cheap here. | AE: transportation – BE: transport
+use | die Verwendung; der Gebrauch; der Nutzen | n |  |  | This tool has many *uses*. | use → to use | #
+disposal | die Entsorgung | n | Umwelt | 🗑️ | The *disposal* of a lot of products isn't easy. |
+ceramic | die Keramik | n | | | The cup is made of *ceramic*. | Achtung Aussprache!
+to put together | zusammensetzen; zusammenbauen | v | Produktion | | My phone was *put together* in China. |
+amount (of) | die Menge; die Summe | n |  |  | Look at the *amount* of waste! |  | #
+chemical | die Chemikalie | n | Umwelt | ⚗️ | The rain washes the *chemicals* into the sea. |
+to package | verpacken | v | Produktion | | The phones are *packaged* in boxes. | to package → packaging
+card | die Pappe; der Karton; die Karte | n | | | Boxes made from *card* are very strong. |
+to transport | transportieren; befördern | v | Produktion | | Trucks *transport* the phones to the shops. | to transport → transportation
+to charge | aufladen; berechnen; verlangen; erheben | v |  | 🔋 | I can *charge* my phone in an hour. |  | #
+either ... or ... | entweder ... oder ... | o | | | I'll either go to high school or get a job. |
+recycled | recycelt; wiederverwertet | adj | Umwelt | ♻️ | This bag is made from *recycled* plastic. | recycled → to recycle
+to reduce | reduzieren; verringern; vermindern | v | Umwelt | 📉 | We must *reduce* our waste. | to reduce ↔ to increase
+pollution | die Verschmutzung | n | Umwelt | 🏭 | Air *pollution* is a big problem. | pollution → to pollute
+to need to | müssen | v |  |  | A company *needs to* make money. |  | #
+to program | programmieren | v |  | 💻 | I can *program* simple games. | Die Betonung liegt hier: PROgram. | #
+to process | verarbeiten; aufbereiten; verstehen | v | Produktion |  | They *process* things in the factory. |  | #
+to manufacture | fertigen; herstellen | v | Produktion | 🏭 | This company *manufactures* cars. | to manufacture → manufacturer, manufacturing
+to mine | abbauen; graben nach | v | Produktion | ⛏️ | Workers *mine* raw materials. |
+van | der Lieferwagen; der Transporter | n |  | 🚐 | The *van* brings the parcels. |  | #
+to distribute | verteilen; liefern | v | Produktion | | The teacher *distributed* the books. |
+finished | fertig | adj | Produktion |  | The *finished* products are in the shops. |  | #
+to extract | entnehmen; herausnehmen; gewinnen | v | Produktion | | The raw materials are *extracted* from the ground. |
+to treat | verarbeiten; bearbeiten | v | Produktion | | The material has to be *treated* first. |
+to assemble | zusammenbauen; montieren | v | Produktion | 🔧 | The model took a long time to *assemble*. |
+to dispose (of) | entsorgen | v | Umwelt | | Please *dispose* of your old batteries correctly. | to dispose (of) → disposal
+passive voice | das Passiv | n | | | Write the sentence in the *passive voice*. |
+active voice | das Aktiv | n | | | That sentence is in the *active voice*. |
+## Viewing
+climate | das Klima | n | Wetter & Klima | | The *climate* is mostly dry in the desert. |
+global | weltweit; global | adj | Umwelt | 🌍 | There are lots of *global* problems. |  | #
+to install | installieren; einrichten; anschließen | v | Technik | | I *installed* a new program on my computer. |
+solution | die Lösung | n |  | 💡 | We need a *solution* to this problem. | solution → to solve | #
+engineer | der Ingenieur / die Ingenieurin; der Techniker / die Technikerin | n | Technik | 👷 | She wants to be an *engineer*. |
+to detect | entdecken; aufdecken; ermitteln | v | Technik | | The sensor *detects* smoke. | to detect → detective
+screensaver | der Bildschirmschoner | n | Technik | | My *screensaver* is a holiday photo. |
+connection | die Verbindung; der Zusammenhang; die Beziehung | n | Technik |  | The internet *connection* is very slow. | connection → to connect | #
+program (AE) | das Programm; die Sendung | n | Technik |  | My favourite TV *program* starts at eight. | AE: program = das Programm; die Sendung · BE: program = das Computerprogramm | #
+Mexico | Mexiko | n | | | *Mexico* is south of the USA. |
+## Station 2
+outreach center (AE) | die Beratungsstelle | n | Hilfe | | You can get help at the *outreach center*. | AE: outreach center – BE: outreach centre
+homeless | obdachlos; wohnungslos | adj | Hilfe | | Some *homeless* people sleep in the park. | homeless = when you don't have a home to live in
+may | dürfen; können | o |  |  | *May* I open the window, please? |  | #
+to support | unterstützen | v | Hilfe | 🤝 | My parents *supported* my idea. |  | #
+medical | medizinisch; ärztlich | adj | Gesundheit |  | She needs *medical* help. | Die Betonung liegt hier: MEdical. | #
+counseling (AE) | die Beratung; die psychologische Betreuung | n | Hilfe | | The school offers free *counseling*. | AE: counseling – BE: counselling
+mental | mental; geistig; psychisch | adj | Gesundheit |  | *Mental* health is very important. |  | #
+health | die Gesundheit | n | Gesundheit |  | Some people have mental *health* problems. |  | #
+practical | praktisch | adj | | 🛠️ | I like making things, I'm *practical*. |
+first responder | der Ersthelfer / die Ersthelferin; der Notfallbegleiter / die Notfallbegleiterin (hier) | n | Hilfe | 🚑 | The *first responder* was the first person who helped me. |
+to cope with | bewältigen; fertig werden mit | v | | | It's hard to *cope with* the new situation. |
+main | Haupt- | adj |  |  | My *main* idea is to help people in our town. |  | #
+support | die Unterstützung; die Hilfe | n | Hilfe |  | Thank you for your *support*. | support → to support | #
+jobless | arbeitslos | adj | Hilfe | | Her dad is *jobless* at the moment. | jobless = without a job
+to get into debt | sich verschulden | v | Geld | | It's easy to *get into debt* when you lose your job. |
+to afford | sich leisten | v | Geld | | Sorry, I can't *afford* to give you the money. |
+rent | die Miete | n | Geld | | The *rent* for our flat is very high. | rent → to rent
+serious | schwer; ernsthaft | adj | Gesundheit |  | This is a *serious* problem. |  | #
+sick | krank | adj | Gesundheit | 🤒 | I feel *sick* today. | sick = ill | #
+addicted (to) | süchtig (nach) | adj | Gesundheit | | Life is hard when you are *addicted* to drugs. |
+pregnant | schwanger | adj | Gesundheit | | She was surprised when she got *pregnant*. |
+social work | die Sozialarbeit | n | Hilfe | | *Social work* is all about helping people. |
+self-respect | die Selbstachtung | n | | | Some people have no *self-respect*. |
+single | alleinerziehend; alleinstehend; einzeln; einzige / einziger / einziges | adj |  |  | My mum is a *single* mum, my dad doesn't live with us. |  | #
+forever | für immer; ewig | o | | | I want to live here *forever*. |
+heartbreaking | herzzerreißend | adj | | 💔 | The story was *heartbreaking*. | heartbreaking → heart
+somebody | jemand | o | | | *Somebody* helped me with my bag. |
+mind | der Verstand; der Geist; die Meinung | n | Gesundheit |  | It's important to have a healthy *mind*. |  | #
+to encourage | ermutigen; unterstützen | v | Hilfe | | My parents *encouraged* me to get help. |
+to recommend | empfehlen | v | | 👍 | I can *recommend* the new restaurant in town. |
+to advise sb | jmdn. beraten; jmdm. raten | v | Hilfe | | I *advised* her to see a doctor. | to advise sb → advice
+therapy | die Therapie; die Behandlung | n | Gesundheit | | I advise you to get some *therapy*. |
+## Listening
+gold rush | der Goldrausch | n | Goldrausch | | Everyone wanted gold in the *gold rush*. |
+ghost town | die Geisterstadt | n | Goldrausch | 👻 | Nobody lives in a *ghost town*. | Das h wird nicht gesprochen.
+creek (AE) | der Bach | n | Landschaft |  | We found gold in the *creek*. | creek = a small river | #
+luck | das Glück | n |  | 🍀 | I never have any *luck*. |  | #
+gold-mining | das Goldschürfen | n | Goldrausch | ⛏️ | There are *gold-mining* places in Oregon. |  | #
+tool | das Werkzeug; das Tool; das Hilfsmittel; das Gerät | n | Goldrausch | 🔨 | You need special *tools* for different jobs. |  | #
+## Reading
+natural | Natur-; natürlich | adj | Natur |  | There were no windows or *natural* light. |  | #
+treasure | der Schatz | n | | 💰 | You have to find the box of *treasure*. |
+precious | wertvoll; kostbar | adj | | 💎 | The time we have is very *precious* to us. |
+glacier | der Gletscher | n | Natur | 🏔️ | The *glacier* is melting. | Achtung Aussprache!
+variety | die Vielfalt; die Auswahl | n |  |  | There's a *variety* of landscapes in the USA. |  | #
+to spot | entdecken; sehen; erkennen | v | Natur | 👀 | I *spotted* a wolf in the forest. |
+grizzly bear | der Grizzlybär | n | Natur | 🐻 | We wanted to see a *grizzly bear*. |
+alligator | der Alligator | n | Natur | 🐊 | There are *alligators* in Florida. |
+unique | einzigartig | adj | Natur |  | This plant is *unique* in this area. |  | #
+ecosystem | das Ökosystem | n | Natur | | This *ecosystem* is home to lots of fish. |
+ancient | alt; altertümlich | adj | | 🏛️ | We visited an *ancient* city. | ancient = very old
+cactus | der Kaktus | n | Natur | 🌵 | A *cactus* doesn't need much water. | Plural: cacti
+writer | der Schriftsteller / die Schriftstellerin | n | | ✍️ | She is a famous *writer*. | writer → to write
+convinced | überzeugt | adj | | | I was *convinced* that I was right. |
+wilderness | die Wildnis | n | Natur | | Our camp was in the *wilderness*. |
+future | Zukunfts-; zukünftig | adj |  |  | Forests are important for *future* generations. |  | #
+generation | die Generation | n |  |  | Three *generations* live in this house. | Achtung Aussprache! | #
+to pass a law | ein Gesetz beschließen; ein Gesetz verabschieden | v | Politik | ⚖️ | It isn't easy to *pass a law*. |
+to establish | gründen; einrichten; eröffnen | v | Nationalparks | | The newspaper was *established* in 2001. |
+to manage | verwalten | v | Nationalparks | | The NPS *manages* the national parks in the USA. |
+to employ | beschäftigen; einstellen; anstellen | v | Nationalparks | | There are 1,000 people *employed* here. |
+facility | die Einrichtung | n | Nationalparks | | What *facilities* are there in the park? |
+scientific | wissenschaftlich; naturwissenschaftlich | adj | Nationalparks | 🔬 | They do *scientific* work in the park. | scientific → science
+research | die Forschung; die Recherche; die Untersuchung | n | Nationalparks |  | The NPS does a lot of *research*. |  | #
+by law | gesetzlich | o | Politik |  | The national parks are protected *by law*. |  | #
+development | die Erschließung; die Entwicklung | n |  |  | There is a new *development* in our town. |  | #
+responsible | verantwortungsvoll; verantwortlich | adj |  |  | He is a *responsible* person. |  | #
+to leave | zurücklassen | v | Nationalparks |  | Visitors shouldn't *leave* waste. | Simple past: left | #
+footprint | der Fußabdruck | n | Nationalparks | 👣 | We saw *footprints* in the snow. | footprint → foot
+garbage (AE) | der Müll; der Abfall | n | Amerikanisches Englisch | 🗑️ | Take the *garbage* out, please. | AE: garbage – BE: rubbish
+to avoid | vermeiden; meiden; aus dem Weg gehen; ausweichen | v | Nationalparks |  | We have to *avoid* damaging the trees. |  | #
+strict | streng; strikt | adj | | | Our teacher is very *strict*. | Achtung Schreibweise: strict
+Switzerland | die Schweiz | n | | | *Switzerland* is smaller than Germany. |
+to publish | veröffentlichen; publizieren; verlegen | v | | 📰 | This book was *published* last year. |
+
+# u4 | Unit 4 – Around the Southwest
+## Check in
+stunning | sensationell; fantastisch; überwältigend | adj | | 🤩 | The view from the tower is *stunning*. |
+at night | nachts | o |  | 🌙 | I can't sleep well *at night*. |  | #
+Navajo | der Navajo / die Navajo; Navajo- | n | Native Americans | | Where do the *Navajo* live? |
+lifestyle | der Lebensstil; der Lifestyle | n |  |  | We have a very modern *lifestyle*. |  | #
+alive | am Leben | adj |  |  | Is the old man still *alive*? | alive ↔ dead | #
+to migrate | abwandern; wandern; umherziehen | v | | | Lots of people have *migrated* to the USA. |
+Latin America | Lateinamerika | n | | | Hispanic people are from *Latin America*. |
+to form | bilden | v | Landschaft |  | How was the canyon *formed*? |  | #
+dam | die Talsperre; die Staumauer; der Damm | n | Energie | | The *dam* is very important for the region. |
+to provide | liefern; bereitstellen; bieten; versorgen | v | Energie |  | The dam *provides* energy to Nevada. |  | #
+power | die Energie; der Strom; die Kraft; die Macht | n | Energie | ⚡ | The *power* comes from the dam. |  | #
+copper | das Kupfer | n | Energie | | *Copper* mining is important in the Southwest. |
+cowboy | der Cowboy | n | Wilder Westen | 🤠 | *Cowboys* ride horses and work with animals. |
+cattle | die Rinder; das Vieh | n | Wilder Westen | 🐂 | 500 *cattle* died in the fire. | ! 500 cattle died in the fire. = 500 Rinder starben bei dem Feuer.
+rodeo | das Rodeo | n | Wilder Westen | | We watched a *rodeo* in Texas. | Die Betonung liegt hier: roDEo.
+horn | das Horn | n | Wilder Westen | | There is a rope around the cow's *horns*. |
+to recommend | empfehlen | v |  | 👍 | I can *recommend* the new restaurant in town. |  | #
+Pueblo | Pueblo-; der/die Angehörige der Pueblovölker | n | Native Americans | | The *Pueblo* people have lived here for over a thousand years. |
+bean | die Bohne | n | | | We grow *beans* in our garden. |
+plateau | die Hochebene; das Plateau | n | Landschaft | | There are plains and *plateaus* in the region. |
+rug | der Vorleger; der Teppich | n | | | I have a *rug* next to my bed. |
+## Station 1
+role model | das Vorbild | n | Vorbilder | | Who are your *role models*? |
+to inspire | inspirieren; anregen | v | Vorbilder | ✨ | My older brother *inspires* me. |
+talented | talentiert; begabt | adj | Eigenschaften | | Maja is a very *talented* dancer. |
+modest | bescheiden | adj | Eigenschaften | | Don't be *modest*! You're really good at this! |
+determined | (fest) entschlossen; entschieden; zielstrebig | adj | Eigenschaften | | I'm *determined* to get a good job. |
+theater (AE) | das Theater | n | Amerikanisches Englisch | 🎭 | We went to the *theater* last night. | AE: theater – BE: theatre
+to apply (for) | sich bewerben (für/um) | v | Arbeit |  | He *applied* for the student job. |  | #
+part-time | die Teilzeit | o | Arbeit |  | I work *part-time* while I study. |  | #
+award | der Preis; die Auszeichnung | n | Vorbilder | 🏆 | She won an *award* for her film. |  | #
+to give up | aufgeben | v |  |  | You can't *give up* now! |  | #
+influence | der Einfluss | n | Vorbilder | | My grandma had a big *influence* on me. | influence → to influence
+to encourage | ermutigen; unterstützen | v | Vorbilder | | My parents *encouraged* me to try it. |
+for | seit | o |  |  | I've played football *for* two years now. |  | #
+fit | fit; in Form | adj |  | 💪 | I must be *fit* for football. |  | #
+patient | geduldig | adj | Eigenschaften | | Just be *patient*! We'll be there soon. |
+to finish | absolvieren (hier) | v |  | 🏁 | I *finished* my first big race yesterday. |  | #
+myself | mich selbst; mich; mir; selbst; selber | o |  |  | I suddenly started believing in *myself*. |  | #
+ambitious | ehrgeizig | adj | Eigenschaften | | Peter is very *ambitious*. He studies a lot. |
+to be a little person | kleinwüchsig sein | v | | | Becky *is a little person*. |
+genetic | genetisch | adj | | 🧬 | Becky was born with a *genetic* condition. |
+condition | die Bedingung; der Zustand; die Erkrankung (hier) | n |  |  | I have a medical *condition* and need help. |  | #
+to stop | aufhalten; verhindern (hier) | v |  |  | Nothing can *stop* her. | to stop ↔ to start | #
+known | gekannt; gewusst (past participle von to know) | v | Past participle |  | I've *known* her for three years now. |  | #
+middle school | die Mittelschule (weiterführende Schule in den USA, Mittelstufe) | n | | 🏫 | Children at *middle school* in the USA are usually 11 to 14 years old. |
+to stand up to sb | jmdm. die Stirn bieten; sich gegen jmdn. behaupten | v | | | Let's *stand up* to all those mean people! |
+bully | der Mobber / die Mobberin; der Tyrann / die Tyrannin | n | | | The *bully* took my phone. | bully → bullying
+determination | die Entschlossenheit; die Entschiedenheit | n | Eigenschaften | | She showed great *determination*. | determination → determined
+influential | einflussreich | adj | Vorbilder | | She is a very *influential* woman. | influential → influence, to influence, influencer
+modesty | die Bescheidenheit | n | Eigenschaften | | I like his *modesty*. | modesty → modest
+talent | das Talent | n | Eigenschaften | | She has a *talent* for music. | talent → talented
+ambition | der Ehrgeiz; das Ziel | n | Eigenschaften | | My *ambition* is to become a doctor. | ambition → ambitious
+patience | die Geduld | n | Eigenschaften | | You need *patience* to learn an instrument. | patience → patient
+## Viewing
+right | das Recht | n | Bürgerrechte |  | Everyone wants the same *rights*. |  | #
+slave | der Sklave / die Sklavin | n | Bürgerrechte |  | *Slaves* had to work very hard. |  | #
+racism | der Rassismus | n | Bürgerrechte | | How can we stop *racism*? |
+plantation | die Plantage | n | Bürgerrechte | | People worked on the *plantations*. |
+reservation | das Reservat | n | Native Americans | | Some Native Americans live on *reservations*. |
+slavery | die Sklaverei | n | Bürgerrechte | | *Slavery* ended in 1865. | slavery → slave
+as | wie | o |  |  | That's the same bag *as* mine. |  | #
+Africa | Afrika | n |  | 🌍 | Nigeria is a country in *Africa*. | Africa → African | #
+## Station 2
+town hall | das Rathaus | n | In der Stadt | 🏛️ | The meeting took place at the *town hall*. |
+mayor / mayoress | der Bürgermeister / die Bürgermeisterin | n | In der Stadt |  | The *mayor* opened the new park. | Achtung Aussprache! | #
+graffiti | das Graffiti | n | In der Stadt | 🎨 | There is *graffiti* on the wall. | Achtung Aussprache!
+unfortunately | leider; unglücklicherweise | adv | | | *Unfortunately*, I can't come to your party. |
+to ask sb to do sth | jmdn. bitten, etw. zu tun | v | | | He asked her to close the window. |
+frozen | gefroren; tiefgefroren | adj | | 🧊 | I love *frozen* yoghurt. It's yummy! |
+bank | die Bank; die Böschung; das Ufer | n | In der Stadt | 🏦 | Help! My *bank* has closed my account! |  | #
+shape | die Form | n |  | 🔷 | Did you see that sign in the *shape* of a cow? |  | #
+sidewalk (AE) | der Gehweg; der Bürgersteig | n | Amerikanisches Englisch | | Walk on the *sidewalk*, please. | AE: sidewalk – BE: pavement
+business | das Geschäft; das Unternehmen; die Branche | n | In der Stadt |  | The mayor is happy to support new *businesses*. |  | #
+speaker | der Sprecher / die Sprecherin; der Redner / die Rednerin | n | | 🎤 | The *speaker* was very good. | speaker → to speak
+to improve | verbessern | v | In der Stadt | 📈 | We want to *improve* our town. | to improve → improvement | #
+quality | die Qualität; die Eigenschaft | n |  |  | I only buy good *quality* products. |  | #
+transport | das Verkehrsmittel; der Transport; die Beförderung | n | In der Stadt | 🚌 | Public *transport* is good in our town. | transport → to transport | #
+hairdresser's | der Friseursalon | n | Geschäfte | 💇 | I went to the *hairdresser's* yesterday. | Achtung Schreibweise: hairdresser's
+hall | die Halle; der Saal | n | In der Stadt |  | Have you been to the new concert *hall* yet? |  | #
+police station | das Polizeirevier; die Polizeiwache | n | In der Stadt | 🚓 | We all had to go to the *police station*. |
+athletics track | die Leichtathletikbahn | n | In der Stadt | | The new *athletics track* is blue. |
+low-emission | emissionsarm; schadstoffarm | adj | In der Stadt | | These *low-emission* buses are awesome. |
+optician's | das Optikfachgeschäft | n | Geschäfte | 👓 | I need new glasses from the *optician's*. | Achtung Schreibweise: optician's
+sculpture | die Skulptur | n | In der Stadt | 🗿 | There is a big *sculpture* in the park. | Achtung Schreibweise: sculpture
+law court | der Gerichtshof; das Gericht (juristisch) | n | In der Stadt | ⚖️ | Where's the *law court*? – Next to the town hall. |
+charging point | die Ladestation | n | In der Stadt | 🔌 | We need more *charging points* in our town. |
+butcher's | die Metzgerei; die Fleischerei | n | Geschäfte | 🥩 | I bought sausages at the *butcher's*. | Achtung Schreibweise: butcher's
+BFF | der BFF / die BFF; bester Freund / beste Freundin für immer | n | Chat-Sprache | | Mia is my *BFF*. | BFF is short for best friend forever.
+Kind regards, | Viele Grüße | o | | | See you soon. *Kind regards*, Lisa | So kann man in englischsprachigen Ländern Briefe und E-Mails beenden.
+dude | der Typ; der Kerl | n | Chat-Sprache | 😎 | There was a cool *dude* at the party. |  | #
+big deal | große Sache | n | Chat-Sprache | | It's no *big deal* if we're late. |
+broke | pleite | adj | Chat-Sprache | | I've got no money. I'm *broke*. |
+buck (AE) | der Dollar | n | Chat-Sprache | 💵 | It only costs ten *bucks*. | ten bucks = ten dollars
+the Spanish | die Spanier | n |  |  | *The Spanish* are people who live in Spain. |  | #
+to roll up | zusammenrollen; aufrollen; aufkrempeln | v | | | We *rolled up* our clothes. |
+sharp | pünktlich; scharf; schneidend | adj | | ⏰ | You need to be at home at 9 p.m. *sharp*. |
+to miss | übersehen; verfehlen | v |  |  | You can't *miss* me. I'm wearing a red hat. |  | #
+start | der Anfang; der Beginn; der Start | n |  | 🏁 | The *start* of the race is at ten. | start → to start | #
+## Listening
+working hours | die Arbeitszeiten; die Arbeitszeit | n | Berufe | ⏱️ | Long *working hours* are not good for you. |  | #
+degree | der Hochschulabschluss; der akademische Grad | n | Berufe | 🎓 | I have a *degree* in maths. |  | #
+apprenticeship | die Ausbildung; die Lehre | n | Berufe | | Cathy did her *apprenticeship* here. |
+salary | das Gehalt | n | Berufe | | Your *salary* is what you earn. |
+programming | Programmier- | n | Berufe | 💻 | I'm taking a *programming* course. | programming → to program | #
+emergency medical technician (EMT) | der Rettungssanitäter / die Rettungssanitäterin | n | Berufe | 🚑 | Ricardo is an *emergency medical technician*. |
+software | die Software | n | Berufe |  | Jenna is a *software* engineer. |  | #
+electrician | der Elektriker / die Elektrikerin | n | Berufe | 🔌 | There was no power and the *electrician* came. |
+carpenter | der Zimmermann / die Zimmerin; der Tischler / die Tischlerin | n | Berufe | 🪚 | *Carpenters* make things from wood. |
+social worker | der Sozialarbeiter / die Sozialarbeiterin | n | Berufe | | My aunt is a *social worker*. | social worker → social work
+computer science | die Informatik | n | Berufe | | My sister has a degree in *computer science*. |
+## Reading
+alarm | der Wecker; der Alarm | n | Morgens | ⏰ | My *alarm* rings at six. |
+to reach out | die Hand ausstrecken | v | Morgens | | He *reached out* to his phone. |
+slim | dünn; schlank; schmal; gering | adj | | | My mum has very *slim* fingers. |
+to sit up | sich aufrichten; aufrecht sitzen | v | Morgens | | I *sat up* in bed and looked around. |
+to pull up | hochhalten; hochziehen; heranziehen | v | Morgens | | I *pulled up* the blanket on my bed. |
+covers | das Bettzeug | n | Morgens | 🛏️ | The *covers* on my bed are green. |
+shocked | schockiert; geschockt | adj | Gefühle | 😱 | We were all *shocked* to hear the news. |
+woken up | aufgewacht (past participle von to wake up) | v | Past participle | | He was *woken up* by a loud noise. |
+panic | die Panik | n | Gefühle | | There was *panic* in the street. | Achtung Schreibweise: panic
+wardrobe | der Kleiderschrank | n | Morgens | | My clothes are in the *wardrobe*. |
+empty | leer | adj | | | The fridge is *empty*. | empty ↔ full
+front door | die Eingangstür; die Haustür; die Wohnungstür | n | Morgens | 🚪 | She went out the *front door* into the street. |
+towards | auf ... zu; in Richtung; gegenüber | o |  |  | The dog ran *towards* the child. |  | #
+make-up | das Make-up; die Schminke | n | Morgens | 💄 | She doesn't wear *make-up*. |  | #
+look | der Look; das Aussehen | n |  |  | He loved her new colourful *look*. |  | #
+confused | verwirrt; wirr | adj | Gefühle | 😕 | I'm quite *confused* now. Where are we going? |
+appearance | das Aussehen; die Erscheinung; der Auftritt | n |  |  | Why are you all so interested in my *appearance*? |  | #
+to invite | bitten; auffordern | v | | | Sara *invited* Robert to sit next to her. |
+to realize (AE) | sich bewusst werden; bemerken; erkennen; realisieren | v |  | 💡 | I *realized* that I was wrong. | AE: to realize – BE: to realise | #
+even so | und doch; trotzdem; selbst dann | o |  |  | *Even so*, Robert felt quite happy. |  | #
+to ask sb on a date | jmdn. um eine Verabredung bitten | v | | | How exciting! He asked me on a date! |
+shy | schüchtern | adj | Gefühle | | She's very *shy* and almost never talks. |
+to kiss | küssen | v | | | I would never *kiss* a spider. |
+honest | ehrlich | adj |  |  | Please be *honest* with me. | Das h wird nicht gesprochen. | #
+forward | nach vorne; vorwärts | o |  |  | Sam moved his head *forward* and kissed me. |  | #
+
+# u5 | Unit 5 – Settling in the South
+## Check in
+fertile | fruchtbar | adj | Landschaft | | The South is a *fertile* region. |
+farmland | das Ackerland; der Ackerboden; die Landwirtschaftsflächen | n | Landschaft | | You can see corn on *farmland* in the Midwest. |
+to flow | fließen; strömen | v | Landschaft |  | The river *flows* into the sea over there. |  | #
+launch site | die Raketenabschussbasis | n | Raumfahrt | 🚀 | We went to the *launch site* at Cape Canaveral. |
+mission | die Mission; der Auftrag; der Einsatz | n | Raumfahrt |  | Are there still US space *missions*? – I think so. |  | #
+smoked | geräuchert | adj | Essen | | I love *smoked* fish. | smoked → smoking
+rib | die Rippe; das Rippchen (hier) | n | Essen | 🍖 | *Ribs* and spicy sauce are yummy. |
+Southerner | der Südstaatler / die Südstaatlerin | n | | | My grandpa is a *Southerner*. | Southerner → south
+unique | einzigartig | adj |  |  | This plant is *unique* in this area. |  | #
+the French | die Franzosen | n |  |  | The city was founded by *the French*. |  | #
+civil rights | die Bürgerrechte | n | Bürgerrechte | ✊ | Martin Luther King fought for *civil rights*. | civil rights → right
+movement | die Bewegung | n | Bürgerrechte |  | The Civil Rights *Movement* started in the 1950s. |  | #
+to protest | protestieren | v | Bürgerrechte | 📢 | Students *protested* against the new law. | to protest → protest | #
+segregation | die Rassentrennung; die Trennung | n | Bürgerrechte | | Not everyone believed in *segregation*. |
+hurricane | der Orkan; der Wirbelsturm; der Hurrikan | n | Wetter | 🌀 | There are powerful *hurricanes* in the South. |
+to cause | verursachen | v | Wetter |  | The driver *caused* the accident. |  | #
+flood | die Überschwemmung; die Flut; das Hochwasser | n | Wetter | 🌊 | The *flood* destroyed many houses. |
+Creole | kreolisch; das Kreolisch; der Kreole / die Kreolin | adj | Essen | | *Creole* food is really good. |
+ingredient | die Zutat | n | Essen | | Here are the *ingredients* for the cake. |
+shrimp | die Krabbe; die Garnele | n | Essen | 🦐 | You need fresh *shrimps* for jambalaya. |
+coral reef | das Korallenriff | n | Landschaft | 🪸 | There are many *coral reefs* in Australia. |
+wetland | das Sumpfgebiet | n | Landschaft | | The Everglades is a big *wetland* area. |
+## Station 1
+man | der Mensch | n |  |  | *Man* has changed the planet a lot. | man = person | #
+equal | gleich; gleichberechtigt | adj | Gleichberechtigung | ⚖️ | Everyone is *equal*. |  | #
+equal | der/die Gleichgestellte | n | Gleichberechtigung | | We should all treat each other as *equals*. |
+again and again | immer wieder | o | | 🔁 | He calls me *again and again* and I don't know why. |
+access | der Zugang; der Zutritt | n | Gleichberechtigung | ♿ | *Access* for people with disabilities is hard. |  | #
+to ask for | bitten um; fragen nach | v | | 🙋 | I *asked for* help with my homework. |
+to push | schubsen; drängeln; schieben; drücken | v | Diskriminierung |  | Don't *push* other people! |  | #
+to insult | beleidigen | v | Diskriminierung | | People pushed and *insulted* me. |
+mad | wütend; verrückt | adj |  | 😠 | I was *mad* with everyone. |  | #
+person of color (POC) (AE) | die Person of Color (Person mit dunkler Hautfarbe) | n | Gleichberechtigung | | Barack Obama is a *person of color*. |
+to call sb names | jmdn. beschimpfen | v | Diskriminierung | | There were people at school who called me names. |
+(the) public | die Öffentlichkeit | n |  |  | I don't like to go out in *public*. |  | #
+whenever | jedes Mal, wenn; wann immer; immer, wenn; jederzeit | o | | | I enjoy the food *whenever* I'm in London. |
+helpless | hilflos; machtlos | adj | Diskriminierung | | I felt *helpless*. | helpless → help
+to prove | beweisen | v |  |  | He has to *prove* that he owns the land. |  | #
+to ignore | ignorieren; außer Acht lassen | v | Diskriminierung | | I *ignored* the comments that people made. |
+interest | das Interesse | n |  |  | Thanks for your *interest*! | interest → to be interested in | #
+Mexican | mexikanisch; aus Mexiko; der Mexikaner / die Mexikanerin | adj | | 🌮 | We had *Mexican* food for lunch. | Mexican → Mexico
+to take sb seriously | jmdn. / etw. ernst nehmen | v | | | Nobody took me seriously. | to take sb seriously → serious
+to raise awareness | das Bewusstsein schärfen; jmdn. sensibilisieren | v | Gleichberechtigung | 📣 | It is important to *raise awareness* of discrimination. |
+to educate | aufklären; bilden; erziehen | v | Gleichberechtigung | 🎓 | We need to *educate* people about racism. | to educate → education
+to behave | sich verhalten; sich benehmen | v | | | I don't know how to *behave* sometimes. |
+strategy | die Strategie; die Vorgehensweise | n |  |  | We need a good *strategy*. | Achtung Aussprache und Schreibweise: strategy | #
+choice | die Auswahl; die Wahl | n |  |  | You have a *choice*. | choice → to choose | #
+danger | die Gefahr | n | | ⚠️ | These animals are in *danger*. | danger → dangerous
+tolerant | tolerant | adj | Gleichberechtigung | | My parents are *tolerant* of others. |
+to discriminate against | diskriminieren; benachteiligen | v | Diskriminierung | | Black people are still *discriminated* against today. |
+to put oneself in danger | sich in Gefahr bringen | v | | | Don't put yourself in danger! |
+to reflect | nachdenken; reflektieren | v | | 🤔 | We *reflected* in class about the school year. |
+rude | unhöflich; unverschämt | adj | | | Don't be *rude* to other people! |
+to put oneself in other people's shoes | sich in jmdn. hineinversetzen | v | | 👟 | Put yourself in his shoes, then you'll know what it feels like. |
+stubborn | eigensinnig; störrisch | adj | | | He won't change his mind, he's *stubborn*. |
+to imagine (sth) | sich (etw.) vorstellen | v |  | 💭 | I *imagined* I was on a beach far away. |  | #
+## Viewing
+bug | das Insekt; der Käfer | n | Everglades | 🐞 | There are lots of *bugs* in the swamp. |  | #
+sleeve | der Ärmel | n | | 👕 | My shirt has short *sleeves*. |
+to release | freilassen; loslassen; freigeben; entlassen; herausgeben | v | Everglades |  | *Release* the fish after you have caught it. |  | #
+snook | der Barsch | n | Everglades | 🐟 | I caught a *snook* in the Everglades. |
+minnow | die Elritze; der Bitterfisch (kleiner, schlanker Beutefisch) | n | Everglades | | *Minnows* are very small fish. |
+food chain | die Nahrungskette | n | Everglades | | The *food chain* is important in an ecosystem. |
+shark | der Hai | n | Everglades | 🦈 | A *shark* has very sharp teeth. |  | #
+license (AE) | die Lizenz; die Erlaubnis | n | Amerikanisches Englisch | 🪪 | You need a *license* to fish here. | AE: license – BE: licence | #
+## Station 2
+artificial intelligence (AI) | die künstliche Intelligenz (KI) | n | Zukunft & Technik | 🤖 | Everyone is talking about *artificial intelligence*. |
+space travel | die Raumfahrt | n | Raumfahrt | 🚀 | Florida is important for *space travel*. |
+topic | das Thema | n | Diskutieren |  | I like the *topic* of the story. |  | #
+Mars | der Mars | n | Raumfahrt | 🔴 | *Mars* is a planet in space. |
+editor | der Redakteur / die Redakteurin; der Herausgeber / die Herausgeberin; der Lektor / die Lektorin | n |  |  | Do you know the *editor* of this book? – No, I don't. |  | #
+in my opinion | meiner Meinung nach | o | Diskutieren | | *In my opinion*, she's right. |
+for one thing | zum einen; einerseits; erstens | o | Diskutieren | | *For one thing*, I really like it here. |
+disaster | die Katastrophe; das Desaster; das Unglück | n | | 💥 | My holiday was a *disaster*. |
+to destroy | zerstören | v |  |  | The storm *destroyed* the forest. |  | #
+to survive | überleben | v |  |  | Only one person *survived* the crash. | to survive ↔ to die | #
+moreover | außerdem; ferner; zudem | o | Diskutieren | | *Moreover*, I have found lots of friends here. |
+natural resource | der Rohstoff; der Bodenschatz; die Ressource | n | | | There are lots of *natural resources* in the US. |
+in favor of (AE) | für; zugunsten von | o | Diskutieren | 👍 | I'm *in favor of* more cycle lanes. | in favor of ↔ against
+Sincerely, | Mit freundlichen Grüßen | o | | | Thank you for your help. *Sincerely*, Ben Miller | So kann man in englischsprachigen Ländern Briefe und E-Mails beenden.
+discussion | die Diskussion | n | Diskutieren | 💬 | We had a long *discussion*. | Achtung Aussprache! | #
+firstly | erstens; zuerst | adv | Diskutieren | | *Firstly*, we need to think about this idea. |
+extreme | extrem; radikal | adj |  |  | The weather here can be *extreme*. | Achtung Schreibweise: extreme | #
+secondly | zweitens | adv | Diskutieren | | *Secondly*, it is too expensive. | Firstly, ... and secondly, ...
+might | könnte / könnten | o |  |  | I *might* be late so start without me. |  | #
+to sum up | zusammengefasst | v | Diskutieren | | *To sum up*, you can say this food is better. |
+instead of | statt; anstatt; anstelle von | o |  |  | Let's walk *instead of* using the car. |  | #
+virtual reality (VR) | die virtuelle Realität (VR) | n | Zukunft & Technik | 🥽 | This isn't real, it's *virtual reality*. |
+Moon | der Mond | n | Raumfahrt | 🌙 | People first walked on the *Moon* in 1969. |  | #
+face-to-face | persönlich; von Angesicht zu Angesicht | o | | | Let's talk *face-to-face* about the problem. |
+drone | die Drohne | n | Zukunft & Technik | | The *drone* takes photos from the air. | Achtung Schreibweise: drone
+to explore | erkunden; erforschen | v | Raumfahrt | 🧭 | Let's *explore* the Everglades together. |
+driverless | führerlos | adj | Zukunft & Technik | 🚗 | I don't think *driverless* cars are safe. |
+nurse | der Krankenpfleger / die Krankenpflegerin | n |  | 🧑‍⚕️ | The *nurse* helped me in hospital. |  | #
+solar system | das Sonnensystem | n | Raumfahrt | ☀️ | The planets make the *solar system*. |
+seaweed | der Seetang | n | | | There is lots of *seaweed* on the beach. |
+transfer | die Übertragung; der Transfer | n | Zukunft & Technik |  | Can you tell me about thought *transfer*? |  | #
+zero gravity | die Schwerelosigkeit | n | Raumfahrt | | There is *zero gravity* in space. |
+hyperloop | der Hyperloop | n | Zukunft & Technik | | Things move very fast in a *hyperloop*. |
+network | das Netzwerk | n | Zukunft & Technik | 🌐 | I have a large *network* of friends. |  | #
+mobile phone | das Handy; das Mobiltelefon | n | Zukunft & Technik | 📱 | People usually call *mobile phones* mobiles or phones. |
+## Listening
+coffin | der Sarg | n | Beerdigung | ⚰️ | Dead people are buried in *coffins*. |
+musician | der Musiker / die Musikerin | n | | 🎸 | The *musician* played the guitar. |
+cemetery | der Friedhof | n | Beerdigung | 🪦 | We visited a famous *cemetery* in Paris. |  | #
+to march | marschieren | v | Beerdigung |  | The people *marched* behind the coffin. |  | #
+funeral | die Beerdigung; das Begräbnis | n | Beerdigung |  | I cried at my grandpa's *funeral*. |  | #
+jazz | der Jazz (Musikrichtung) | n |  | 🎷 | My brother likes *jazz*. |  | #
+## Reading
+introduction | die Einleitung; die Einführung | n | | | The *introduction* is at the start of a text. |
+to abolish | abschaffen | v | Bürgerrechte | | It took a long time to *abolish* slavery. |
+case | der Fall; die Angelegenheit | n |  |  | In your *case*, this is true. |  | #
+to vote | wählen; abstimmen | v | Bürgerrechte | 🗳️ | Black people couldn't *vote*. |  | #
+racist | rassistisch; der Rassist / die Rassistin | adj | Bürgerrechte | | That comment was *racist*. | racist → racism
+to exist | existieren; bestehen | v | | | The laws still *existed* in the 1950s. |
+activist | der Aktivist / die Aktivistin | n | Bürgerrechte | ✊ | There were lots of *activists* at the protest. |
+to refuse | sich weigern; ablehnen | v | Bürgerrechte | ✋ | Rosa *refused* to move. |
+to arrest | festnehmen; verhaften | v | Bürgerrechte | | She was *arrested* by the police. |
+response | die Reaktion; die Antwort; die Erwiderung | n |  |  | I was surprised by his *response* to the news. |  | #
+boycott | der Boykott | n | Bürgerrechte | | The bus *boycott* was a big success. | Achtung Schreibweise: boycott
+to last | dauern; andauern; anhalten | v | Bürgerrechte | ⏳ | The boycott *lasted* a year. |  | #
+attention | die Aufmerksamkeit | n |  |  | The news caused a lot of *attention*. |  | #
+location | der Ort; der Standort; die Lage; der Drehort | n |  | 📍 | There are three *locations* in town where there are parks. |  | #
+to decide | (sich) entscheiden | v |  |  | My parents *decide* what we should do. |  | #
+segregated | getrennt | adj | Bürgerrechte | | Buses were *segregated* in the South. | segregated → segregation
+not ... anymore (AE) | nicht mehr | o | | | I don't live there anymore. | AE: not ... anymore – BE: not ... any more
+protesting | protestierend | adj | Bürgerrechte | | The *protesting* students sang songs. | protesting → to protest
+protestor | der Demonstrant / die Demonstrantin | n | Bürgerrechte | 📢 | The *protestors* marched to the town hall. | protestor → protest
+inside | in ... hinein | o |  |  | Let's go *inside* the room. |  | #
+to order | befehlen (hier) | v | | | The president *ordered* the police to do it. |
+to defend | verteidigen | v | | 🛡️ | The man *defended* himself against the dog. |
+to attend | besuchen; teilnehmen (an) | v | | 🏫 | Do you want to *attend* school? |
+shocking | schockierend | adj | | | The news was *shocking*. | shocking → shocked
+divided | geteilt; getrennt | adj | | | The country was *divided*. | divided → to divide
+to face | sich gegenübersehen; sich gegenüberstehen; entgegentreten | v | Bürgerrechte | | Black people *faced* discrimination everywhere. |
+campaign | die Kampagne; die Aktion | n | Bürgerrechte |  | The *campaign* was a big success. | Das g wird nicht gesprochen. | #
+elementary school (AE) | die Grundschule | n | Amerikanisches Englisch | 🏫 | My little sister goes to *elementary school*. | AE: elementary school – BE: primary school
+image | das Bild; das Image | n |  | 🖼️ | There were lots of bad *images* in the news. |  | #
+to shock | schockieren | v | | | The news *shocked* everyone. | to shock → shocked, shocking
+strike | der Streik | n | Bürgerrechte | | The workers went on *strike*. |
+speech | die Rede; die Sprache | n | Bürgerrechte | 🎤 | Martin Luther King's *speech* is famous. |  | #
+to shoot | schießen | v | Bürgerrechte | | King was *shot* on the balcony. | Simple past: shot · Past participle: shot
+riot | die Ausschreitung; der Aufruhr; die Unruhe | n | Bürgerrechte | | There were *riots* across the country. |
+`;
+function parseVocab(txt){
+  const units = []; let u = null, s = null;
+  txt.split("\n").forEach(raw => {
+    const line = raw.trim(); if (!line || line.startsWith("//")) return;
+    if (line.startsWith("## ")){ s = { id: u.id + "-" + (u.stations.length + 1), name: line.slice(3).trim(), words: [] }; u.stations.push(s); return; }
+    if (line.startsWith("# ")){ const [id, name] = line.slice(2).split("|").map(x => x.trim()); u = { id, name, stations: [] }; units.push(u); return; }
+    const [en, de, type, field, emoji, ex, note, flag] = line.split("|").map(x => (x || "").trim());
+    const w = { en, de, type: type || "o" };
+    if (flag === "#") w.core = true;
+    if (field) w.field = field; if (emoji) w.emoji = emoji; if (ex) w.ex = ex; if (note) w.note = note;
+    s.words.push(w);
+  });
+  return { units };
+}
+const BUILTIN = parseVocab(VOCAB_TEXT);
+
+/* ---------- Speicher ---------- */
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+};
+let RESULTS = store.get("ol4_results", {});
+let IMPORTED = store.get("ol4_import", { units: [] });
+const S = { unit: null, station: "all", level: null, core: false, name: store.get("ol4_name", "") };
+const APP_LABEL = "Orange Line 4 · Jahrgang 8";
+let LAST = store.get("ol4_last", null);
+if (LAST){ Object.assign(S, { unit: LAST.unit, station: LAST.station, level: LAST.level, core: !!LAST.core }); }
+
+function units(){
+  const map = new Map();
+  BUILTIN.units.forEach(u => map.set(u.id, u));
+  (IMPORTED.units || []).forEach(u => map.set(u.id, u));
+  return [...map.values()];
+}
+const unitById = id => units().find(u => u.id === id);
+function stationName(){
+  const u = unitById(S.unit); if (!u) return "";
+  return S.station === "all" ? "Alle Stations" : (u.stations.find(s => s.id === S.station) || {}).name || "";
+}
+function words(){
+  const u = unitById(S.unit); if (!u) return [];
+  const st = S.station === "all" ? u.stations : u.stations.filter(s => s.id === S.station);
+  const seen = new Set();
+  return st.flatMap(s => s.words || []).filter(w => !S.core || w.core).filter(w => { const k = w.en + "|" + w.de; if (seen.has(k)) return false; seen.add(k); return true; });
+}
+const LEVELS = {
+  b: { tag:"Basis", short:"#", cls:"l-b", txt:"Erkennen und auswählen – mit Hilfen und deutschen Tipps." },
+  1: { tag:"★", short:"★", cls:"l-1", txt:"Grundlegendes Niveau (A2): auswählen, umformen, mit Hilfe schreiben." },
+  2: { tag:"★★", short:"★★", cls:"l-2", txt:"Erweitertes Niveau (A2+): frei schreiben, Regeln anwenden, Sätze bilden." }
+};
+const TYPES = { n:{l:"Nomen",c:"n"}, v:{l:"Verb",c:"v"}, adj:{l:"Adjektiv",c:"adj"}, adv:{l:"Adverb",c:"adv"}, o:{l:"Sonstiges",c:"o"} };
+const tcls = w => (TYPES[w.type] || TYPES.o).c;
+const tlabel = w => (TYPES[w.type] || TYPES.o).l;
+
+const EXERCISES = [
+  { id:"cards", ico:"🃏", t:"Karteikarten", d:"Hören, umdrehen, selbst einschätzen." },
+  { id:"memory", ico:"🧠", t:"Memory", d:"Finde die passenden Paare." },
+  { id:"sort", ico:"🕸️", t:"Wortnetze", d:"Sortiere die Wörter in Gruppen." },
+  { id:"gaps", ico:"✏️", t:"Lücken & Schreiben", d:"Setze Wörter ein und schreibe sie." },
+  { id:"forms", ico:"🔁", t:"Wortformen", d:"Verben, Adjektive und Adverbien verändern." },
+  { id:"pairs", ico:"🔗", t:"Wortpaare", d:"Gegenteile, gleiche Bedeutung, Wortfamilien, AE/BE." },
+  { id:"grammar", ico:"📐", t:"Grammatik", d:"Zeitformen, if-Sätze, Passiv, Relativsätze & mehr." }
+];
+const resKey = ex => [S.unit, S.station, S.level + (S.core ? "#" : ""), ex].join("|");
+
+/* ---------- Helfer ---------- */
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const plain = s => String(s).replace(/\*/g, "");
+const firstVariant = en => en.split(/\s*[\/;]\s*/)[0].replace(/\(.*?\)/g, "").trim();
+const baseForm = en => firstVariant(en).replace(/^to\s+/i, "");
+function norm(s){ return String(s).toLowerCase().replace(/[’`´]/g, "'").replace(/[.!?,]/g, "").replace(/\s+/g, " ").trim(); }
+function variants(en){
+  return en.split(/\s*[\/;]\s*/).flatMap(v => { v = norm(v.replace(/\(.*?\)/g, "")); return v.startsWith("to ") ? [v, v.slice(3)] : [v]; });
+}
+function isRight(inp, target){ const n = norm(inp); const vs = variants(target); return vs.includes(n) || vs.includes(n.replace(/^to /, "")); }
+function lev(a, b){
+  const m = [...Array(b.length + 1).keys()];
+  for (let i = 1; i <= a.length; i++){ let p = m[0]; m[0] = i;
+    for (let j = 1; j <= b.length; j++){ const t = m[j]; m[j] = Math.min(m[j] + 1, m[j - 1] + 1, p + (a[i - 1] === b[j - 1] ? 0 : 1)); p = t; } }
+  return m[b.length];
+}
+const nearly = (inp, target) => variants(target).some(v => lev(norm(inp), v) <= 1 || lev(norm(inp).replace(/^to /, ""), v) <= 1);
+function gapOf(w){
+  if (!w.ex) return null;
+  const m = w.ex.match(/\*(.+?)\*/);
+  if (m) return { before: w.ex.slice(0, m.index), answer: m[1], after: w.ex.slice(m.index + m[0].length) };
+  const b = baseForm(w.en); const i = w.ex.toLowerCase().indexOf(b.toLowerCase());
+  if (i < 0) return null;
+  return { before: w.ex.slice(0, i), answer: w.ex.substr(i, b.length), after: w.ex.slice(i + b.length) };
+}
+function exHTML(w){
+  const g = gapOf(w); if (!g) return esc(plain(w.ex || ""));
+  return esc(g.before) + "<mark>" + esc(g.answer) + "</mark>" + esc(g.after);
+}
+function stars(p){ const n = p == null ? 0 : p >= 90 ? 3 : p >= 70 ? 2 : p >= 50 ? 1 : 0; return '<span class="stars">' + [1,2,3].map(i => `<span class="${i <= n ? "on" : ""}">★</span>`).join("") + "</span>"; }
+
+/* ---------- Sprache & Töne ---------- */
+let VOICES = [], UTTER = null, SPEECH_WORKED = false, HELP_SHOWN = false;
+const HAS_TTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+function loadVoices(){ try{ VOICES = speechSynthesis.getVoices() || []; }catch(e){ VOICES = []; } }
+if (HAS_TTS){ loadVoices(); try{ speechSynthesis.addEventListener("voiceschanged", loadVoices); }catch(e){ speechSynthesis.onvoiceschanged = loadVoices; } }
+const enVoices = () => { if (!VOICES.length) loadVoices(); return VOICES.filter(v => /^en([-_]|$)/i.test(v.lang)); };
+function pickVoice(){
+  const en = enVoices();
+  return en.find(v => /^en[-_]GB/i.test(v.lang) && v.localService) || en.find(v => /^en[-_]GB/i.test(v.lang)) || en.find(v => v.localService) || en[0] || null;
+}
+/* Beim ersten Tippen/Klicken die Sprachausgabe „freischalten“ (nötig auf iPad/iPhone und in Chrome) */
+function unlockSpeech(){
+  loadVoices();
+  document.removeEventListener("pointerdown", unlockSpeech); document.removeEventListener("keydown", unlockSpeech);
+  if (!HAS_TTS) return;
+  try{ const u = new SpeechSynthesisUtterance(" "); u.volume = 0; speechSynthesis.speak(u); }catch(e){}
+}
+document.addEventListener("pointerdown", unlockSpeech); document.addEventListener("keydown", unlockSpeech);
+function speak(t, onStatus){
+  if (!HAS_TTS){ speechHelp("Dieser Browser kann keine Wörter vorlesen."); onStatus && onStatus(false); return; }
+  const text = plain(t).replace(/\(.*?\)/g, "").replace(/\s*\/\s*/g, ", ").replace(/\.\.\.|…/g, "").trim();
+  if (!text) return;
+  const go = () => {
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-GB"; u.rate = .85; u.volume = 1;
+    const v = pickVoice(); if (v){ u.voice = v; u.lang = v.lang; }
+    let started = false;
+    u.onstart = () => { started = true; SPEECH_WORKED = true; onStatus && onStatus(true); };
+    u.onerror = e => { if (!["interrupted", "canceled"].includes(e.error)){ onStatus && onStatus(false, e.error); if (!SPEECH_WORKED) speechHelp(); } };
+    UTTER = u;              /* Referenz behalten – sonst bricht Chrome manchmal ab */
+    try{ speechSynthesis.resume(); }catch(e){}
+    speechSynthesis.speak(u);
+    setTimeout(() => { if (!started){ onStatus && onStatus(false, "timeout"); if (!SPEECH_WORKED) speechHelp(); } }, 3000);
+  };
+  /* cancel() direkt vor speak() verschluckt in Chrome/Safari oft die Ausgabe – deshalb kurz warten */
+  if (speechSynthesis.speaking || speechSynthesis.pending){ speechSynthesis.cancel(); setTimeout(go, 150); } else go();
+}
+function speechHelp(msg){
+  if (HELP_SHOWN) return; HELP_SHOWN = true;
+  const d = document.createElement("div"); d.className = "toast";
+  d.innerHTML = `<b>🔇 Die Vorlese-Funktion klappt gerade nicht.</b><br>${msg ? esc(msg) + "<br>" : ""}
+    Prüfe: Lautstärke an? Stummschalter am iPad/iPhone aus? Am besten in Chrome, Edge oder Safari öffnen.
+    <div class="row"><button class="btn sec" onclick="soundTest();this.closest('.toast').remove()">Ton-Test öffnen</button><button class="btn sec" onclick="this.closest('.toast').remove()">OK</button></div>`;
+  document.body.appendChild(d); setTimeout(() => d.remove(), 15000);
+}
+function soundTest(){
+  loadVoices();
+  const en = enVoices();
+  const m = $("#soundModal"); m.classList.add("show");
+  $("#soundInfo").innerHTML = `
+    <li>Sprachausgabe im Browser: <b>${HAS_TTS ? "vorhanden ✔" : "nicht vorhanden ✘"}</b></li>
+    <li>Stimmen insgesamt: <b>${VOICES.length}</b> · englische Stimmen: <b>${en.length}</b></li>
+    ${en.length ? `<li>Benutzt wird: <b>${esc(pickVoice().name)}</b> (${esc(pickVoice().lang)})</li>` : ""}
+    <li>Browser: <small>${esc(navigator.userAgent)}</small></li>`;
+  $("#soundResult").textContent = "Ich spreche jetzt: „Hello! This is a sound test.“ …";
+  speak("Hello! This is a sound test.", (ok, err) => {
+    $("#soundResult").innerHTML = ok ? "✔ Die Sprachausgabe startet. Wenn du nichts hörst, ist das Gerät leise oder stumm geschaltet."
+      : `✘ Die Sprachausgabe startet nicht${err ? " (" + esc(err) + ")" : ""}. ${!HAS_TTS ? "Öffne die Datei in Chrome, Edge oder Safari – nicht in einer Vorschau-App." : !en.length ? "Es ist keine englische Stimme installiert. Windows: Einstellungen → Zeit und Sprache → Sprache → „Englisch (Vereinigtes Königreich)“ hinzufügen (mit Sprachausgabe)." : "Lade die Seite neu und tippe dann erneut auf 🔊."}`;
+  });
+}
+let AC = null;
+function beep(ok){
+  try{
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+    const notes = ok ? [660, 880] : [220, 180];
+    notes.forEach((f, i) => { const o = AC.createOscillator(), g = AC.createGain(); o.type = ok ? "triangle" : "sawtooth"; o.frequency.value = f;
+      g.gain.setValueAtTime(.12, AC.currentTime + i * .1); g.gain.exponentialRampToValueAtTime(.001, AC.currentTime + i * .1 + .18);
+      o.connect(g); g.connect(AC.destination); o.start(AC.currentTime + i * .1); o.stop(AC.currentTime + i * .1 + .2); });
+  }catch(e){}
+}
+const sayBtn = t => `<button class="say" title="Anhören" onclick="event.stopPropagation();const b=this;b.classList.add('talk');speak(${esc(JSON.stringify(t))},()=>{});setTimeout(()=>b.classList.remove('talk'),1200)">🔊</button>`;
+
+/* ---------- Konfetti ---------- */
+function confetti(){
+  const c = $("#confetti"), x = c.getContext("2d"); c.width = innerWidth; c.height = innerHeight;
+  const cols = ["#ff6b3d", "#ffd166", "#1f9d8f", "#3a86ff", "#8e5bd8"];
+  const P = Array.from({ length: 140 }, () => ({ x: Math.random() * c.width, y: -20 - Math.random() * c.height * .5, vx: (Math.random() - .5) * 3, vy: 2 + Math.random() * 4, r: Math.random() * 6.3, s: 6 + Math.random() * 6, c: cols[Math.floor(Math.random() * cols.length)] }));
+  let f = 0; (function loop(){ x.clearRect(0, 0, c.width, c.height);
+    P.forEach(p => { p.x += p.vx; p.y += p.vy; p.r += .1; x.save(); x.translate(p.x, p.y); x.rotate(p.r); x.fillStyle = p.c; x.fillRect(-p.s / 2, -p.s / 4, p.s, p.s / 2); x.restore(); });
+    if (++f < 160) requestAnimationFrame(loop); else x.clearRect(0, 0, c.width, c.height); })();
+}
+
+/* =========================================================
+   STARTSEITE: Auswahl Unit → Station → Niveau
+   ========================================================= */
+function home(){
+  const us = units();
+  if (!unitById(S.unit)) { S.unit = us[0]?.id; S.station = "all"; }
+  const u = unitById(S.unit);
+  if (S.station !== "all" && !u.stations.some(s => s.id === S.station)) S.station = "all";
+  app.innerHTML = `
+    <h1>Hey${S.name ? " " + esc(S.name) : ""}! Wohin geht dein Road Trip heute?</h1>
+    <p class="muted" style="margin-top:-6px">Wähle Unit, Station und Niveau – dann geht's los. 🛣️</p>
+    <div class="card">
+      <div class="step"><b>1</b> Wähle deine Unit</div>
+      <select id="unitSel">${us.map(x => `<option value="${esc(x.id)}" ${x.id === S.unit ? "selected" : ""}>${esc(x.name)}</option>`).join("")}</select>
+      <div class="step"><b>2</b> Wähle eine Station</div>
+      <div class="row" id="stChips">
+        <button class="chip ${S.station === "all" ? "on" : ""}" data-s="all">Alle Stations</button>
+        ${u.stations.map(s => `<button class="chip ${S.station === s.id ? "on" : ""}" data-s="${esc(s.id)}">${esc(s.name)}</button>`).join("")}
+      </div>
+      <div class="row" style="margin-top:12px"><button class="chip corechip ${S.core ? "on" : ""}" id="coreChip" title="Grundwortschatz: die häufigsten Wörter jeder Station"># Nur Grundwortschatz</button>
+        <span class="muted" style="font-size:15px">${words().length} Vokabeln ausgewählt${S.core ? " (Grundwortschatz #)" : ""}</span></div>
+      <div class="step"><b>3</b> Wähle dein Niveau</div>
+      <div class="grid g3">
+        ${['b','1','2'].map(k => [k, LEVELS[k]]).map(([k, L]) => `<button class="lvl ${S.level === k ? "on" : ""}" data-l="${k}"><span class="tag">${L.tag}</span><p>${L.txt}</p></button>`).join("")}
+      </div>
+      <div class="row" style="margin-top:22px;justify-content:flex-end">
+        <button class="btn big" id="go" ${S.level && words().length ? "" : "disabled"}>Los geht's! 🚀</button>
+      </div>
+    </div>`;
+  $("#unitSel").onchange = e => { S.unit = e.target.value; S.station = "all"; home(); };
+  document.querySelectorAll("#stChips .chip").forEach(b => b.onclick = () => { S.station = b.dataset.s; home(); });
+  document.querySelectorAll(".lvl").forEach(b => b.onclick = () => { if (S.level !== b.dataset.l) S.core = b.dataset.l === "b"; S.level = b.dataset.l; home(); });
+  $("#coreChip").onclick = () => { S.core = !S.core; home(); };
+  $("#go").onclick = () => { store.set("ol4_last", { unit: S.unit, station: S.station, level: S.level, core: S.core }); menu(); };
+}
+
+function crumbs(){
+  const L = LEVELS[S.level];
+  return `<div class="crumbs"><span class="pill">${esc(unitById(S.unit).name)}</span><span class="pill">${esc(stationName())}</span><span class="pill ${L.cls}">Niveau ${L.tag}</span>${S.core ? '<span class="pill corepill"># Grundwortschatz</span>' : ""}</div>`;
+}
+
+function updateXP(){ const x = Object.values(RESULTS).reduce((a, r) => a + (r.best || 0), 0); const e = $("#xp"); if (e) e.textContent = "⚡ " + x + " XP"; }
+function runEx(id){ ({ cards, memory, sort, gaps, forms, pairs, grammar })[id](); }
+/* ---------- Übungsmenü ---------- */
+function menu(){
+  app.innerHTML = `
+    <div class="row" style="justify-content:space-between"><button class="btn sec" id="back">← Auswahl ändern</button>
+      <button class="btn teal" id="cert">🏅 Meine Urkunde</button></div>
+    <h1 style="margin-top:16px">Wähle eine Übung</h1>
+    ${crumbs()}
+    <div class="grid g2">
+      ${EXERCISES.map(e => { const r = RESULTS[resKey(e.id)];
+        return `<button class="ex" data-e="${e.id}"><span class="ico">${e.ico}</span><span class="t">${e.t}</span><span class="d">${e.d}</span>
+        <span class="row">${stars(r?.best)}<span class="muted" style="font-size:14px">${r ? "Bestes Ergebnis: " + r.best + " %" : "Noch nicht geübt"}</span></span></button>`; }).join("")}
+    </div>
+    <p class="note" style="margin-top:18px">💡 Tipp: Übe zuerst mit den Karteikarten. Für die Urkunde zählt dein bestes Ergebnis in jeder Übung.</p>`;
+  $("#back").onclick = home;
+  $("#cert").onclick = certificate;
+  document.querySelectorAll(".ex").forEach(b => b.onclick = () => runEx(b.dataset.e));
+}
+
+function frame(title, instrDe, instrEn){
+  app.innerHTML = `
+    <div class="topbar"><button class="btn sec" id="quit">✕ Beenden</button><div class="progress"><i id="prog"></i></div><span class="score" id="score">0 Punkte</span></div>
+    ${crumbs()}
+    <h2>${title}</h2>
+    <div class="instr">${instrDe}${instrEn ? `<small>${instrEn}</small>` : ""}</div>
+    <div id="stage"></div>`;
+  $("#quit").onclick = menu;
+  return $("#stage");
+}
+const setProg = (i, n) => { const p = $("#prog"); if (p) p.style.width = Math.round(i / n * 100) + "%"; };
+const setScore = s => { const e = $("#score"); if (e) e.textContent = (Math.round(s * 10) / 10).toString().replace(".", ",") + " Punkte"; };
+
+function finish(ex, got, total){
+  const pct = Math.max(0, Math.min(100, Math.round(got / total * 100)));
+  const k = resKey(ex); const old = RESULTS[k];
+  RESULTS[k] = { best: Math.max(pct, old?.best || 0), last: pct, date: new Date().toISOString(), name: S.name };
+  store.set("ol4_results", RESULTS); updateXP();
+  const msg = pct >= 90 ? ["🏆", "Super! Du bist ein Vocab Champion!"] : pct >= 70 ? ["🌟", "Toll gemacht!"] : pct >= 50 ? ["👍", "Gut! Übe noch ein bisschen."] : ["💪", "Dranbleiben! Versuch es gleich noch einmal."];
+  if (pct >= 70) confetti();
+  app.innerHTML = `${crumbs()}<div class="card result">
+    <div class="big-emo">${msg[0]}</div><h1>${msg[1]}</h1>
+    <div class="pct">${pct} %</div>${stars(pct)}
+    <p class="muted">${(old && pct > old.best) ? "Neuer Rekord! 🎉 " : ""}Dein bestes Ergebnis: ${RESULTS[k].best} %</p>
+    <div class="row" style="justify-content:center;margin-top:16px">
+      <button class="btn" id="again">🔁 Nochmal</button><button class="btn sec" id="toMenu">Andere Übung</button><button class="btn teal" id="toCert">🏅 Urkunde</button>
+    </div></div>`;
+  $("#again").onclick = () => runEx(ex);
+  $("#toMenu").onclick = menu; $("#toCert").onclick = certificate;
+}
+
+/* =========================================================
+   ÜBUNG 1: KARTEIKARTEN
+   Basis/★: Englisch → Deutsch (rezeptiv) · ★★: Deutsch → Englisch (produktiv)
+   ========================================================= */
+function cards(){
+  const prod = S.level === "2";
+  const st = frame("🃏 Karteikarten",
+    prod ? "Lies das deutsche Wort. Sag das englische Wort laut. Dann tippe auf die Karte." : "Hör dir das Wort an. Weißt du, was es heißt? Tippe auf die Karte zum Umdrehen. (20 Karten pro Runde)",
+    "Flip the card. Then check: Did you know it?");
+  const first = shuffle(words()).slice(0, 20); const total = first.length;
+  let queue = [...first], seen = new Set(), got = 0, done = 0;
+  function show(){
+    if (!queue.length) return finish("cards", got, total);
+    const w = queue[0]; const isRepeat = seen.has(w);
+    const showEmo = S.level !== "2" && w.emoji;
+    const enFace = `${showEmo ? `<div class="emo">${w.emoji}</div>` : ""}<div class="w t-${tcls(w)}">${esc(w.en)}</div>${sayBtn(w.en)}`;
+    const deFace = `<div class="w" style="font-size:34px">${esc(w.de)}</div>`;
+    const info = `<div>${w.core ? '<span class="badge corebadge">#</span> ' : ""}<span class="badge b-${tcls(w)}">${tlabel(w)}</span> ${w.field ? `<span class="pill">${esc(w.field)}</span>` : ""}</div>${w.ex ? `<div class="exs">${exHTML(w)}</div>` : ""}${w.note ? `<div class="tipline">💡 ${esc(w.note)}</div>` : ""}`;
+    st.innerHTML = `
+      ${isRepeat ? '<p class="muted" style="text-align:center">🔁 Wiederholung</p>' : ""}
+      <div class="fc-wrap"><div class="fc" id="fc">
+        <div class="face">${prod ? deFace + (w.emoji ? `<div class="emo">${w.emoji}</div>` : "") : enFace}<p class="muted" style="font-size:14px">Tippen zum Umdrehen</p></div>
+        <div class="face back">${prod ? enFace : deFace}${info}</div>
+      </div></div>
+      <div class="rate hidden" id="rate">
+        <button class="r1">😕 Noch nicht</button><button class="r2">🤔 Fast</button><button class="r3">😀 Kann ich!</button>
+      </div>`;
+    if (!prod) speak(w.en);
+    $("#fc").onclick = () => { const fc = $("#fc"); fc.classList.toggle("flip"); $("#rate").classList.remove("hidden"); if (prod && fc.classList.contains("flip")) speak(w.en); };
+    const rate = v => {
+      queue.shift();
+      if (!isRepeat){ seen.add(w); done++; got += v === 3 ? 1 : v === 2 ? .5 : 0; setScore(got); setProg(done, total); }
+      if (v < 3 && !isRepeat) queue.push(w);
+      show();
+    };
+    st.querySelector(".r1").onclick = () => rate(1);
+    st.querySelector(".r2").onclick = () => rate(2);
+    st.querySelector(".r3").onclick = () => rate(3);
+  }
+  show();
+}
+
+/* =========================================================
+   ÜBUNG 2: MEMORY
+   Basis: 5 Paare EN ↔ Bild+DE · ★: 6 Paare EN ↔ DE · ★★: 8 Paare EN ↔ DE (ohne Bilder)
+   ========================================================= */
+function memory(){
+  let n = { b: 5, 1: 6, 2: 8 }[S.level];
+  const st = frame("🧠 Memory", "Decke zwei Karten auf. Finde immer das englische Wort und die passende Übersetzung.", "Find the pairs.");
+  const pick = shuffle(words()).slice(0, Math.min(n, words().length));
+  if (pick.length < 2) return noTasks("🧠 Memory");
+  n = pick.length;
+  const deck = shuffle(pick.flatMap((w, i) => [
+    { i, en: true, html: `${esc(w.en)}` },
+    { i, en: false, html: `${S.level === "b" && w.emoji ? `<span class="e">${w.emoji}</span>` : ""}${esc(w.de)}` }
+  ]));
+  st.innerHTML = `<div class="mem">${deck.map((c, k) => `<button class="mc" data-k="${k}">?</button>`).join("")}</div>
+    <p class="muted" style="text-align:center" id="tries">Versuche: 0</p>`;
+  let open = [], tries = 0, pairs = 0, lock = false;
+  st.querySelectorAll(".mc").forEach(b => b.onclick = () => {
+    const c = deck[b.dataset.k];
+    if (lock || b.classList.contains("open") || b.classList.contains("done")) return;
+    b.classList.add("open"); if (c.en){ b.classList.add("en"); speak(pick[c.i].en); }
+    b.innerHTML = c.html; open.push([b, c]);
+    if (open.length === 2){
+      tries++; $("#tries").textContent = "Versuche: " + tries;
+      const [[b1, c1], [b2, c2]] = open; open = [];
+      if (c1.i === c2.i && c1.en !== c2.en){
+        pairs++; beep(true);
+        setTimeout(() => { [b1, b2].forEach(x => { x.classList.add("done", "pop"); }); }, 250);
+        setScore(pairs); setProg(pairs, n);
+        if (pairs === n){
+          const mistakes = tries - n;
+          const score = Math.max(40, 100 - Math.max(0, mistakes - Math.ceil(n / 2)) * 6);
+          setTimeout(() => finish("memory", score, 100), 900);
+        }
+      } else {
+        lock = true;
+        setTimeout(() => { [b1, b2].forEach(x => { x.classList.remove("open", "en"); x.textContent = "?"; }); lock = false; }, 1100);
+      }
+    }
+  });
+}
+
+/* =========================================================
+   ÜBUNG 3: WORTNETZE (Sortieren nach Wortfeld, sonst nach Wortart)
+   Basis: 2 Gruppen, Bild + Deutsch · ★: 3 Gruppen · ★★: 3 Gruppen + „Odd one out“
+   ========================================================= */
+function groupsFor(ws, mode){
+  const by = (f) => ws.reduce((a, w) => { const k = f(w); if (k) (a[k] = a[k] || []).push(w); return a; }, {});
+  const g = mode === "field" ? by(w => w.field) : by(w => w.type === "o" ? "" : tlabel(w));
+  const keys = Object.keys(g).filter(k => g[k].length >= 2);
+  return { mode, g, keys };
+}
+function sort(mode){
+  const lv = S.level, ws = words();
+  if (!mode){
+    const ok = ["field", "type"].filter(m => groupsFor(ws, m).keys.length >= 2);
+    if (!ok.length){ frame("🕸️ Wortnetze", "Für diese Auswahl gibt es zu wenige Wortgruppen. Wähle „Alle Stations“ oder eine andere Station.").insertAdjacentHTML("beforeend", '<button class="btn" onclick="menu()">Zurück</button>'); return; }
+    if (ok.length === 1) return sort(ok[0]);
+    const st = frame("🕸️ Wortnetze", "Wie möchtest du die Wörter sortieren?", "Choose how to sort the words.");
+    st.innerHTML = `<div class="grid g2">
+      <button class="ex" id="mField"><span class="ico">🧺</span><span class="t">Nach Wortfeldern</span><span class="d">Was gehört zusammen? z.&nbsp;B. Körper, Kleidung, Tiere …</span></button>
+      <button class="ex" id="mType"><span class="ico">🎨</span><span class="t">Nach Wortarten</span><span class="d">Nomen, Verb, Adjektiv oder Adverb?</span></button></div>`;
+    $("#mField").onclick = () => sort("field"); $("#mType").onclick = () => sort("type");
+    return;
+  }
+  const G = groupsFor(ws, mode);
+  const k = Math.min(lv === "b" ? 2 : 3, G.keys.length);
+  const per = lv === "2" ? 4 : 3;
+  const cats = shuffle(G.keys).slice(0, k);
+  const items = shuffle(cats.flatMap(c => shuffle(G.g[c]).slice(0, per).map(w => ({ w, c }))));
+  const oddRounds = lv === "2" ? buildOdd(G) : [];
+  const total = items.length + oddRounds.length;
+  const st = frame("🕸️ Wortnetze",
+    G.mode === "field" ? "Welche Wörter gehören zusammen? Tippe ein Wort an und dann die passende Gruppe." : "Ist das Wort ein Nomen, Verb, Adjektiv oder Adverb? Tippe ein Wort an und dann die passende Gruppe.",
+    "Tap a word, then tap the right group.");
+  let got = 0, done = 0, sel = null; const miss = new Set();
+  const icon = c => G.mode === "type" ? ({ Nomen: "🔵", Verb: "🔴", Adjektiv: "🟢", Adverb: "🟠" }[c] || "⚪") : (G.g[c].find(w => w.emoji)?.emoji || "📦");
+  st.innerHTML = `<div class="pool" id="pool">${items.map((it, i) => `<button class="wchip" draggable="true" data-i="${i}">${lv === "b" && it.w.emoji ? it.w.emoji + " " : ""}${esc(it.w.en)}${lv === "b" ? `<small>${esc(it.w.de)}</small>` : ""}</button>`).join("")}</div>
+    <div class="boxes">${cats.map(c => `<div class="box" data-c="${esc(c)}"><h3>${icon(c)} ${esc(c)}</h3><div class="in"></div></div>`).join("")}</div>`;
+  const chips = [...st.querySelectorAll(".wchip")];
+  chips.forEach(ch => {
+    ch.onclick = () => { if (ch.classList.contains("placed")) return; chips.forEach(x => x.classList.remove("sel")); sel = ch; ch.classList.add("sel"); speak(items[ch.dataset.i].w.en); };
+    ch.ondragstart = e => { sel = ch; e.dataTransfer.setData("text", ch.dataset.i); };
+  });
+  st.querySelectorAll(".box").forEach(bx => {
+    const drop = () => {
+      if (!sel) return; const it = items[sel.dataset.i];
+      if (it.c === bx.dataset.c){
+        beep(true); sel.classList.remove("sel"); sel.classList.add("placed", "ok"); sel.draggable = false; bx.querySelector(".in").appendChild(sel);
+        if (!miss.has(it)) got++; done++; setScore(got); setProg(done, total); sel = null;
+        if (done === items.length) setTimeout(() => oddRounds.length ? runOdd() : finish("sort", got, total), 700);
+      } else { beep(false); miss.add(it); sel.classList.add("shake", "oops"); const s = sel; setTimeout(() => s.classList.remove("shake", "oops"), 400); }
+    };
+    bx.onclick = drop;
+    bx.ondragover = e => { e.preventDefault(); bx.classList.add("hot"); };
+    bx.ondragleave = () => bx.classList.remove("hot");
+    bx.ondrop = e => { e.preventDefault(); bx.classList.remove("hot"); drop(); };
+  });
+  function runOdd(){
+    let r = 0;
+    $(".instr").innerHTML = "Welches Wort passt nicht dazu? Tippe es an.<small>Odd one out: Which word doesn't belong?</small>";
+    (function round(){
+      if (r >= oddRounds.length) return finish("sort", got, total);
+      const R = oddRounds[r];
+      st.innerHTML = `<p class="muted" style="text-align:center">Runde ${r + 1} von ${oddRounds.length}</p><div class="odd">${R.opts.map((w, i) => `<button data-i="${i}">${esc(w.en)}</button>`).join("")}</div><div class="fb" id="fb" style="text-align:center"></div>`;
+      let tried = false;
+      st.querySelectorAll(".odd button").forEach(b => b.onclick = () => {
+        const w = R.opts[b.dataset.i];
+        if (w === R.odd){
+          beep(true); b.classList.add("ok"); b.style.borderColor = "var(--basis)"; b.style.background = "#e6f6ec";
+          if (!tried) got++; done++; setScore(got); setProg(done, total);
+          $("#fb").className = "fb good"; $("#fb").textContent = `Richtig! Die anderen gehören zu „${R.cat}“.`;
+          r++; setTimeout(round, 1500);
+        } else { beep(false); tried = true; b.classList.add("shake"); b.style.borderColor = "var(--verb)"; }
+      });
+    })();
+  }
+}
+function buildOdd(G){
+  const big = G.keys.filter(k => G.g[k].length >= 3);
+  if (!big.length) return [];
+  return Array.from({ length: 3 }, () => {
+    const cat = big[Math.floor(Math.random() * big.length)];
+    const others = G.keys.filter(k => k !== cat);
+    const oc = others[Math.floor(Math.random() * others.length)];
+    const odd = shuffle(G.g[oc])[0];
+    return { cat, odd, opts: shuffle([...shuffle(G.g[cat]).slice(0, 3), odd]) };
+  });
+}
+
+/* =========================================================
+   ÜBUNG 4: LÜCKEN & SCHREIBEN
+   Basis: Bedeutung wählen (3) + Lückensatz mit 3 Wörtern
+   ★:     Lückensatz (4 Wörter) · Buchstabensalat · Schreiben mit Anfangsbuchstabe
+   ★★:    Deutsch → Englisch frei schreiben · Lückensatz selbst schreiben
+   ========================================================= */
+function gaps(){
+  const lv = S.level, all = words();
+  const pool = shuffle(all).slice(0, Math.min(10, all.length));
+  const cycle = { b: ["mean", "gapc"], 1: ["gapc", "scramble", "hint"], 2: ["type", "gapt"] }[lv];
+  const tasks = pool.map((w, i) => {
+    let t = cycle[i % cycle.length];
+    if ((t === "gapc" || t === "gapt") && !gapOf(w)) t = lv === "b" ? "mean" : lv === "1" ? "hint" : "type";
+    if (t === "scramble" && baseForm(w.en).length > 12) t = "hint";
+    return { w, t };
+  });
+  const st = frame("✏️ Lücken & Schreiben", "Lies genau und löse die Aufgabe. Mit 🔊 kannst du dir das Wort anhören.", "Read carefully and fill in the word.");
+  const distract = (w, n, f) => shuffle(all.filter(x => x !== w && f(x) !== f(w))).sort((a, b) => (b.type === w.type) - (a.type === w.type)).slice(0, n);
+  let choice, typing, next, award;
+  const E = quiz(st, tasks.map(tk => ({ run: () => run(tk) })), "gaps");
+  ({ choice, typing, next, award } = E);
+
+  function run(tk){
+    const { w, t } = tk; const g = gapOf(w);
+    const gapSent = (fill) => `<div class="sent">${esc(g.before)}<span class="gap" id="gp">${fill || "&nbsp;"}</span>${esc(g.after)}</div>`;
+    if (t === "mean"){
+      const opts = shuffle([w.de, ...distract(w, 2, x => x.de).map(x => x.de)]);
+      choice(`<p class="muted">Was bedeutet das Wort?</p><div class="prompt">${w.emoji ? `<span class="emo">${w.emoji}</span>` : ""}${esc(w.en)} ${sayBtn(w.en)}</div>`, opts, w.de);
+      speak(w.en);
+    }
+    else if (t === "gapc"){
+      const n = lv === "b" ? 2 : 3;
+      const opts = shuffle([g.answer, ...distract(w, n, x => baseForm(x.en)).map(x => gapOf(x)?.answer || baseForm(x.en))]);
+      choice(`<p class="muted">Welches Wort passt in die Lücke?${lv === "b" ? ` <b>${w.emoji || ""} ${esc(w.de)}</b>` : ""}</p>${gapSent()}`, opts, g.answer,
+        () => { $("#gp").textContent = g.answer; speak(plain(w.ex)); });
+    }
+    else if (t === "scramble"){
+      const target = baseForm(w.en).toLowerCase();
+      let letters = shuffle([...target].map((ch, i) => ({ ch, i })));
+      if (letters.map(l => l.ch).join("") === target && target.length > 1) letters = letters.reverse();
+      st.innerHTML = `<div class="task"><p class="muted">Bring die Buchstaben in die richtige Reihenfolge.</p>
+        <div class="prompt">${w.emoji ? `<span class="emo">${w.emoji}</span>` : ""}${esc(w.de)}</div>
+        <div class="built" id="built"></div>
+        <div class="tiles">${letters.map((l, k) => `<button class="tile" data-k="${k}">${l.ch === " " ? "␣" : esc(l.ch)}</button>`).join("")}</div>
+        <div class="row" style="justify-content:center"><button class="btn sec" id="undo">↩︎ Zurück</button></div><div class="fb" id="fb"></div></div>`;
+      let built = [], errors = 0, locked = false;
+      const draw = () => { $("#built").textContent = built.map(k => letters[k].ch).join(""); };
+      st.querySelectorAll(".tile").forEach(b => b.onclick = () => {
+        if (locked) return;
+        built.push(+b.dataset.k); b.classList.add("used"); draw();
+        if (built.length === letters.length){
+          const word = built.map(k => letters[k].ch).join("");
+          if (word === target){ locked = true; beep(true); award(errors ? .5 : 1); $("#fb").className = "fb good"; $("#fb").textContent = "Richtig! ✔"; speak(w.en); setTimeout(next, 1300); }
+          else {
+            errors++; beep(false); $("#built").classList.add("shake");
+            if (errors >= 2){ locked = true; $("#fb").className = "fb bad"; $("#fb").innerHTML = `Richtig wäre: <span style="color:var(--ink)">${esc(target)}</span>`; setTimeout(next, 2200); }
+            else { $("#fb").className = "fb bad"; $("#fb").textContent = "Noch nicht richtig – probier es nochmal."; setTimeout(() => { built = []; draw(); $("#built").classList.remove("shake"); st.querySelectorAll(".tile").forEach(x => x.classList.remove("used")); }, 700); }
+          }
+        }
+      });
+      $("#undo").onclick = () => { if (locked || !built.length) return; const k = built.pop(); st.querySelector(`.tile[data-k="${k}"]`).classList.remove("used"); draw(); };
+    }
+    else if (t === "hint"){
+      const target = baseForm(w.en);
+      const hint = [...target].map((c, i) => i === 0 ? c : c === " " ? "&nbsp;" : "_").join(" ");
+      typing(`<p class="muted">Schreibe das englische Wort.</p><div class="prompt">${w.emoji ? `<span class="emo">${w.emoji}</span>` : ""}${esc(w.de)}</div>`, w.en, `<div class="hint">${hint}</div>`, () => speak(w.en));
+    }
+    else if (t === "type"){
+      typing(`<p class="muted">Wie heißt das auf Englisch?</p><div class="prompt">${esc(w.de)}</div>`, w.en, `<p class="muted" style="font-size:14px">${tlabel(w)}${w.type === "v" ? " – du kannst „to“ weglassen" : ""}</p>`, () => speak(w.en));
+    }
+    else if (t === "gapt"){
+      typing(`<p class="muted">Schreibe das fehlende Wort in die Lücke.</p>${gapSent()}<p class="muted">(${esc(w.de)})</p>`, g.answer, "", () => { $("#gp").textContent = g.answer; speak(plain(w.ex)); });
+    }
+  }
+  E.start();
+}
+
+/* =========================================================
+   GEMEINSAME QUIZ-TECHNIK (Auswahl- und Schreibaufgaben)
+   ========================================================= */
+function quiz(st, steps, exId){
+  const total = steps.reduce((a, s) => a + (s.w || 1), 0);
+  const E = { got: 0, i: 0, done: 0, st };
+  E.award = v => { E.got += v; setScore(E.got); };
+  E.next = () => { E.done += (steps[E.i].w || 1); E.i++; setProg(E.done, total); E.i < steps.length ? steps[E.i].run(E) : finish(exId, E.got, total); };
+  E.choice = (promptHTML, options, correct, after) => {
+    st.innerHTML = `<div class="task">${promptHTML}<div class="opts">${options.map((o, i) => `<button class="opt" data-i="${i}">${esc(o)}</button>`).join("")}</div><div class="fb" id="fb"></div></div>`;
+    let tried = false, locked = false;
+    st.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+      if (locked) return;
+      if (options[b.dataset.i] === correct){
+        locked = true; b.classList.add("ok"); beep(true); E.award(tried ? .5 : 1);
+        $("#fb").className = "fb good"; $("#fb").textContent = tried ? "Jetzt stimmt's! ✔" : "Richtig! ✔"; after && after(); setTimeout(E.next, 1400);
+      } else { tried = true; b.classList.add("no", "shake"); beep(false); $("#fb").className = "fb bad"; $("#fb").textContent = "Nicht ganz – versuch es noch einmal."; }
+    });
+  };
+  E.typing = (promptHTML, target, hintHTML, onRight) => {
+    st.innerHTML = `<div class="task">${promptHTML}${hintHTML || ""}<div style="margin-top:14px"><input class="typein" id="ti" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Schreibe hier …" enterkeyhint="go"></div>
+      <div class="row" style="justify-content:center;margin-top:14px"><button class="btn" id="chk">Prüfen ✔</button></div><div class="fb" id="fb"></div></div>`;
+    const ti = $("#ti"); ti.focus(); let tries = 0, locked = false, solvedAt = 0;
+    const check = () => {
+      if (locked || !ti.value.trim()) return;
+      tries++;
+      if (isRight(ti.value, target)){
+        locked = true; beep(true); E.award(tries === 1 ? 1 : .5); ti.style.borderColor = "var(--basis)";
+        $("#fb").className = "fb good"; $("#fb").textContent = "Richtig! ✔"; onRight && onRight(); setTimeout(E.next, 1400);
+      } else if (tries === 1){
+        beep(false); ti.classList.add("shake"); setTimeout(() => ti.classList.remove("shake"), 400);
+        const nr = nearly(ti.value, target);
+        $("#fb").className = "fb " + (nr ? "meh" : "bad");
+        $("#fb").textContent = nr ? "Fast! Prüfe die Schreibung noch einmal." : "Leider falsch – du hast noch einen Versuch.";
+        ti.select();
+      } else {
+        locked = true; beep(false); ti.style.borderColor = "var(--verb)";
+        $("#fb").className = "fb bad"; $("#fb").innerHTML = `Richtig wäre: <span style="color:var(--ink)">${esc(target.split(/\s*\/\s*/)[0])}</span> ${sayBtn(target)}`;
+        $("#chk").textContent = "Weiter →"; $("#chk").onclick = E.next; solvedAt = Date.now();
+      }
+    };
+    $("#chk").onclick = check;
+    ti.onkeydown = e => { if (e.key !== "Enter") return; e.preventDefault(); if (solvedAt){ if (Date.now() - solvedAt > 800) E.next(); } else check(); };
+  };
+  E.start = () => { if (steps.length) steps[0].run(E); };
+  return E;
+}
+const letterHint = t => `<div class="hint">${[...t].map((c, i) => i === 0 ? esc(c) : c === " " ? "&nbsp;&nbsp;" : "_").join(" ")}</div>`;
+const uniq = a => [...new Set(a)];
+function noTasks(title){
+  frame(title, "Für diese Auswahl gibt es hier leider keine passenden Aufgaben. Wähle eine andere Station oder „Alle Stations“.").insertAdjacentHTML("beforeend", '<button class="btn" onclick="menu()">Zurück zur Übersicht</button>');
+}
+function roundRobin(lists, n){
+  lists = lists.map(l => shuffle(l)).filter(l => l.length); const out = [];
+  while (out.length < n && lists.some(l => l.length)){ lists = shuffle(lists); for (const l of lists){ if (l.length && out.length < n) out.push(l.shift()); } }
+  return out;
+}
+
+/* =========================================================
+   ÜBUNG 5: WORTFORMEN – Verben, Adjektive, Adverbien verändern
+   Basis: he/she/it + Simple past, Komparativ, Adverb – mit Auswahl
+   ★:     zusätzlich -ing-Form und Superlativ – Auswahl und Schreiben mit Hilfe
+   ★★:    zusätzlich Past participle – alles frei schreiben, auch in Sätzen
+   ========================================================= */
+const IRREG = {
+  be:["was / were","been"], have:["had","had"], give:["gave","given"], stand:["stood","stood"], speak:["spoke","spoken"],
+  shake:["shook","shaken"], wear:["wore","worn"], grow:["grew","grown"], hear:["heard","heard"], sing:["sang","sung"],
+  put:["put","put"], send:["sent","sent"], hold:["held","held"], sit:["sat","sat"], hurt:["hurt","hurt"], make:["made","made"],
+  sleep:["slept","slept"], keep:["kept","kept"], bring:["brought","brought"], understand:["understood","understood"],
+  sink:["sank","sunk"], show:["showed","shown"], find:["found","found"], go:["went","gone"], get:["got","got"], meet:["met","met"],
+  eat:["ate","eaten"], drink:["drank","drunk"], see:["saw","seen"], come:["came","come"], do:["did","done"], tell:["told","told"],
+  know:["knew","known"], think:["thought","thought"], leave:["left","left"], forget:["forgot","forgotten"], wake:["woke","woken"],
+  throw:["threw","thrown"], run:["ran","run"], read:["read","read"], buy:["bought","bought"], take:["took","taken"],
+  write:["wrote","written"], say:["said","said"], swim:["swam","swum"], win:["won","won"], lose:["lost","lost"], fly:["flew","flown"],
+  dream:["dreamt / dreamed","dreamt / dreamed"], shut:["shut","shut"], light:["lit","lit"], forbid:["forbade","forbidden"], shoot:["shot","shot"],
+  build:["built","built"], choose:["chose","chosen"], begin:["began","begun"], become:["became","become"], steal:["stole","stolen"],
+  fall:["fell","fallen"], feel:["felt","felt"], catch:["caught","caught"], teach:["taught","taught"], sell:["sold","sold"],
+  spend:["spent","spent"], rise:["rose","risen"], lead:["led","led"], cost:["cost","cost"], set:["set","set"], hide:["hid","hidden"], ride:["rode","ridden"]
+};
+const DOUBLE = new Set(["chat","nod","clap","shrug","stop","plan","sit","put","run","swim","get","shop","drop","hit","cut","begin","win","program","sum","ban","admit","control","prefer","refer","regret","spot","rob","hug","jog","ship","skip","set"]);
+const PARTICLES = new Set(["up","off","on","out","away","in","after","for","around","down","back"]);
+const VERB_SKIP = new Set(["fit","be"]);
+function splitVerb(en){
+  const m = firstVariant(en).toLowerCase().match(/^to ([a-z]+)((?: [a-z]+)?)$/); if (!m) return null;
+  const rest = m[2].trim();
+  if (VERB_SKIP.has(m[1]) || (rest && !PARTICLES.has(rest) && !/ing$/.test(rest))) return null;
+  return { b: m[1], rest: rest ? " " + rest : "" };
+}
+const vPast = b => IRREG[b] ? IRREG[b][0] : /e$/.test(b) ? b + "d" : /[^aeiou]y$/.test(b) ? b.slice(0, -1) + "ied" : DOUBLE.has(b) ? b + b.slice(-1) + "ed" : b + "ed";
+const vPP = b => IRREG[b] ? IRREG[b][1] : vPast(b);
+const vIng = b => b === "be" ? "being" : /ie$/.test(b) ? b.slice(0, -2) + "ying" : (/[^e]e$/.test(b) && !["be","see"].includes(b)) ? b.slice(0, -1) + "ing" : DOUBLE.has(b) ? b + b.slice(-1) + "ing" : b + "ing";
+const vS = b => ({ have: "has", be: "is", go: "goes", do: "does" })[b] || (/(s|sh|ch|x|z)$/.test(b) ? b + "es" : /[^aeiou]y$/.test(b) ? b.slice(0, -1) + "ies" : b + "s");
+const VFORM = {
+  s:    { lab: "he/she/it-Form (Simple present)", de: "Er/sie/es …", frame: "she ___", f: vS },
+  past: { lab: "Simple past (Vergangenheit)", de: "Gestern …", frame: "yesterday she ___", f: vPast },
+  ing:  { lab: "-ing-Form (Present progressive)", de: "Sie ist gerade dabei …", frame: "she is ___", f: vIng },
+  pp:   { lab: "Past participle (Present perfect)", de: "Sie hat schon …", frame: "she has ___", f: vPP }
+};
+const ADJ_ER = new Set("sad hard fast young strong rare cheap fresh bright mad sweet high short calm round big nice cool small old new long hot cold warm late great quick slow loud quiet clean dark strange odd fair light proud strict fit sharp slim rude".split(" "));
+const ADJ_Y = new Set("lonely tasty healthy scary happy funny easy busy cozy nosy thirsty empty lucky heavy noisy".split(" "));
+const ADJ_MORE = new Set("spectacular sustainable fascinating impressive unpleasant miserable powerful practical serious precious responsible talented modest patient ambitious influential stunning honest tolerant stubborn popular shocking amazing expensive jealous confident suitable horrible useless poisonous wonderful brilliant interesting beautiful colourful comfortable attractive unusual dangerous famous exciting important boring".split(" "));
+const ADJ_DBL = new Set(["sad","mad","big","hot","wet","thin","fat","fit","slim"]);
+const ADJ_IRR = { good: ["better","best"], bad: ["worse","worst"] };
+function compare(a){
+  if (ADJ_IRR[a]) return ADJ_IRR[a];
+  if (ADJ_Y.has(a)){ const s = a.slice(0, -1); return [s + "ier", s + "iest"]; }
+  if (ADJ_ER.has(a)){ if (ADJ_DBL.has(a)) return [a + a.slice(-1) + "er", a + a.slice(-1) + "est"]; if (/e$/.test(a)) return [a + "r", a + "st"]; return [a + "er", a + "est"]; }
+  if (ADJ_MORE.has(a)) return ["more " + a, "most " + a];
+  return null;
+}
+const ADV_OK = new Set("sad calm confident terrible horrible wonderful fast hard quick slow loud quiet clear careful happy easy good bad strange serious honest proud patient extreme total probable unfortunate modest rude strict".split(" "));
+const toAdv = a => ({ good: "well", fast: "fast", hard: "hard" })[a] || (/le$/.test(a) ? a.slice(0, -1) + "y" : /[^aeiou]y$/.test(a) ? a.slice(0, -1) + "ily" : a + "ly");
+const fromAdv = adv => /ily$/.test(adv) ? adv.slice(0, -3) + "y" : /bly$/.test(adv) ? adv.slice(0, -1) + "e" : adv.replace(/ly$/, "");
+
+function buildFormTasks(ws, lv){
+  const kinds = { b: ["past", "s"], 1: ["past", "pp", "ing"], 2: ["past", "pp", "ing"] }[lv];
+  const verbs = [], adjs = [], advs = [], sents = [];
+  ws.forEach(w => {
+    const one = firstVariant(w.en).toLowerCase();
+    if (w.type === "v"){ const v = splitVerb(w.en); if (v) kinds.forEach(k => verbs.push({ cat: "verb", w, k, base: "to " + v.b + v.rest, ans: VFORM[k].f(v.b) + v.rest, v })); }
+    if (w.type === "adj" && /^[a-z]+$/.test(one)){
+      const c = compare(one);
+      if (c){ adjs.push({ cat: "comp", w, base: one, ans: c[0] }); if (lv !== "b") adjs.push({ cat: "sup", w, base: one, ans: c[1] }); }
+      if (ADV_OK.has(one)) advs.push({ cat: "adv", w, base: one, ans: toAdv(one) });
+    }
+    if (w.type === "adv" && /ly$/.test(one)) advs.push({ cat: "adv", w, base: fromAdv(one), ans: one });
+    const g = gapOf(w);
+    if (g && ["v", "n", "adv", "adj"].includes(w.type)){
+      const base = w.type === "adv" && /ly$/.test(one) ? fromAdv(one) : one.replace(/^to /, "");
+      const a = g.answer.toLowerCase();
+      const differs = a !== one && a !== one.replace(/^to /, "");
+      const b0 = one.replace(/^to /, "");
+      const related = (w.type === "v" || a.slice(0, 3) === base.slice(0, 3)) && !b0.includes(a) && !a.startsWith(b0 + " ");
+      if (differs && related && !/[A-Z]/.test(g.answer.slice(1))) sents.push({ cat: "sent", w, g, base: w.type === "v" ? one : base, ans: g.answer });
+    }
+  });
+  return roundRobin([verbs, adjs, advs, sents], 10);
+}
+function wrongForms(t){
+  const b = t.cat === "verb" ? t.v.b : t.base.replace(/^to /, ""), rest = t.cat === "verb" ? t.v.rest : "";
+  let c;
+  if (t.cat === "verb") c = [b, vS(b), /e$/.test(b) ? b + "d" : b + "ed", b + "ing", vIng(b), vPast(b), vPP(b), b + "s"].map(x => x + rest);
+  else if (t.cat === "comp" || t.cat === "sup") c = [b + "er", "more " + b, b + "est", "most " + b, ...(compare(b) || []), b];
+  else if (t.cat === "adv") c = [b, b + "ly", b.replace(/y$/, "") + "ily", toAdv(b), b + "ely"];
+  else c = [t.base.replace(/^to /, ""), t.base.replace(/^to /, "") + "s", t.base.replace(/^to /, "") + "ed", t.base.replace(/^to /, "") + "ing"];
+  return shuffle(uniq(c).filter(x => norm(x) !== norm(t.ans)));
+}
+function forms(){
+  const lv = S.level, tasks = buildFormTasks(words(), lv);
+  if (!tasks.length) return noTasks("🔁 Wortformen");
+  const st = frame("🔁 Wortformen", "Verändere das Wort: Vergangenheit, he/she/it, Steigerung oder Adverb.", "Change the word into the right form.");
+  const steps = tasks.map((t, i) => ({ run: E => {
+    const help = lv === "b" ? `<p class="muted" style="margin:2px 0">(${esc(t.w.de)})</p>` : "";
+    let head, line;
+    if (t.cat === "verb"){
+      const F = VFORM[t.k];
+      head = `<p class="muted">${F.lab}${lv === "b" ? ` – ${F.de}` : ""}</p><div class="prompt">${esc(t.base)} ${sayBtn(t.base)}</div>${help}`;
+      line = F.frame;
+    } else if (t.cat === "comp"){ head = `<p class="muted">Steigerung: Komparativ (… als)</p><div class="prompt">${esc(t.base)}</div>${help}`; line = "___ than …"; }
+    else if (t.cat === "sup"){ head = `<p class="muted">Steigerung: Superlativ (am …sten)</p><div class="prompt">${esc(t.base)}</div>${help}`; line = "the ___"; }
+    else if (t.cat === "adv"){ head = `<p class="muted">Bilde das Adverb – Wie macht man etwas?</p><div class="prompt">${esc(t.base)}</div>${help}`; line = "she does it ___"; }
+    if (t.cat === "sent"){
+      head = `<p class="muted">Setze das Wort in der richtigen Form ein.</p><div class="sent">${esc(t.g.before)}<span class="gap" id="gp">&nbsp;</span>${esc(t.g.after)}</div><p class="muted">(${esc(t.base)})${lv === "b" ? " – " + esc(t.w.de) : ""}</p>`;
+    } else head += `<div class="sent">${esc(line).replace("___", '<span class="gap" id="gp">&nbsp;</span>')}</div>`;
+    const done = () => { $("#gp").textContent = t.ans; speak(t.cat === "sent" ? plain(t.w.ex) : t.ans); };
+    const mc = lv === "b" || (lv === "1" && i % 2 === 0);
+    if (mc){ const n = lv === "b" ? 2 : 3; E.choice(head, shuffle([t.ans, ...wrongForms(t).slice(0, n)]), t.ans, done); }
+    else E.typing(head, t.ans, lv === "1" ? letterHint(t.ans) : "", done);
+  }}));
+  quiz(st, steps, "forms").start();
+}
+
+/* =========================================================
+   ÜBUNG 6: WORTPAARE – Gegenteile (↔), gleiche Bedeutung (=), Wortfamilien (→)
+   Basis: 4 Gegenteil-Paare zuordnen (mit Deutsch)
+   ★:     2 Runden zuordnen (Gegenteile; gleiche Bedeutung & Wortfamilie)
+   ★★:    gemischte Runde ohne Hilfen + Beziehung erkennen + Gegenteil schreiben
+   ========================================================= */
+const REL_BANK = [
+  ["possible","möglich","impossible","unmöglich","anti"], ["honest","ehrlich","dishonest","unehrlich","anti"], ["patient","geduldig","impatient","ungeduldig","anti"],
+  ["fair","gerecht","unfair","ungerecht","anti"], ["polite","höflich","rude","unhöflich","anti"], ["alive","am Leben","dead","tot","anti"],
+  ["ancient","alt","modern","modern","anti"], ["rich","reich","poor","arm","anti"], ["cheap","billig","expensive","teuer","anti"],
+  ["to win","gewinnen","to lose","verlieren","anti"], ["to accept","annehmen","to refuse","ablehnen","anti"], ["to arrive","ankommen","to leave","abfahren","anti"],
+  ["safe","sicher","dangerous","gefährlich","anti"], ["interesting","interessant","boring","langweilig","anti"], ["sunrise","Sonnenaufgang","sunset","Sonnenuntergang","anti"],
+  ["public","öffentlich","private","privat","anti"], ["strong","stark","weak","schwach","anti"], ["to remember","sich erinnern","to forget","vergessen","anti"],
+  ["entrance","Eingang","exit","Ausgang","anti"], ["to push","drücken","to pull","ziehen","anti"], ["success","Erfolg","failure","Misserfolg","anti"],
+  ["to increase","steigen","to decrease","sinken","anti"], ["full","voll","empty","leer","anti"], ["in favor of","für","against","gegen","anti"],
+  ["chance","Chance","opportunity","Gelegenheit","syn"], ["odd","seltsam","strange","seltsam","syn"], ["ill","krank","sick","krank","syn"],
+  ["to begin","beginnen","to start","anfangen","syn"], ["to shut","schließen","to close","schließen","syn"], ["huge","riesig","giant","riesig","syn"],
+  ["amazing","toll","stunning","sensationell","syn"], ["kid","Kind","child","Kind","syn"], ["to choose","wählen","to pick","aussuchen","syn"],
+  ["ancient","alt","very old","sehr alt","syn"], ["maybe","vielleicht","perhaps","vielleicht","syn"], ["to finish","beenden","to end","beenden","syn"],
+  ["to succeed","Erfolg haben","success","Erfolg","fam"], ["to immigrate","einwandern","immigrant","Einwanderer/in","fam"], ["to produce","herstellen","production","Produktion","fam"],
+  ["to pollute","verschmutzen","pollution","Verschmutzung","fam"], ["to decide","entscheiden","decision","Entscheidung","fam"], ["to discuss","diskutieren","discussion","Diskussion","fam"],
+  ["to educate","bilden","education","Bildung","fam"], ["to protest","protestieren","protestor","Demonstrant/in","fam"], ["to design","entwerfen","designer","Designer/in","fam"],
+  ["danger","Gefahr","dangerous","gefährlich","fam"], ["ambition","Ehrgeiz","ambitious","ehrgeizig","fam"], ["talent","Talent","talented","talentiert","fam"],
+  ["science","Wissenschaft","scientific","wissenschaftlich","fam"], ["history","Geschichte","historical","historisch","fam"], ["nature","Natur","natural","natürlich","fam"],
+  ["to improve","verbessern","improvement","Verbesserung","fam"], ["friend","Freund/in","friendship","Freundschaft","fam"], ["to inspire","inspirieren","inspiration","Inspiration","fam"],
+  ["fall","Herbst (AE)","autumn","Herbst (BE)","aebe"], ["movie","Film (AE)","film","Film (BE)","aebe"], ["elevator","Aufzug (AE)","lift","Aufzug (BE)","aebe"],
+  ["store","Laden (AE)","shop","Laden (BE)","aebe"], ["subway","U-Bahn (AE)","underground","U-Bahn (BE)","aebe"], ["sidewalk","Gehweg (AE)","pavement","Gehweg (BE)","aebe"],
+  ["garbage","Müll (AE)","rubbish","Müll (BE)","aebe"], ["vacation","Ferien (AE)","holiday","Ferien (BE)","aebe"], ["apartment","Wohnung (AE)","flat","Wohnung (BE)","aebe"],
+  ["cookie","Keks (AE)","biscuit","Keks (BE)","aebe"], ["candy","Süßigkeiten (AE)","sweets","Süßigkeiten (BE)","aebe"], ["fries","Pommes (AE)","chips","Pommes (BE)","aebe"],
+  ["schedule","Stundenplan (AE)","timetable","Stundenplan (BE)","aebe"], ["math","Mathe (AE)","maths","Mathe (BE)","aebe"], ["cellphone","Handy (AE)","mobile phone","Handy (BE)","aebe"]
+];
+const KIND = { anti: { sym: "↔", lab: "Gegenteil" }, syn: { sym: "=", lab: "gleiche Bedeutung" }, fam: { sym: "→", lab: "Wortfamilie" }, aebe: { sym: "AE/BE", lab: "amerikanisch / britisch" } };
+function relationsFrom(ws){
+  const out = [];
+  ws.forEach(w => {
+    const n = (w.note || "").trim(); if (!n) return; let m;
+    if ((m = n.match(/^([^!=↔→:]+?)\s*↔\s*([^,;]+)$/))) out.push({ a: m[1].trim(), b: m[2].trim(), kind: "anti" });
+    else if ((m = n.match(/^([^!=↔→:]+?)\s*→\s*([^,;]+)/))) out.push({ a: m[1].trim(), b: m[2].trim(), kind: "fam" });
+    else if ((m = n.match(/^([^!=↔→:+]+?)\s*=\s*([^,;]+)/)) && !/^I /.test(n) && !/\d/.test(n) && !/\+/.test(n) && m[2].trim().split(" ").length <= 3 && !/^(a|when|without|not)\b| than /.test(m[2].trim())) out.push({ a: m[1].trim(), b: m[2].trim(), kind: "syn" });
+    if ((m = n.match(/^AE: ([^–=]+?) – BE: ([^,;=·]+)/)) && !/=/.test(n)) out.push({ a: m[1].trim(), b: m[2].trim(), kind: "aebe" });
+  });
+  return out;
+}
+function deOf(en){
+  const k = norm(en);
+  for (const u of units()) for (const s of u.stations) for (const w of s.words) if (norm(firstVariant(w.en)) === k) return w.de;
+  const r = REL_BANK.find(r => norm(r[0]) === k) || REL_BANK.find(r => norm(r[2]) === k);
+  return r ? (norm(r[0]) === k ? r[1] : r[3]) : "";
+}
+function pickPairs(kinds, n){
+  const fromSel = relationsFrom(words()), fromUnit = relationsFrom(unitById(S.unit).stations.flatMap(s => s.words));
+  const bank = REL_BANK.map(r => ({ a: r[0], b: r[2], kind: r[4], bank: true }));
+  const used = new Set(), out = [];
+  for (const src of [shuffle(fromSel), shuffle(fromUnit), shuffle(bank)]){
+    for (const p of src){
+      if (out.length >= n) break;
+      if (!kinds.includes(p.kind)) continue;
+      const ka = norm(p.a), kb = norm(p.b);
+      if (used.has(ka) || used.has(kb) || ka === kb) continue;
+      used.add(ka); used.add(kb); out.push(p);
+    }
+  }
+  return shuffle(out);
+}
+function matchStep(pairs, title, showKind, showDe){
+  return { w: pairs.length, run: E => {
+    const st = E.st, right = shuffle(pairs.map((p, i) => ({ t: p.b, i })));
+    const cols = ["#ffe3d6", "#d8f3ee", "#e1ebff", "#efe3fb", "#fff1c2", "#e3f5e6", "#fde2e7"];
+    const de = t => showDe ? `<small>${esc(deOf(t))}</small>` : "";
+    st.innerHTML = `<p class="muted" style="text-align:center;font-weight:700">${title}</p>
+      <div class="match"><div class="mcol">${pairs.map((p, i) => `<button class="wchip ml" data-i="${i}">${showKind ? `<span class="ksym">${KIND[p.kind].sym}</span> ` : ""}${esc(p.a)}${de(p.a)}</button>`).join("")}</div>
+      <div class="mcol">${right.map(r => `<button class="wchip mr" data-i="${r.i}">${esc(r.t)}${de(r.t)}</button>`).join("")}</div></div>
+      <div class="fb" id="fb" style="text-align:center"></div>`;
+    let sel = null, left = pairs.length; const miss = new Set();
+    st.querySelectorAll(".ml").forEach(b => b.onclick = () => { if (b.disabled) return; st.querySelectorAll(".ml").forEach(x => x.classList.remove("sel")); sel = b; b.classList.add("sel"); speak(pairs[b.dataset.i].a); });
+    st.querySelectorAll(".mr").forEach(b => b.onclick = () => {
+      if (b.disabled) return;
+      if (!sel){ $("#fb").className = "fb meh"; $("#fb").textContent = "Tippe zuerst ein Wort in der linken Spalte an."; return; }
+      const i = +sel.dataset.i;
+      if (+b.dataset.i === i){
+        beep(true); const c = cols[i % cols.length];
+        [sel, b].forEach(x => { x.disabled = true; x.classList.remove("sel"); x.classList.add("placed"); x.style.background = c; x.style.borderColor = c; });
+        speak(pairs[i].b);
+        if (!miss.has(i)) E.award(1);
+        $("#fb").className = "fb good"; $("#fb").textContent = `${pairs[i].a} ${KIND[pairs[i].kind].sym} ${pairs[i].b}  (${KIND[pairs[i].kind].lab})`;
+        sel = null; if (--left === 0) setTimeout(E.next, 1300);
+      } else { beep(false); miss.add(i); b.classList.add("shake", "oops"); setTimeout(() => b.classList.remove("shake", "oops"), 400); }
+    });
+  }};
+}
+function pairs(){
+  const lv = S.level; let steps = [];
+  if (lv === "b"){
+    let p = pickPairs(["anti"], 4); if (p.length < 4) p = pickPairs(["anti", "syn"], 4);
+    steps.push(matchStep(p, "↔ Finde die Gegenteile!", false, true));
+  } else if (lv === "1"){
+    steps.push(matchStep(pickPairs(["anti"], 5), "↔ Finde die Gegenteile!", false, false));
+    steps.push(matchStep(pickPairs(["syn", "fam"], 5), "= gleiche Bedeutung · → Wortfamilie: Was gehört zusammen?", true, false));
+    steps.push(matchStep(pickPairs(["aebe"], 5), "AE/BE: Welches amerikanische Wort passt zum britischen?", false, false));
+  } else {
+    const all = pickPairs(["anti", "syn", "fam", "aebe"], 12);
+    steps.push(matchStep(all.slice(0, 6), "Was gehört zusammen? Gegenteil, gleiche Bedeutung oder Wortfamilie", false, false));
+    all.slice(6, 9).forEach(p => steps.push({ run: E => {
+      E.choice(`<p class="muted">Wie hängen die Wörter zusammen?</p><div class="prompt">${esc(p.a)} &nbsp;?&nbsp; ${esc(p.b)}</div>`,
+        ["↔ Gegenteil", "= gleiche Bedeutung", "→ Wortfamilie", "AE/BE amerikanisch / britisch"], `${KIND[p.kind].sym} ${KIND[p.kind].lab}`);
+    }}));
+    const anti = pickPairs(["anti"], 3);
+    anti.forEach(p => steps.push({ run: E => {
+      E.typing(`<p class="muted">Schreibe das Gegenteil.</p><div class="prompt">${esc(p.a)} ↔ ?</div>`, p.b, "", () => speak(p.b));
+    }}));
+  }
+  steps = steps.filter(s => s.w !== 0);
+  const st = frame("🔗 Wortpaare", "Tippe links ein Wort an und dann rechts das passende Wort.", "Match the words: opposites, same meaning, word families.");
+  quiz(st, steps, "pairs").start();
+}
+
+/* =========================================================
+   ÜBUNG 7: GRAMMATIK – ausgerichtet an den Funktionen der Lexiko-Grammatik
+   im KC Englisch Sek. I Niedersachsen (2026), IGS, Ende Schuljahrgang 8:
+   grundlegend (A2) ≈ ★, erweitert (A2+) ≈ ★★, Basis = Förderniveau.
+   Aufgaben stehen im Block GRAMMAR_TEXT und können dort ergänzt werden.
+   ========================================================= */
+const GRAMMAR_TEXT = `
+// Format: Thema | Niveaus (b = Basis, 1 = ★, 2 = ★★) | Satz mit ___ | richtige Antwort(en, mit / getrennt) | falsche Antworten (; getrennt) | Tipp
+// Ein ! am Satzanfang = Erkennungsaufgabe (immer Auswahl)
+
+past | b12 | Last summer we ___ to New York. (fly) | flew | have flown; fly; flown | Signalwort „last summer“ → simple past
+past | b12 | I ___ the Statue of Liberty yet. (not see) | haven't seen / have not seen | didn't see; don't see; wasn't seeing | Signalwort „yet“ → present perfect
+past | b12 | My grandparents ___ to the USA in 1965. (immigrate) | immigrated | have immigrated; immigrate; are immigrating | Jahreszahl → simple past
+past | b12 | Have you ever ___ to the top of a skyscraper? (be) | been | was; were; be | ever → present perfect: have + 3. Form
+past | b12 | The two towers ___ on September 11, 2001. (collapse) | collapsed | have collapsed; collapse; are collapsing | Datum in der Vergangenheit → simple past
+past | b12 | Look! Somebody ___ my bike! (steal) | has stolen | stole; steals; is stealing | Das Ergebnis sieht man jetzt → present perfect
+past | b1 | Yesterday we ___ whale watching. (go) | went | have gone; go; goed | „yesterday“ → simple past
+past | 12 | Two hours ago Leo ___ a new cap at the mall. (buy) | bought | has bought; buys; buyed | „ago“ → simple past
+past | 12 | I ___ my homework. Can I go out now? (just finish) | have just finished / 've just finished | just finished; finished just; am just finishing | „just“ → present perfect
+past | 2 | When did the first settlers ___ in America? (arrive) | arrive | arrived; have arrived; arriving | Frage mit did → Grundform
+past | 2 | She ___ three marathons so far. (run) | has run | ran; runs; has ran | „so far“ → present perfect
+past | 2 | In 1620 the Mayflower ___ in Plymouth. (land) | landed | has landed; lands; was landing | Jahreszahl → simple past
+past | 2 | Before our trip last year, we ___ cornbread. (never eat) | had never eaten / 'd never eaten | have never eaten; never ate; never eat | vor einem Zeitpunkt in der Vergangenheit → past perfect
+
+duration | b12 | We have lived in Chicago ___ 2019. | since | for; ago; from | Zeitpunkt (2019) → since
+duration | b12 | They have known each other ___ ten years. | for | since; ago; at | Zeitraum (ten years) → for
+duration | b12 | I have played lacrosse ___ I was eight. | since | for; ago; while | Zeitpunkt (seit ich acht war) → since
+duration | b12 | Maya has been an exchange student ___ three months. | for | since; ago; before | Zeitraum → for
+duration | b1 | My family has had the farm ___ a long time. | for | since; ago; at | Zeitraum → for
+duration | 12 | We ___ in Boston for two weeks now. (be) | have been / 've been | are; were; have be | seit … bis jetzt → present perfect
+duration | 12 | How long have you ___ in the USA? (live) | lived / been living | live; living; lives | How long …? → present perfect
+duration | 2 | It ___ for three hours. The streets are wet. (rain) | has been raining | is raining; rained; has rain | Dauer einer Handlung bis jetzt → present perfect progressive
+duration | 2 | Lisa is tired because she ___ all day. (work) | has been working | worked; is working; has work | Dauer bis jetzt → has/have been + -ing
+duration | 2 | They ___ for the bus for 40 minutes now. (wait) | have been waiting / 've been waiting | are waiting; waited; have waiting | Dauer bis jetzt → have been + -ing
+duration | 2 | Sam ___ the piano since he was six. (play) | has been playing / has played | plays; played; is playing | seit … → present perfect (progressive)
+duration | 2 | I ___ my friends since the summer. (not see) | haven't seen / have not seen | didn't see; don't see; haven't saw | since → present perfect
+
+sequence | b12 | I ___ TV when the storm started. (watch) | was watching | watched; am watching; were watching | Handlung lief gerade → was/were + -ing
+sequence | b12 | While we ___ dinner, the lights went out. (have) | were having | had; are having; was having | while → past progressive
+sequence | b12 | Ben ___ his leg when he was skiing. (break) | broke | was breaking; breaks; has broken | plötzliches Ereignis → simple past
+sequence | b1 | Mia ___ in the hallway when she met her teacher. (walk) | was walking | walked; walks; is walking | Handlung lief gerade → past progressive
+sequence | 12 | What were you ___ at 8 o'clock last night? (do) | doing | do; did; done | past progressive: was/were + -ing
+sequence | 12 | The sun ___ when we reached the top of the canyon. (rise) | was rising | rose; is rising; has risen | Hintergrundhandlung → past progressive
+sequence | 2 | When I got to the cinema, the film had already ___. (start) | started | start; starting; starts | past perfect: had + 3. Form
+sequence | 2 | After we ___ the museum, we went to a diner. (visit) | had visited | have visited; were visiting; visit | was zuerst passiert ist → past perfect
+sequence | 2 | The bus ___ when we got to the bus stop. (already / leave) | had already left | already left; has already left; was already leaving | vorher passiert → past perfect
+sequence | 2 | She was exhausted because she ___ all night. (not sleep) | hadn't slept / had not slept | didn't sleep; hasn't slept; wasn't sleep | vorher passiert → past perfect
+sequence | 2 | Before he moved to Texas, he had never ___ a rodeo. (see) | seen | saw; see; seeing | had + 3. Form
+
+future | b12 | Look at those dark clouds! It ___ rain. | is going to / 's going to | will; goes to; is raining | Anzeichen → going to
+future | b12 | I think robots ___ do many jobs in the future. | will | are going; going to; are | Vermutung / Vorhersage → will
+future | b12 | We ___ visit the Grand Canyon next summer. We've already booked the trip. | are going to / 're going to | will; go; are go | Plan → going to
+future | b1 | Tomorrow it ___ be sunny in Florida. | will | is; was; did | Vorhersage → will
+future | 12 | "It's hot in here." – "I ___ open the window." | will / 'll | am going to; open; am opening | spontaner Entschluss → will
+future | 12 | My train ___ at 6:15 tomorrow morning. (leave) | leaves | will leave; is leave; left | Fahrplan → simple present
+future | 12 | Be careful! You ___ fall! | are going to / 're going to | will to; going; are fall | sichtbares Anzeichen → going to
+future | 2 | We ___ Jake at the mall at four. It's all arranged. (meet) | are meeting / 're meeting | meet; will meet; met | feste Verabredung → present progressive
+future | 2 | Maybe people ___ on Mars one day. (live) | will live | are living; lived; going to live | Vermutung → will
+future | 2 | I'm sure you ___ the test. (pass) | will pass / 'll pass | pass; passed; are passing | I'm sure … → will
+
+cond | b12 | If it rains, we ___ at home. (stay) | will stay / 'll stay | stay; would stay; stayed | Typ 1: If + simple present, will + Grundform
+cond | b12 | If you ___ the bus, you will be late. (miss) | miss | will miss; missed; misses | Im if-Satz steht kein will!
+cond | b12 | If we ___ hurry, we will miss the start of the game. (not) | don't / do not | won't; doesn't; didn't | Typ 1: If + simple present
+cond | b1 | If you heat ice, it ___. (melt) | melts | melt; would melt; melted | Tatsache → simple present
+cond | 12 | You'll get wet if you ___ an umbrella. (not take) | don't take / do not take | won't take; didn't take; not take | Im if-Satz steht kein will!
+cond | 12 | If you ___ patient, you'll see a whale. (be) | are | will be; were; be | Typ 1: If + simple present
+cond | 12 | If I ___ a lot of money, I would travel around the USA. (have) | had | have; would have; will have | Typ 2: If + simple past, would + Grundform
+cond | 2 | If I were president, I ___ more cycle lanes. (build) | would build / 'd build | will build; build; built | Typ 2: would + Grundform
+cond | 2 | If she ___ more time, she would join the debate club. (have) | had | has; would have; will have | Typ 2: If + simple past
+cond | 2 | What would you do if you ___ a grizzly bear? (meet) | met | meet; would meet; will meet | Typ 2: If + simple past
+cond | 2 | If people ___ less plastic, there would be less pollution. (use) | used | use; would use; uses | Typ 2: If + simple past
+cond | 2 | I ___ that phone if I were you. (not buy) | wouldn't buy / would not buy | won't buy; don't buy; didn't buy | Typ 2: would + Grundform
+
+passive | b1 | !The Statue of Liberty was designed by a French artist. | Passiv | Aktiv | Passiv: be + 3. Form (+ by …)
+passive | b1 | !A French artist designed the Statue of Liberty. | Aktiv | Passiv | Aktiv: Wer tut etwas? steht vorne
+passive | b1 | !Corn is grown in the Midwest. | Passiv | Aktiv | Passiv: is/are + 3. Form
+passive | b1 | !Farmers grow corn in the Midwest. | Aktiv | Passiv | Aktiv: Die Farmer tun etwas.
+passive | b12 | !Phones are put together in factories. | Passiv | Aktiv | Passiv: are + 3. Form
+passive | b12 | Wheat ___ in Kansas. (grow) | is grown | grows; is grow; grown | Passiv Gegenwart: is/are + 3. Form
+passive | b12 | The Golden Gate Bridge ___ in 1937. (open) | was opened | opened; is opened; has opened | Passiv Vergangenheit: was/were + 3. Form
+passive | b12 | Many phones ___ in China. (make) | are made | make; is made; are make | Passiv: are + 3. Form
+passive | 12 | The national parks ___ by the NPS. (manage) | are managed | manage; is managed; managed | Passiv: are + 3. Form
+passive | 12 | The raw materials ___ from the ground. (extract) | are extracted | extract; is extracted; extracted | Passiv: are + 3. Form
+passive | 12 | Martin Luther King ___ in 1968. (shoot) | was shot | shot; is shot; was shooted | Passiv Vergangenheit: was + 3. Form
+passive | 2 | Rosa Parks ___ because she refused to move. (arrest) | was arrested | arrested; is arrested; has arrest | Passiv Vergangenheit
+passive | 2 | The books ___ to the students yesterday. (distribute) | were distributed | was distributed; distributed; are distribute | Mehrzahl → were + 3. Form
+passive | 2 | A new law ___ next year. (pass) | will be passed | will pass; is passed; will passed | Passiv Zukunft: will be + 3. Form
+passive | 2 | This problem can ___ easily. (solve) | be solved | solved; solve; been solved | Modalverb + be + 3. Form
+passive | 2 | Plastic bottles should ___. (recycle) | be recycled | recycled; recycle; recycling | Modalverb + be + 3. Form
+
+relative | b12 | The woman ___ lives next door is a nurse. | who / that | which; whose; what | Person → who
+relative | b12 | This is the phone ___ was made in China. | which / that | who; whose; what | Ding → which / that
+relative | b12 | I have a friend ___ dad is a cowboy. | whose | who; which; who's | Besitz (dessen/deren) → whose
+relative | b1 | A carpenter is a person ___ makes things from wood. | who / that | which; whose; where | Person → who
+relative | b1 | A van is a car ___ transports things. | which / that | who; whose; where | Ding → which / that
+relative | 12 | The museum ___ we visited was fascinating. | which / that | who; whose; what | Ding → which / that
+relative | 12 | Martin Luther King was a man ___ fought for civil rights. | who / that | which; whose; what | Person → who
+relative | 12 | Florida is a state ___ is famous for alligators. | which / that | who; whose; where | Ding → which / that
+relative | 2 | The boy ___ phone was stolen went to the police station. | whose | who; who's; which | Besitz → whose
+relative | 2 | Is this the book ___ you told me about? | which / that | who; whose; what | Ding → which / that
+relative | 2 | Teachers ___ are patient are the best. | who / that | which; whose; they | Person → who
+relative | 2 | The film ___ we watched yesterday was about the gold rush. | which / that | who; whose; where | Ding → which / that
+
+modal | b12 | You ___ wear a seatbelt in the car. It's the law. | must / have to | mustn't; don't have to; can | Pflicht → must / have to
+modal | b12 | You ___ use your phone in class. It's not allowed. | mustn't / must not | don't have to; must; can | Verbot → mustn't
+modal | b12 | It's Saturday. We ___ get up early. | don't have to / do not have to / needn't | mustn't; must; have to | keine Pflicht → don't have to
+modal | b1 | I ___ speak Spanish. I learned it at school. | can | must; mustn't; may not | Fähigkeit → can
+modal | 12 | You look tired. You ___ go to bed early. | should | shouldn't; mustn't; have | Rat → should
+modal | 12 | ___ I open the window, please? | May / Can / Could | Must; Should; Have | um Erlaubnis bitten → may / can / could
+modal | 12 | When I was five, I ___ swim, but now I can. | couldn't / could not | can't; mustn't; don't | Fähigkeit in der Vergangenheit → could
+modal | 2 | Tomorrow we ___ to visit the Hoover Dam. (be able) | will be able | can; could; are able | Zukunft von can → will be able to
+modal | 2 | Last year students ___ to wear caps at school. (not be allowed) | weren't allowed / were not allowed | mustn't; didn't allowed; can't | Erlaubnis in der Vergangenheit → was/were allowed to
+modal | 2 | I'm not sure. It ___ snow tomorrow. | might / may | must; has to; should | Möglichkeit → might / may
+modal | 2 | You ___ be 16 to get a driver's license in many US states. | have to / must | mustn't; don't have to; should not | Pflicht → have to / must
+modal | 2 | We ___ stand in line for two hours yesterday. (have to) | had to | must; have to; musted | Pflicht in der Vergangenheit → had to
+
+linking | b12 | I'm tired ___ I went to bed late. | because | so; but; although | Grund → because
+linking | b12 | It was raining, ___ we stayed inside. | so | because; but; although | Folge → so
+linking | b12 | I like lacrosse, ___ my brother hates it. | but | so; because; if | Gegensatz → but
+linking | b1 | I stayed at home ___ I was sick. | because | so; but; or | Grund → because
+linking | 12 | ___ it was cold, we went swimming. | Although | Because; So; If | obwohl → although
+linking | 12 | Brush your teeth ___ you go to bed. | before | after; while; so | zeitliche Reihenfolge → before
+linking | 12 | ___ we were waiting for the bus, it started to snow. | While | Because; So; After | gleichzeitig → while
+linking | 2 | You won't get a seat ___ you book early. | unless | if; because; so | wenn nicht → unless
+linking | 2 | The trip was expensive. ___, it was worth it. | However | Because; So; Unless | Gegensatz am Satzanfang → However,
+linking | 2 | ___ the concert, we went to a diner. | After | While; Unless; Although | zeitliche Reihenfolge → after
+linking | 2 | She studied hard. ___, she passed the test. | As a result / So / Therefore | However; Although; Unless | Folge → as a result / so
+linking | 2 | ___, we need more cycle lanes. Secondly, buses should be cheaper. | Firstly | Finally; However; Although | Aufzählung → firstly, secondly
+`;
+const GTOPICS = {
+  past:     { t: "Vergangenes berichten", kc: "Handlungen als vergangen darstellen", s: "simple past · present perfect", ico: "⏪" },
+  duration: { t: "Dauer & Wiederholung", kc: "Dauer und Wiederholung ausdrücken", s: "since / for · present perfect (progressive)", ico: "⏳" },
+  sequence: { t: "Gleichzeitig oder nacheinander", kc: "Ereignisse als gleichzeitig oder aufeinanderfolgend darstellen", s: "past progressive · past perfect", ico: "🔀" },
+  future:   { t: "Zukunft", kc: "Handlungen als zukünftig darstellen", s: "will · going to · present progressive", ico: "⏩" },
+  cond:     { t: "Bedingungen", kc: "Bedingungen erkennen und ausdrücken", s: "if-Sätze Typ 1 (★★: auch Typ 2)", ico: "🔀" },
+  passive:  { t: "Aktiv & Passiv", kc: "Aktiv und Passiv erkennen und in Ansätzen bilden", s: "is / was + 3. Form", ico: "🏭" },
+  relative: { t: "Personen & Dinge beschreiben", kc: "Art und Zugehörigkeit mit unterschiedlichen Satzmustern ausdrücken", s: "who · which · that · whose", ico: "🔍" },
+  modal:    { t: "Pflichten, Bitten, Möglichkeiten", kc: "Bitten, Wünsche, Erwartungen und Verpflichtungen ausdrücken", s: "must · have to · should · can · might", ico: "📋" },
+  linking:  { t: "Sätze verbinden", kc: "zeitliche und logische Bezüge ausdrücken", s: "because · so · although · however …", ico: "🧩" }
+};
+GTOPICS.cond.ico = "❓";
+const GRAM = GRAMMAR_TEXT.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("//")).map(l => {
+  const [topic, lv, s, ans, wrong, tip] = l.split("|").map(x => (x || "").trim());
+  return { topic, lv, s, ans, wrong: wrong.split(";").map(x => x.trim()).filter(Boolean), tip };
+});
+function grammar(topic){
+  const lv = S.level;
+  const avail = k => GRAM.filter(g => (k === "mix" || g.topic === k) && g.lv.includes(lv));
+  if (!topic){
+    const st = frame("📐 Grammatik", "Wähle ein Grammatik-Thema. Die Themen folgen dem Kerncurriculum Englisch (Ende Jahrgang 8).", "Choose a grammar topic.");
+    st.innerHTML = `<div class="grid g3">${Object.entries(GTOPICS).filter(([k]) => avail(k).length).map(([k, T]) =>
+      `<button class="ex gtopic" data-t="${k}"><span class="ico">${T.ico}</span><span class="t">${T.t}</span><span class="d">${T.s}</span><span class="kc">KC: ${T.kc}</span></button>`).join("")}
+      <button class="ex gtopic" data-t="mix"><span class="ico">🎲</span><span class="t">Gemischt</span><span class="d">Aufgaben aus allen Themen</span><span class="kc">Wiederholung</span></button></div>`;
+    st.querySelectorAll(".gtopic").forEach(b => b.onclick = () => grammar(b.dataset.t));
+    return;
+  }
+  const items = shuffle(avail(topic)).slice(0, 10);
+  if (!items.length) return noTasks("📐 Grammatik");
+  const T = GTOPICS[topic] || { t: "Gemischt" };
+  const st = frame(`📐 Grammatik: ${T.t}`, lv === "b" ? "Lies den Satz und wähle die richtige Form. Der Tipp hilft dir." : "Setze die richtige Form ein. Achte auf Signalwörter!", "Fill in the right form.");
+  const steps = items.map((g, i) => ({ run: E => {
+    const id = g.s.startsWith("!");
+    const sent = id ? g.s.slice(1) : g.s;
+    const first = g.ans.split(/\s*\/\s*/)[0];
+    const tip = g.tip ? (lv === "b" ? `<div class="tipline" style="margin:10px auto">💡 ${esc(g.tip)}</div>`
+      : `<button class="tipbtn" onclick="this.nextElementSibling.classList.toggle('hidden')">💡 Tipp</button><div class="tipline hidden" style="margin:8px auto">${esc(g.tip)}</div>`) : "";
+    const topicLine = topic === "mix" ? `<p class="muted" style="margin:0">${esc(GTOPICS[g.topic].t)}</p>` : "";
+    if (id){
+      E.choice(`${topicLine}<p class="muted">Ist dieser Satz im Aktiv oder im Passiv?</p><div class="sent">${esc(sent)}</div>${tip}`, ["Aktiv", "Passiv"], g.ans, () => speak(sent));
+      return;
+    }
+    const parts = sent.split("___");
+    const head = `${topicLine}<div class="sent">${esc(parts[0])}<span class="gap" id="gp">&nbsp;</span>${esc(parts[1] || "")}</div>${tip}`;
+    const done = () => { $("#gp").textContent = first; speak(parts[0] + first + (parts[1] || "").replace(/\(.*?\)/g, "")); };
+    const mc = lv === "b" || (lv === "1" && i % 2 === 0);
+    if (mc){ const n = lv === "b" ? 2 : 3; E.choice(head, shuffle([first, ...shuffle(g.wrong).slice(0, n)]), first, done); }
+    else E.typing(head, g.ans, lv === "1" ? letterHint(first) : "", done);
+  }}));
+  quiz(st, steps, "grammar").start();
+}
+
+/* =========================================================
+   URKUNDE
+   ========================================================= */
+function certificate(){
+  const rows = EXERCISES.map(e => ({ e, r: RESULTS[resKey(e.id)] }));
+  const doneRows = rows.filter(x => x.r);
+  const avg = doneRows.length ? Math.round(doneRows.reduce((a, x) => a + x.r.best, 0) / doneRows.length) : 0;
+  const complete = doneRows.length >= 4;
+  const title = !complete ? "Road Trip Rookie" : avg >= 90 ? "Vocab Legend" : avg >= 70 ? "Coast-to-Coast Explorer" : "Road Trip Rookie";
+  const medal = !complete ? "🧭" : avg >= 90 ? "🏆" : avg >= 70 ? "🌟" : "🧭";
+  const L = LEVELS[S.level];
+  const date = new Date().toLocaleDateString("de-DE");
+  app.innerHTML = `
+    <div class="row" style="justify-content:space-between;margin-bottom:14px"><button class="btn sec" id="back">← Zurück</button>
+      <button class="btn teal" id="print" ${doneRows.length && S.name ? "" : "disabled"}>🖨️ Urkunde drucken</button></div>
+    ${!S.name ? '<p class="note">✍️ Trage oben rechts deinen Vornamen ein, damit er auf der Urkunde steht.</p>' : ""}
+    ${!doneRows.length ? '<p class="note">Du hast für diese Auswahl noch keine Übung gemacht. Übe zuerst – dann bekommst du deine Urkunde!</p>' :
+      !complete ? `<p class="note">Du hast ${doneRows.length} von ${EXERCISES.length} Übungen geschafft. Ab 4 Übungen kannst du den Titel „Coast-to-Coast Explorer“ oder „Vocab Legend“ bekommen!</p>` : ""}
+    <div id="printArea">
+      <div class="cert">
+        <span class="corner" style="left:4%;top:4%">🗽</span><span class="corner" style="right:4%;top:4%">🌉</span>
+        <span class="corner" style="left:4%;bottom:4%">🌵</span><span class="corner" style="right:4%;bottom:4%">🗺️</span>
+        <div><div class="sub" style="letter-spacing:4px;font-weight:700">VOCAB ROAD TRIP · ORANGE LINE 4</div><h1>CERTIFICATE</h1><div class="sub">Urkunde · Englisch Jahrgang 8</div></div>
+        <div><div class="sub">This is to certify that</div><div class="nm">${esc(S.name || "________________")}</div>
+          <div class="medal">${medal} ${title}</div></div>
+        <div><b>${esc(unitById(S.unit).name)} · ${esc(stationName())} · Niveau ${L.tag}${S.core ? " · Grundwortschatz #" : ""}</b>
+          <table>${rows.map(x => `<tr><td>${x.e.ico} ${x.e.t}</td><td class="r">${x.r ? x.r.best + " %" : "–"}</td><td>${x.r ? stars(x.r.best).replace('class="stars"', 'class="stars" style="font-size:16px"') : ""}</td></tr>`).join("")}
+          <tr><td><b>Gesamt</b></td><td class="r">${doneRows.length ? avg + " %" : "–"}</td><td></td></tr></table></div>
+        <div class="sig"><div>Datum: ${date}</div><div>Kürzel Lehrkraft</div></div>
+      </div>
+      <div class="cutline">✂</div>
+    </div>`;
+  $("#back").onclick = menu;
+  $("#print").onclick = () => { try{ window.print(); }catch(e){} };
+}
+
+/* =========================================================
+   LEHRKRAFT-BEREICH: Import / Export
+   ========================================================= */
+function download(name, obj){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(obj, null, 2)], { type: "application/json" }));
+  a.download = name; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+function validate(d){
+  if (!d || !Array.isArray(d.units)) throw new Error("Die Datei braucht ein Feld „units“ (Liste).");
+  d.units.forEach((u, i) => {
+    if (!u.id || !u.name || !Array.isArray(u.stations)) throw new Error(`Unit Nr. ${i + 1}: id, name oder stations fehlt.`);
+    u.stations.forEach(s => {
+      if (!s.id || !s.name || !Array.isArray(s.words)) throw new Error(`${u.name}: Station ohne id, name oder words.`);
+      s.words.forEach(w => { if (!w.en || !w.de) throw new Error(`${u.name} / ${s.name}: Ein Wort hat kein en oder de.`); });
+    });
+  });
+  return d;
+}
+function msg(t, ok){ const m = $("#importMsg"); m.classList.remove("hidden"); m.style.background = ok ? "#e6f6ec" : "#fdeaea"; m.textContent = t; }
+$("#teacherBtn").onclick = () => $("#teacher").classList.add("show");
+$("#closeTeacher").onclick = () => { $("#teacher").classList.remove("show"); home(); };
+$("#tplBtn").onclick = () => download("ol4-vokabeln-vorlage.json", { units: [{ id: "unit3", name: "Unit 3 – Titel", stations: [
+  { id: "unit3-s1", name: "Station 1 – Titel", words: [
+    { en: "to visit", de: "besuchen", type: "v", field: "Freizeit", emoji: "🏠", ex: "We *visit* my grandma on Sunday." },
+    { en: "mum / mom", de: "Mama", type: "n", field: "Familie", emoji: "👩", ex: "My *mum* is a nurse." } ] } ] }] });
+$("#exportBtn").onclick = () => download("vokabeln-alle.json", { units: units() });
+$("#importIn").onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try{
+      const d = validate(JSON.parse(r.result));
+      const map = new Map((IMPORTED.units || []).map(u => [u.id, u]));
+      d.units.forEach(u => map.set(u.id, u));
+      IMPORTED = { units: [...map.values()] }; store.set("ol4_import", IMPORTED);
+      msg(`✔ ${d.units.length} Unit(s) importiert: ${d.units.map(u => u.name).join(", ")}`, true);
+    }catch(err){ msg("Fehler: " + err.message, false); }
+    e.target.value = "";
+  };
+  r.readAsText(f, "utf-8");
+};
+/* Sicherheitsabfrage ohne Browser-Dialog (wird auf iPads/in Web-Ansichten teils blockiert): zweimal tippen */
+function twoTap(btn, label, action){
+  btn.onclick = () => {
+    if (btn.dataset.armed){ delete btn.dataset.armed; btn.textContent = label; action(); return; }
+    btn.dataset.armed = "1"; btn.textContent = "Sicher? Nochmal tippen";
+    setTimeout(() => { if (btn.dataset.armed){ delete btn.dataset.armed; btn.textContent = label; } }, 4000);
+  };
+}
+twoTap($("#clearImport"), "Importierte Units entfernen", () => { IMPORTED = { units: [] }; store.set("ol4_import", IMPORTED); msg("Importierte Units entfernt.", true); });
+twoTap($("#clearResults"), "Ergebnisse auf diesem Gerät löschen", () => { RESULTS = {}; store.set("ol4_results", RESULTS); updateXP(); msg("Ergebnisse gelöscht.", true); });
+
+
+/* =========================================================
+   WORTLISTEN DRUCKEN (Lehrkraft) – Grundwortschatz # oder ganzer Wortschatz
+   ========================================================= */
+const LV = { unit: "all", stations: null };
+function listView(){
+  const v = $("#listView"); v.classList.remove("hidden"); document.body.classList.add("pl");
+  const us = units();
+  $("#lvUnit").innerHTML = `<option value="all">Alle Units</option>` + us.map(u => `<option value="${esc(u.id)}">${esc(u.name)}</option>`).join("");
+  $("#lvUnit").value = LV.unit;
+  const drawStations = () => {
+    const u = unitById(LV.unit);
+    if (!u){ $("#lvStations").innerHTML = '<span class="lv-hint">Alle Stations aller Units</span>'; LV.stations = null; return; }
+    if (!LV.stations) LV.stations = new Set(u.stations.map(s => s.id));
+    $("#lvStations").innerHTML = u.stations.map(s => `<label class="lv-opt"><input type="checkbox" data-s="${esc(s.id)}" ${LV.stations.has(s.id) ? "checked" : ""}> ${esc(s.name)}</label>`).join("");
+    $("#lvStations").querySelectorAll("input").forEach(c => c.onchange = () => { c.checked ? LV.stations.add(c.dataset.s) : LV.stations.delete(c.dataset.s); drawList(); });
+  };
+  $("#lvUnit").onchange = e => { LV.unit = e.target.value; LV.stations = null; drawStations(); drawList(); };
+  $("#lvCore").onchange = drawList; $("#lvEx").onchange = drawList;
+  $("#lvPrint").onclick = () => { try{ window.print(); }catch(e){} };
+  $("#lvClose").onclick = () => { v.classList.add("hidden"); document.body.classList.remove("pl"); };
+  drawStations(); drawList();
+}
+function drawList(){
+  const core = $("#lvCore").checked, withEx = $("#lvEx").checked;
+  const sel = LV.unit === "all" ? units() : [unitById(LV.unit)];
+  let total = 0;
+  const body = sel.map((u, ui) => {
+    const sts = u.stations.filter(s => LV.unit === "all" || !LV.stations || LV.stations.has(s.id));
+    const parts = sts.map(s => {
+      const ws = (s.words || []).filter(w => !core || w.core); if (!ws.length) return "";
+      total += ws.length;
+      return `<h3>${esc(s.name)} <span class="lv-n">${ws.length} Wörter</span></h3>
+        <table><thead><tr>${core ? "" : "<th class='lv-c'>#</th>"}<th>Englisch</th><th>Deutsch</th>${withEx ? "<th>Beispielsatz</th>" : ""}</tr></thead><tbody>
+        ${ws.map(w => `<tr>${core ? "" : `<td class="lv-c">${w.core ? "#" : ""}</td>`}<td class="lv-en">${esc(w.en)}</td><td>${esc(w.de)}</td>${withEx ? `<td class="lv-ex">${w.ex ? exHTML(w).replace(/<mark>/g, "<b>").replace(/<\/mark>/g, "</b>") : ""}</td>` : ""}</tr>`).join("")}
+        </tbody></table>`;
+    }).join("");
+    return parts ? `<section class="lv-unit${ui ? " lv-break" : ""}"><h2>${esc(u.name)}</h2>${parts}</section>` : "";
+  }).join("");
+  $("#lvPage").innerHTML = `<header class="lv-head"><div><b>${core ? "Grundwortschatz #" : "Wortschatz"}</b> · ${esc(APP_LABEL)}</div><div>${total} Wörter</div></header>
+    ${body || "<p>Keine Wörter ausgewählt.</p>"}
+    <p class="lv-foot">${core ? "Grundwortschatz #: pro Station das häufigste Drittel der Wörter (mind. 4), gemessen an der Häufigkeit im Englischen." : "Mit # markiert: Grundwortschatz."}</p>`;
+}
+$("#listBtn").onclick = () => { $("#teacher").classList.remove("show"); listView(); };
+
+/* ---------- Name ---------- */
+const nameIn = $("#nameIn");
+nameIn.value = S.name;
+nameIn.oninput = () => { S.name = nameIn.value.trim(); store.set("ol4_name", S.name); if ($("#print")) certificate(); else if ($("#unitSel")) home(); };
+
+updateXP();
+home();
+</script>
+</body>
+</html>
